@@ -42,6 +42,7 @@ input {
     margin: 0;
     padding-left: 1px;
     padding-right: 1px;
+    border-radius: 10px;
 }
 
 .dropdown-item {
@@ -89,6 +90,7 @@ video {
     margin: 0;
     width: 100%;
     text-align: center;
+    border-radius: 10px;
 }
 
 h4 {
@@ -146,6 +148,7 @@ div .qr img {
     border: solid 2px green;
     box-shadow: 0 3px 6px black;
 font-size: 8px;
+    border-radius: 10px;
 }
 
 .font-effect-outline {
@@ -178,6 +181,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     box-shadow: 0 3px 6px black;
     display: inline-block; 
     cursor: pointer;
+    border-radius: 10px;
 }
 .font-effect-anaglyph:hover {
     text-decoration: underline;
@@ -194,6 +198,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     box-shadow: 0 3px 6px black;
     display: inline-block;
     cursor: pointer;
+    border-radius: 10px;
 }
 .font-effect-fire-animation:hover {
     text-decoration: underline;
@@ -209,6 +214,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     color: hsla(240, 100%, 54%, 1);
     box-shadow: 0 3px 6px black;
     cursor: pointer;
+    border-radius: 10px;
 }
 .font-effect-neon:hover {
     text-decoration: underline;
@@ -243,6 +249,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
          cursor: pointer;
+         border-radius: 10px;
      }
     
     .font-effect-anaglyph,
@@ -260,6 +267,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     border: solid 2px green;
     box-shadow: 0 4px 8px black;
         cursor: pointer;
+        border-radius: 10px;
     }
 
     .font-effect-neon:hover {
@@ -287,6 +295,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
         width: auto;
         max-width: 100%;
         text-align: center;
+        border-radius: 10px;
     }
     
     h4 {
@@ -311,6 +320,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     text-align: center;
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
+    border-radius: 10px;
+    cursor: pointer;
 }
 .qrcode {
     cursor: pointer;
