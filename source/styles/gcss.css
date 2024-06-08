@@ -20,6 +20,9 @@ a {
     color: aqua;
     font-weight: bold;
     font-family: Tahoma;
+}
+    .image .button:hover {
+    text-decoration: underline;
     
 }
 
@@ -54,12 +57,6 @@ input {
     font-weight: unset;
     font-family: Tahoma;
     font-style: oblique;
-    margin: 0;
-    padding: 0;
-}
-
-.col-lg-2 {
-    background: linear-gradient(90deg, #fffeff 0%, #6ef705 100%);
     margin: 0;
     padding: 0;
 }
@@ -121,6 +118,10 @@ h4 {
     font-size: auto;
     max-width: 100%;
 }
+.contact p a:hover {
+    text-decotation: underline;
+}
+
 .col-lg-4 {
     display: flex;
     justify-content: space-between;
@@ -181,7 +182,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     cursor: pointer;
 }
 .font-effect-anaglyph:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    background-color: #3e8e41;
 }
 
 .font-effect-fire-animation {
@@ -198,7 +200,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     cursor: pointer;
 }
 .font-effect-fire-animation:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    background-color: #3e8e41;
 }
 .font-effect-neon {
     font-size: auto;
@@ -212,7 +215,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     cursor: pointer;
 }
 .font-effect-neon:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    background-color: #3e8e41;
 }
 
 
@@ -239,18 +243,30 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     padding: 7px;
         padding-left: 10px;
         padding-right: 10px;
-    font-size: 20px;
-    border: solid 3px green;
+    font-size: 15px;
+    border: solid 2px green;
     box-shadow: 0 4px 8px black;
-    }
+     }
+    
+    .font-effect-anaglyph,
+    .font-effect-fire-animation:hover {    
+    text-decoration: underline;
+    background-color: #3e8e41;
+     }
+    
     .font-effect-neon {
         margin: 1px;
     padding: 5px;
         padding-left: 7px;
         padding-right: 7px;
-    font-size: 20px;
-    border: solid 3px green;
+    font-size: 15px;
+    border: solid 2px green;
     box-shadow: 0 4px 8px black;
+    }
+
+    .font-effect-neon:hover {
+    text-decoration: underline;
+    background-color: #3e8e41;
     }
     
     h5 {
@@ -283,21 +299,20 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  color: gold;
-  font-size: 10px;
+  color: aqua;
+  font-size: 15px;
   font-weight: bolder;
-  margin: 1px;
+  margin: 0;
   padding: 0;
 }
 
 .qr {
     display: inline-block;
-    margin: 5px;
+    margin: 2px;
     padding: 1px;
-   /* filter: brightness(120%);*/
     text-align: center;
     border: solid 1px green;
-    box-shadow: 0 4px 8px black;
+    box-shadow: 0 3px 6px black;
 }
 .qrcode {
     
@@ -320,15 +335,18 @@ div .qr img {
     
 .contact p a img {
     font-size: auto;
-    max-width: 150%;
-    width: 50px;
+    max-width: 100%;
+    width: 40px;
 }
 
 .contact p h5, h6 {
     font-size:auto;
     max-width: 100%;
-    color: chocolate;
 }
+.contact p h5, h6:hover {
+    text-decoration: underline;
+}
+    
 
 p img #myImg1,
     #myImg2,
@@ -356,6 +374,6 @@ p img #myImg1,
     #myImg24
     {
     width: auto;
-    max-width: 200%;
+    max-width: 100%;
 }
 }
