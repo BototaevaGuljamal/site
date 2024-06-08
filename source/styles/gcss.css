@@ -284,7 +284,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     
     video {
         display: inline-block;
-        margin: 1px;
+        margin: 0;
         padding: 0;
         width: auto;
         max-width: 100%;
@@ -293,10 +293,10 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     
     h4 {
     display: inline-block;
-    text-align: center;
+    text-align: content;
     position: absolute;
   top: 10%;
-  left: 50%;
+  left: 30%;
   transform: translate(-50%, -50%);
   z-index: 1;
   color: aqua;
@@ -308,8 +308,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
 .qr {
     display: inline-block;
-    margin: 2px;
-    padding: 1px;
+    margin: 4px;
+    padding: 0;
     text-align: center;
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
