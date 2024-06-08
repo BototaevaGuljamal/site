@@ -17,7 +17,7 @@ a {
 .image .button {
     width: 50px;
     max-width: 100%;
-    color: aqua;
+    color: gold;
     font-style: oblique;
     font-family: Tahoma;
     
@@ -223,7 +223,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     .col-lg-6,
     .col-lg-4,
     .contact,
-    .hrefbutton
+    .hrefbutton,
+    .qrcode
     {
         display: flex;
         justify-content: space-between;
@@ -298,7 +299,9 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     border: solid 1px green;
     box-shadow: 0 4px 8px black;
 }
-
+.qrcode {
+    
+}
 .image .button {
     width: 60px;
     max-width: 100%;
