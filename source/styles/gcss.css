@@ -90,7 +90,7 @@ video {
     margin: 0;
     width: 100%;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 h4 {
@@ -143,11 +143,11 @@ div .qr img {
 .qr {
     display: inline-block;
     margin: 4px;
-    padding: 1px;
+    padding: 2px;
     text-align: center;
-    border: solid 2px green;
+    border: solid 1px green;
     box-shadow: 0 3px 6px black;
-font-size: 8px;
+font-size: 10px;
     border-radius: 10px;
 }
 
@@ -157,18 +157,16 @@ font-size: 8px;
     font-size: auto;
     text-align: center;
     padding: 0;
-    margin: 1px;
+    margin: 0;
 }
 
 .font-effect-3d {
     background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     font-size: auto;
-    padding-top: 5px;
-    padding-right: 0.1em;
     color: rgb(255, 248, 248);
     display: inline-block;
-    padding: 0;
+    padding: 1px 2px 1px 2px;
     margin: 1px;
 }
 
@@ -207,8 +205,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 .font-effect-neon {
     font-size: auto;
     margin: 2px;
-    padding: 2px;
-    margin-left: 2px;
+    padding: 2px 4px 2px 4px;
+    margin: 0px 2px 0px 2px;
     display: inline-block;
     border: solid 1px green;
     color: hsla(240, 100%, 54%, 1);
@@ -242,9 +240,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     .font-effect-fire-animation
      {
         margin: 5px;
-    padding: 7px;
-        padding-left: 10px;
-        padding-right: 10px;
+    padding: 4px 6px 4px 6px;
     font-size: 10px;
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
@@ -260,9 +256,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     
     .font-effect-neon {
         margin: 1px;
-    padding: 5px;
-        padding-left: 7px;
-        padding-right: 7px;
+    padding: 4px 6px 4px 6px;
     font-size: 15px;
     border: solid 2px green;
     box-shadow: 0 4px 8px black;
@@ -295,7 +289,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
         width: auto;
         max-width: 100%;
         text-align: center;
-        border-radius: 10px;
+        border-radius: 20px;
     }
     
     h4 {
