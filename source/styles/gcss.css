@@ -143,7 +143,7 @@ div .qr img {
 .qr {
     display: inline-block;
     margin: 4px;
-    padding: 2px;
+    padding: 4px;
     text-align: center;
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
@@ -310,7 +310,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 .qr {
     display: inline-block;
     margin: 4px;
-    padding: 0;
+    padding: 4px;
     text-align: center;
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
