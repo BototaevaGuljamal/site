@@ -17,8 +17,8 @@ a {
 .image .button {
     width: 50px;
     max-width: 100%;
-    color: gold;
-    font-style: oblique;
+    color: aqua;
+    font-weight: bold;
     font-family: Tahoma;
     
 }
