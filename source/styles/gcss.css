@@ -309,7 +309,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
 
 .qr {
-    display: inline;
+    display: inline-flex;
     margin: 4px;
     padding: 4px;
     text-align: center;
@@ -323,11 +323,10 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 .image .button {
     width: 80px;
     max-width: 100%;
-    color: white;
     font-weight: bold;
     font-family: Tahoma;
     font-size: 20px;
-    
+    background-color: gold;
 }
     
 div .qr img {
