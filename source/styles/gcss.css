@@ -23,6 +23,7 @@ a {
 }
     .image .button:hover {
     text-decoration: underline;
+    background-color: red;
     
 }
 
@@ -183,7 +184,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
 .font-effect-anaglyph:hover {
     text-decoration: underline;
-    background-color: #3e8e41;
+    background-color: red;
 }
 
 .font-effect-fire-animation {
@@ -200,7 +201,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
 .font-effect-fire-animation:hover {
     text-decoration: underline;
-    background-color: #3e8e41;
+    background-color: red;
 }
 .font-effect-neon {
     font-size: auto;
@@ -216,7 +217,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
 .font-effect-neon:hover {
     text-decoration: underline;
-    background-color: #3e8e41;
+    background-color: red;
 }
 
 
@@ -251,7 +252,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     .font-effect-anaglyph,
     .font-effect-fire-animation:hover {    
     text-decoration: underline;
-    background-color: #3e8e41;
+    background-color: red;
      }
     
     .font-effect-neon {
@@ -266,7 +267,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
     .font-effect-neon:hover {
     text-decoration: underline;
-    background-color: #3e8e41;
+    background-color: red;
     }
     
     h5 {
@@ -350,6 +351,7 @@ div .qr img {
 }
 .contact p h5, h6:hover {
     text-decoration: underline;
+    background-color: red;
 }
     
 
