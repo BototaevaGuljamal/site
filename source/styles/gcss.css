@@ -17,7 +17,7 @@ a {
 .image .button {
     width: 50px;
     max-width: 100%;
-    color: aqua;
+    color: gold;
     font-weight: bold;
     font-family: Tahoma;
 }
@@ -50,7 +50,7 @@ input {
     background: linear-gradient(180deg, #5fe8a1 0%, #ffffff 100%);
     padding: 0;
     margin: 0;
-    display: inline;
+    display: inline-block;
 }
 
 .nav-link,
@@ -229,7 +229,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     .col-lg-4,
     .contact,
     .hrefbutton,
-    .qrcode
+    
     {
         display: flex;
         justify-content: space-between;
