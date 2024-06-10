@@ -21,9 +21,9 @@ a {
     font-weight: bold;
     font-family: Tahoma;
 }
-    .image .button:hover {
+.image .button:hover {
     text-decoration: underline;
-    background-color: red;
+    background-color: aqua;
     
 }
 
@@ -97,7 +97,6 @@ video {
 h4 {
     display: inline;
     text-align: center;
-
     position: absolute;
   top: 5%;
   left: 45%;
@@ -124,6 +123,7 @@ h4 {
 }
 .contact p a:hover {
     text-decotation: underline;
+    background-color: aqua;
 }
 
 .col-lg-4 {
@@ -184,7 +184,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
 .font-effect-anaglyph:hover {
     text-decoration: underline;
-    background-color: red;
+    background-color: aqua;
 }
 
 .font-effect-fire-animation {
@@ -201,7 +201,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
 .font-effect-fire-animation:hover {
     text-decoration: underline;
-    background-color: red;
+    background-color: aqua;
 }
 .font-effect-neon {
     font-size: auto;
@@ -217,7 +217,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
 .font-effect-neon:hover {
     text-decoration: underline;
-    background-color: red;
+    background-color: aqua;
 }
 
 
@@ -249,10 +249,10 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
          border-radius: 10px;
      }
     
-    .font-effect-anaglyph,
+    .font-effect-anaglyph:hover,
     .font-effect-fire-animation:hover {    
     text-decoration: underline;
-    background-color: red;
+    background-color: aqua;
      }
     
     .font-effect-neon {
@@ -267,7 +267,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
     .font-effect-neon:hover {
     text-decoration: underline;
-    background-color: red;
+    background-color: aqua;
     }
     
     h5 {
@@ -342,14 +342,21 @@ div .qr img {
     cursor: pointer;
 }
 
-.contact p h5, h6 {
+.contact p h6 {
     font-size:auto;
     max-width: 100%;
     cursor: pointer;
 }
-.contact p h5, h6:hover {
+.contact p h6:hover {
     text-decoration: underline;
-    background-color: red;
+    background-color: aqua;
+}
+contact p h5:hover {
+    text-decoration: underline;
+    background-color: aqua;
+    font-size:auto;
+    max-width: 100%;
+    cursor: pointer;
 }
     
 
