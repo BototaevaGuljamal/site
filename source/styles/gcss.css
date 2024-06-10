@@ -6,7 +6,7 @@ body {
 a {
     text-decoration: none;
 }
-.image {
+.image, .qrcode {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
