@@ -154,7 +154,7 @@ h4 {
     box-shadow: 0 2px 4px black;
 }
 div .qr img {
-    display: block;
+    display: inline-block;
     max-width: 50%;
     width: auto;
     padding: 2px;
@@ -162,7 +162,7 @@ div .qr img {
    
 }
 .ahref {
-    display: block;
+    display: inline-block;
     cursor: pointer;
 }
 .ahref:hover {
