@@ -31,7 +31,7 @@ a {
     text-decoration: underline;
     background-color: aqua;
 }
-strong p a::hover {
+.accordion-body strong p a:hover {
     text-decoration: underline;
     background-color: aqua;
 }
