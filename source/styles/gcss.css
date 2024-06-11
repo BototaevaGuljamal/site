@@ -151,16 +151,7 @@ h4 {
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
 }
-.qr img {
-    display: inline;
-    max-width: 50%;
-    width: auto;
-    padding: 1px;
-    margin: 1px;
-   
-}
 .ahref {
-    display: inline;
     cursor: pointer;
 }
 .ahref:hover {
