@@ -123,11 +123,11 @@ h4 {
     font-size: auto;
     max-width: 100%;
 }
-h5:hover {
+.contact h5:hover {
     text-decotation: underline;
     background-color: aqua;
 }
-h6:hover {
+.contact h6:hover {
     text-decotation: underline;
     background-color: aqua;
 }
@@ -137,7 +137,7 @@ h6:hover {
     flex-wrap: wrap;
 }
 div .qr img {
-    display: inline-block;
+    display: flex;
     max-width: 50%;
     width: auto;
     padding: 2px;
@@ -147,7 +147,7 @@ div .qr img {
     box-shadow: 0 2px 4px black;
 }
 .ahref {
-    display: inline-block;
+    display: flex;
 }
 .ahref:hover {
     text-decoration: underline;
