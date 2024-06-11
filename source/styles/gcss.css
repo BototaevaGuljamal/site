@@ -6,7 +6,7 @@ body {
 a {
     text-decoration: none;
 }
-.image, .qrcode {
+.image {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -14,13 +14,6 @@ a {
     margin: 0;
 }
 
-.image .button {
-    width: 50px;
-    max-width: 100%;
-    color: gold;
-    font-weight: bold;
-    font-family: Tahoma;
-}
 .image .button:hover {
     text-decoration: underline;
     background-color: aqua;
@@ -115,7 +108,7 @@ h4 {
     flex-wrap: wrap;
     text-align: center;
     padding: 0;
-    margin: 1px;
+    margin: 0;
 }
 
 .contact {
@@ -130,15 +123,11 @@ h4 {
     font-size: auto;
     max-width: 100%;
 }
-.contact p a:hover {
+.contact p a h5:hover {
     text-decotation: underline;
     background-color: aqua;
 }
-.contact p h5:hover {
-    text-decotation: underline;
-    background-color: aqua;
-}
-.contact p h6:hover {
+.contact p a h6:hover {
     text-decotation: underline;
     background-color: aqua;
 }
@@ -146,18 +135,14 @@ h4 {
 div .qr img {
    max-width: 50%;
     width: auto;
-    padding: 0;
-    margin: 0;
-}
-.qr {
-    display: inline-bloçk;
-    margin: 2px;
-    padding: 2px;
-    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 10px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
-    font-size: 10px;
-    border-radius: 10px;
+}
+.ahref {
+    display: inline-block;
 }
 .ahref:hover {
     text-decoration: underline;
