@@ -124,20 +124,21 @@ h4 {
     max-width: 100%;
 }
 .contact h5:hover {
-    text-decotation: underline;
+    text-decoration: underline;
     background-color: aqua;
 }
 .contact h6:hover {
-    text-decotation: underline;
+    text-decoration: underline;
     background-color: aqua;
 }
 .qr {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-align: center;
 }
 div .qr img {
-    display: flex;
+    display: block;
     max-width: 50%;
     width: auto;
     padding: 2px;
@@ -147,7 +148,8 @@ div .qr img {
     box-shadow: 0 2px 4px black;
 }
 .ahref {
-    display: inline;
+    display: block;
+    cursor: pointer;
 }
 .ahref:hover {
     text-decoration: underline;
