@@ -138,7 +138,7 @@ h4 {
     text-decoration: underline;
     background-color: aqua;
 }
-.qrcode {
+.qr {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -319,17 +319,15 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
 
 .qr {
-    display: inline-flex;
-    margin: 4px;
-    padding: 4px;
+    display: inline-block;
+    margin: 1px;
+    padding: 1px;
     text-align: center;
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
     border-radius: 10px;
 }
-.qrcode {
 
-}
 .image .button {
     width: 80px;
     max-width: 100%;
@@ -339,7 +337,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     background-color: gold;
 }
     
-div .qr img {
+.qr img {
    max-width: 50%;
     width: auto;
     
@@ -352,16 +350,16 @@ div .qr img {
     cursor: pointer;
 }
 
-.contact p h6 {
+.contact h6 {
     font-size:auto;
     max-width: 100%;
     cursor: pointer;
 }
-.contact p h6:hover {
+.contact h6:hover {
     text-decoration: underline;
     background-color: aqua;
 }
-contact p h5:hover {
+.contact h5:hover {
     text-decoration: underline;
     background-color: aqua;
     font-size:auto;
