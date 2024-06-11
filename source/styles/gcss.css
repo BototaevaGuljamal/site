@@ -19,7 +19,9 @@ a {
     background-color: aqua;
     
 }
-
+input::placeholder {
+    background-color: aqua;
+}
 .carousel-item {
     width: 95%
     text-align: content;
