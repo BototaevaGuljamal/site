@@ -123,19 +123,20 @@ h4 {
     font-size: auto;
     max-width: 100%;
 }
-.contact p a h5:hover {
+.h5:hover {
     text-decotation: underline;
     background-color: aqua;
 }
-.contact p a h6:hover {
+.h6:hover {
     text-decotation: underline;
     background-color: aqua;
 }
-
-div .qr img {
+.qr {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+div .qr img {
     max-width: 50%;
     width: auto;
     padding: 2px;
