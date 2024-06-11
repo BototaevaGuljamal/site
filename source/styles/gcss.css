@@ -31,6 +31,10 @@ a {
     text-decoration: underline;
     background-color: aqua;
 }
+strong p a::hover {
+    text-decoration: underline;
+    background-color: aqua;
+}
 input {
     font-size: auto;
     color: red;
