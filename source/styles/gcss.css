@@ -123,11 +123,11 @@ h4 {
     font-size: auto;
     max-width: 100%;
 }
-.h5:hover {
+h5:hover {
     text-decotation: underline;
     background-color: aqua;
 }
-.h6:hover {
+h6:hover {
     text-decotation: underline;
     background-color: aqua;
 }
@@ -137,6 +137,7 @@ h4 {
     flex-wrap: wrap;
 }
 div .qr img {
+    display: inline-block;
     max-width: 50%;
     width: auto;
     padding: 2px;
