@@ -134,6 +134,14 @@ h4 {
     text-decotation: underline;
     background-color: aqua;
 }
+.contact p h5:hover {
+    text-decotation: underline;
+    background-color: aqua;
+}
+.contact p h6:hover {
+    text-decotation: underline;
+    background-color: aqua;
+}
 
 div .qr img {
    max-width: 50%;
