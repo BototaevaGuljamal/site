@@ -20,11 +20,11 @@ a {
     
 }
 input::placeholder {
-    padding: 0 2 0 2
+    padding: 0px 2px 0px 2px;
     
 }
 input::placeholder:hover {
-    background-color: aqua;
+    color: aqua;
 }
 .carousel-item {
     width: 95%
@@ -47,8 +47,6 @@ input {
     font-style: italic;
     box-shadow: 0 2px 4px black;
     margin: 0;
-    padding-left: 1px;
-    padding-right: 1px;
     border-radius: 10px;
 }
 
@@ -153,16 +151,16 @@ h4 {
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
 }
-div .qr img {
-    display: inline-block;
+.qr img {
+    display: inline;
     max-width: 50%;
     width: auto;
-    padding: 2px;
-    margin: 2px;
+    padding: 1px;
+    margin: 1px;
    
 }
 .ahref {
-    display: inline-block;
+    display: inline;
     cursor: pointer;
 }
 .ahref:hover {
