@@ -185,7 +185,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     cursor: pointer;
     border-radius: 10px;
 }
-.font-effect-anaglyph:hover {
+.font-effect-anaglyph a:hover {
     text-decoration: underline;
     background-color: aqua;
 }
@@ -202,7 +202,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     cursor: pointer;
     border-radius: 10px;
 }
-.font-effect-fire-animation:hover {
+.font-effect-fire-animation a:hover {
     text-decoration: underline;
     background-color: aqua;
 }
@@ -218,7 +218,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     cursor: pointer;
     border-radius: 10px;
 }
-.font-effect-neon:hover {
+.font-effect-neon a:hover {
     text-decoration: underline;
     background-color: aqua;
 }
