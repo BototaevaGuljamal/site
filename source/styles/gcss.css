@@ -27,7 +27,10 @@ a {
     padding: 5px;
     
 }
-
+.collapse ul li a:hover {
+    text-decoration: underline;
+    background-color: aqua;
+}
 input {
     font-size: auto;
     color: red;
