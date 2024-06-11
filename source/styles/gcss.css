@@ -109,6 +109,13 @@ h4 {
     padding: 0;
 }
 
+.col-lg-4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
 .contact {
     display: flex;
     justify-content: space-between;
