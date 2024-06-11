@@ -151,7 +151,10 @@ div .qr img {
     font-size: 10px;
     border-radius: 10px;
 }
-
+.ahref:hover {
+    text-decoration: underline;
+    background-color: aqua;
+}
 .font-effect-outline {
     display: inline;
     color: red;
