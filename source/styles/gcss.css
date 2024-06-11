@@ -114,6 +114,8 @@ h4 {
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
+    padding: 0;
+    margin: 1px;
 }
 
 .contact {
@@ -133,15 +135,6 @@ h4 {
     background-color: aqua;
 }
 
-.col-lg-4 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100vh;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
 div .qr img {
    max-width: 50%;
     width: auto;
@@ -234,8 +227,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     min-width:700px) {
     .col-lg-6,
     .col-lg-4,
-    .contact,
-    .hrefbutton,
+    .contact
     
     {
         display: flex;
