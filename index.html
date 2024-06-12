@@ -46,6 +46,61 @@
   transform: translateY(1px);
 }
 
+HTML CSS JS Result Skip Results Iframe
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Orelega+One&display=swap');
+
+  * {
+    box-sizing: border-box;
+}
+body{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items:center;
+  height:100vh;
+}
+.search{
+  position: relative;
+  height:50px;
+}
+.inputsearch{
+  background: #ffffff;
+  border:0
+  font-size:20px;
+  font-family: "Orelega One", cursive;
+  padding: 15px;
+  height:50px;
+  width:50px;
+  transition: width 0.3s ease;
+      border-radius: 30px;
+
+}
+.btn{
+      border-radius: 30px;
+  background: #ffffff;
+  border:0;
+  position:absolute;
+  fonts-size:25px;
+cursor: pointer;
+  height:50px;
+  top:0;
+  left:0;
+  width:50px;
+  transition: transform 0.3s ease;
+}
+.btn:focus, .inputsearch:focus{
+  outline: none;
+}
+.search.active .inputsearch{
+  width:200px;
+      border-radius: 30px;
+
+}
+.search.active .btn {
+  transform: translateX(150px);
+}
 </style>
 	
 </head>
