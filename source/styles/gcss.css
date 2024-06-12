@@ -142,7 +142,7 @@ h4 {
     text-decoration: underline;
     background-color: aqua;
 }
-.qr {
+.qrcode {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
