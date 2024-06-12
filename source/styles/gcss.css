@@ -152,6 +152,15 @@ h4 {
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
 }
+.qr {
+    display: inline-block;
+    margin: 1px;
+    padding: 1px;
+    text-align: center;
+    border: solid 1px green;
+    box-shadow: 0 3px 6px black;
+    border-radius: 10px;
+}
 .ahref {
     cursor: pointer;
 }
