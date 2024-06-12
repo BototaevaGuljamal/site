@@ -142,16 +142,7 @@ h4 {
     text-decoration: underline;
     background-color: aqua;
 }
-.qrcode {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: center;
-    max-width: 50%;
-    border-radius: 10px;
-    border: solid 1px green;
-    box-shadow: 0 2px 4px black;
-}
+
 .qr {
     display: inline-block;
     margin: 1px;
