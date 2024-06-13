@@ -49,18 +49,18 @@
 	
 .search{
   position: relative;
-  height:40px;
+  height:30px;
 }
 .inputsearch{
   background: aqua;
   border:0
   font-size:30px;
   font-family: arial, cursive;
-  padding: 2px;
-  height:40px;
-  width:100px;
+  padding: 1px;
+  height:30px;
+  width:30px;
   transition: width 0.3s ease;
-      border-radius: 10px;
+      border-radius: 30px;
 
 }
 .btn{
@@ -70,10 +70,10 @@
   position:absolute;
   fonts-size:20px;
 cursor: pointer;
-  height:40px;
+  height:30px;
   top:0;
   left:0;
-  width:40px;
+  width:30px;
   transition: transform 0.3s ease;
 }
 .btn:focus, .inputsearch:focus{
@@ -84,8 +84,9 @@ cursor: pointer;
       border-radius: 10px;
 }
 .search.active .btn {
-  transform: translateX(15px);
+  transform: translateX(150px);
   background: gold;
+  input::type: none;
 }
 </style>
 	
