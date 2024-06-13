@@ -49,7 +49,7 @@
 	
 .search{
   position: relative;
-  height:30px;
+ /* height:30px;*/
   margin: 0;
   padding: 0;
 	
@@ -76,7 +76,7 @@
   height: 26px;
   text-align: content;
   width: 26px;
-  transition: transform 1s ease;
+  transition: transform 0.3s ease;
   margin: 0;
   padding: 0;
 }
@@ -84,7 +84,7 @@
   outline: none;
   width: 200px;
 }
-.search .active .inputsearch{
+.search.active .inputsearch{
   border-radius: 10px;
   width: 200px;
 
@@ -101,7 +101,8 @@ text-align: content;
 width: 20px;
 }
 input::placeholder{
-padding: 0 5px 0 5px;
+padding: 5px;
+margin: 5px;
 }
 </style>
 	
