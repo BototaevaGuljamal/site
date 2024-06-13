@@ -82,6 +82,7 @@
 }
 .btn:focus, .inputsearch:focus{
   outline: none;
+  width: 200px;
 }
 .search .active .inputsearch{
   border-radius: 10px;
@@ -89,7 +90,7 @@
 
 }
 .search.active .btn {
-  transform: translateX(100px);
+  transform: translateX(0px);
 }
 .btn, input[type=submit] {
 
@@ -98,6 +99,9 @@
 display: inline-block;
 text-align: content;
 width: 20px;
+}
+input::placeholder{
+padding: 0 5px 0 5px;
 }
 </style>
 	
