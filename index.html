@@ -57,7 +57,7 @@
 .inputsearch{
   background: linear-gradient(180deg, #fffeff 0%, #6ef705 100%);
   border:0
-  font-size: 16px;
+  font-size: 25px;
   font-family: arial, cursive;
   padding: 1px 1px 1px 5px;
   margin: 0;
@@ -88,13 +88,14 @@
   border-radius: 10px;
 }
 .search.active .btn {
-  transform: translateX(100px);
+  transform: translateX(-100px);
   background: gold;
 }
 .btn, input[type=submit] {
-display: disabled;
+display: flex;
 }
 .btn, input[value="🔎"] {
+display: flex;
 text-align: content;
 width: 20px;
 }
