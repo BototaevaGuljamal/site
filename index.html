@@ -51,8 +51,6 @@
  /* height:30px;*/
   margin: 5px;
   padding: 5px;
-  border: solid 1 red;
-	
 }
 .inputsearch{
   background: linear-gradient(180deg, #fffeff 0%, #6ef705 100%);
@@ -103,7 +101,6 @@ width: 20px;
 input::placeholder{
 padding: 0;
 margin: 0;
-border: solid 1 black;
 }
 </style>
 	
@@ -118,16 +115,17 @@ border: solid 1 black;
    </div>
 	
     <header>
-	<div class="search">
+	
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+		<div class="hrefbutton">
+		<div class="search">
 <form action="https://www.google.com/search" method="GET">
   <input type="text" name="q" placeholder="Издөө..." class="inputsearch"/>
 <input class="btn" value="🔎" type="Submit"><i class="fas fa-search"></i>
  <!--<button class="btn"><i class="fas fa-search"></i></button>-->
 </form>
 </div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-		<div class="hrefbutton">
                   <div class="font-effect-fire-animation"><a
                         href="https://docs.google.com/presentation/d/1qY8UHBf5epSFzcZQDXUrZSKAxeo6kfrmoYrxDaKzAaM/edit?usp=drive_link"
                         class="alert-link" target="_blank">ПОРТФОЛИО 💼</a>
