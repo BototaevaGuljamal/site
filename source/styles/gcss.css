@@ -13,12 +13,13 @@ a {
     padding: 0;
     margin: 0;
 }
-/*
+
 .image .button:hover {
     text-decoration: underline;
     background-color: aqua;
     
 }
+/*
 input::placeholder {
     padding: 0px 2px 0px 2px;
     
