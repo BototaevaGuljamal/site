@@ -52,9 +52,9 @@
   height:30px;
 }
 .inputsearch{
-  background: aquamarine;
+  background: gold;
   border:0
-  font-size:30px;
+  font-size: 30px;
   font-family: arial, cursive;
   padding: 1px;
   height:30px;
@@ -83,11 +83,14 @@ cursor: pointer;
       border-radius: 14px;
 }
 .search.active .btn {
-  transform: translateX(-150px);
+  transform: translateX(150px);
   background: gold;
 }
-.search.active .btn, input[type=submit] {
-action: disabled;
+.btn, input[type=submit] {
+action: none;
+}
+.btn, input[value="🔎"] {
+text-align: center;
 }
 </style>
 	
