@@ -141,8 +141,8 @@ h4 {
 .qr img {
    max-width: 70%;
     width: auto;
-    padding: 1px;
-    margin: 1px;
+    padding: 0;
+    margin: 3px 0 0 ;
 }
 .ahref {
     cursor: pointer;
