@@ -50,7 +50,7 @@
 .search{
   position: relative;
   height:30px;
-  margin: 0;
+  margin: 0 5px 0 0;
   padding: 0;
 	
 }
@@ -59,7 +59,7 @@
   border:0
   font-size: 25px;
   font-family: arial, cursive;
-  padding: 0 0 0 5px;
+  padding: 0;
   margin: 0;
   height:27px;
   width: 27px;
@@ -82,7 +82,6 @@
 }
 .btn:focus, .inputsearch:focus{
   outline: none;
-  width: 200px;
 }
 .search .active .inputsearch{
   border-radius: 10px;
@@ -90,7 +89,8 @@
 
 }
 .search.active .btn {
-  transform: translateX(-100px);
+  /*transform: translateX(-100px);*/
+  transform: width: 0;
 }
 .btn, input[type=submit] {
 0;
