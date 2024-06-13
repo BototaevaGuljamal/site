@@ -52,15 +52,15 @@
   height:30px;
 }
 .inputsearch{
-  background: aqua;
+  background: aquamarine;
   border:0
   font-size:30px;
   font-family: arial, cursive;
   padding: 1px;
   height:30px;
-  width:30px;
+  width:150px;
   transition: width 0.3s ease;
-      border-radius: 30px;
+      border-radius: 14px;
 
 }
 .btn{
@@ -70,23 +70,24 @@
   position:absolute;
   fonts-size:20px;
 cursor: pointer;
-  height:30px;
+  height:29px;
   top:0;
   left:0;
-  width:30px;
+  width:29px;
   transition: transform 0.3s ease;
 }
 .btn:focus, .inputsearch:focus{
   outline: none;
 }
 .search .active .inputsearch{
-  width:200px;
-      border-radius: 10px;
+      border-radius: 14px;
 }
 .search.active .btn {
-  transform: translateX(150px);
+  transform: translateX(-150px);
   background: gold;
-  input::type: none;
+}
+.search.active .btn, input[type=submit] {
+action: disabled;
 }
 </style>
 	
