@@ -19,14 +19,7 @@ a {
     background-color: aqua;
     
 }
-/*
-input::placeholder {
-    padding: 0px 2px 0px 2px;
-    
-}
-input::placeholder:hover {
-    color: aqua;
-}*/
+
 .carousel-item {
     width: 95%
     text-align: content;
@@ -42,15 +35,7 @@ input::placeholder:hover {
     text-decoration: underline;
     background-color: aqua;
 }
-/*input {
-    font-size: auto;
-    color: red;
-    font-style: italic;
-    box-shadow: 0 2px 4px black;
-    margin: 0;
-    border-radius: 10px;
-}
-*/
+
 .dropdown-item {
     background: linear-gradient(180deg, #5fe8a1 0%, #ffffff 100%);
     padding: 0;
@@ -146,18 +131,18 @@ h4 {
 
 .qr {
     display: inline-block;
-    margin: 2px;
-    padding: 1px;
+    margin: 1px;
+    padding: 0;
     text-align: center;
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
     border-radius: 10px;
 }
 .qr img {
-   max-width: 50%;
+   max-width: 70%;
     width: auto;
     padding: 1px;
-    margin: 2px;
+    margin: 1px;
 }
 .ahref {
     cursor: pointer;
@@ -341,7 +326,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
     
 .qr img {
-   max-width: 50%;
+   max-width: 70%;
     width: auto;
     
 }
