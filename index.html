@@ -50,7 +50,7 @@
 .search{
   position: relative;
   height:30px;
-  margin: 0;
+  margin: 1px;
   padding: 0;
 	
 }
@@ -63,7 +63,7 @@
   margin: 0;
   height:27px;
   width:100px;
-  transition: width 0.2s ease;
+  transition: width 0.3s ease;
   border-radius: 10px;
 
 }
@@ -88,14 +88,14 @@
   border-radius: 10px;
 }
 .search.active .btn {
-  transform: translateX(-50px);
+  transform: translateX(50px);
   background: gold;
 }
 .btn, input[type=submit] {
-display: flex;
+display: none;
 }
 .btn, input[value="🔎"] {
-display: flex;
+display: inline-block;
 text-align: content;
 width: 20px;
 }
