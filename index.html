@@ -80,6 +80,7 @@
   transition: transform 0.3s ease;
   margin: 1px 0 0 5px;
   padding: 0;
+  outline: 0;
   
 }
 .btn1:focus, .inputsearch:focus{
@@ -420,7 +421,7 @@ width: 26px;
 	    <script>const search= document.querySelector('.search');
 const btn1= document.querySelector('.btn1');
 const input= document.querySelector('.inputsearch');
-btn.addEventListener('click',()=> {
+btn1.addEventListener('click',()=> {
   search.classList.toggle('active');
   input.focus();
 });
