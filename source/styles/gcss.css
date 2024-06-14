@@ -32,7 +32,7 @@ body {
     height: 100%;
     position: absolute;
     top: 0;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -52,6 +52,17 @@ input {
     padding: 8px;
     border: 1px solid gray;
     
+}
+.close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
 }
 a {
     text-decoration: none;
