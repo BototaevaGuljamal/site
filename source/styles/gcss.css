@@ -5,8 +5,8 @@ body {
 }
 .cont {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 10%;
+    left: 80%;
     transform: translate (-50%, -50%);
     text-align: center;
 }
@@ -15,10 +15,10 @@ body {
     padding: 10px 15px;
     color: #34495e;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 5px;
     box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
-    margin-top: 25px;
+    margin-top: 5px;
     text-decoration: none;
     transition: 0.4s;
 }
