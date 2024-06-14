@@ -3,12 +3,28 @@ body {
     padding: 0;
     margin: 0;
 }
-.contact {
+.cont {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate (-50%, -50%);
     text-align: center;
+}
+.button2 {
+    background: #fff
+    padding: 10px 15px;
+    color: #34495e;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    margin-top: 25px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.button2:hover {
+    background: #34495e;
+    color: #fff;
 }
 a {
     text-decoration: none;
