@@ -6,8 +6,8 @@ body {
 .cont {
     position: absolute;
     top: 10%;
-    left: 50%;
-    transform: translate (-50%, -50%);
+    left: 20%;
+    transform: translate (-20%, -20%);
     text-align: center;
 }
 .button2 {
