@@ -68,7 +68,7 @@
   box-shadow: 0 3px 6px black;
 }
 
-.btn{
+.btn1{
   border-radius: 30px;
   border:0;
   position:absolute;
@@ -83,7 +83,7 @@
   box-shadow: 0 0px 0px black;
   
 }
-.btn:focus, .inputsearch:focus{
+.btn1:focus, .inputsearch:focus{
   outline: none;
   width: 234px;
 }
@@ -93,14 +93,14 @@
   padding-left: 13px;
 
 }
-.search.active .btn {
+.search.active .btn1 {
   transform: translateX(5px);
   box-shadow: 0 2px 4px black;
 }
-.btn input[type=submit] {
+.btn1 input[type=submit] {
 
 }
-.btn, input[value="🔎"] {
+.btn1, input[value="🔎"] {
 display: inline-block;
 text-align: content;
 width: 26px;
@@ -135,7 +135,7 @@ width: 26px;
    <div class="search">
 <form action="https://www.google.com/search" method="GET">
   <input type="text" name="q" placeholder="Издөө..." class="inputsearch"/>
-<input class="btn" value="🔎" type="Submit"><i class="fas fa-search"></i>
+<input class="btn1" value="🔎" type="Submit"><i class="fas fa-search"></i>
  <!--<button class="btn"><i class="fas fa-search"></i></button>-->
 </form>
 </div>
@@ -373,7 +373,7 @@ width: 26px;
 		</div>
 		    
 		<div id="liveAlertPlaceholder"></div>
-                    <button type="button" id="liveAlertBtn" class="btn1 btn-primary" style="display: inline-block p-auto">БАЙЛАНЫШ үчүн 📲</button>
+                    <button type="button" id="liveAlertBtn" class="btn btn-primary" style="display: inline-block p-auto">БАЙЛАНЫШ үчүн 📲</button>
 		    
 		<div class="alert alert-open alert-dismissible" role="alert">
 			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -417,7 +417,7 @@ width: 26px;
 	
 	</script>
 	    <script>const search= document.querySelector('.search');
-const btn= document.querySelector('.btn');
+const btn1= document.querySelector('.btn1');
 const input= document.querySelector('.inputsearch');
 btn.addEventListener('click',()=> {
   search.classList.toggle('active');
