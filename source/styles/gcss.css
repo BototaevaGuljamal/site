@@ -58,8 +58,8 @@ input {
     top: -15px;
     right: -15px;
     background: white;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
     cursor: pointer;
