@@ -7,7 +7,7 @@ body {
 a {
     text-decoration: none;
 }
-a img {
+a img .temper {
   width: 30px;
   border-radius: 50%;
 }
