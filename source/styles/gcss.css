@@ -8,8 +8,8 @@ a {
     text-decoration: none;
 }
 a img {
-  max-width: 1%;
-  height: auto;
+  width: 10px;
+  border-radius: 50%;
 }
 .image {
     display: flex;
