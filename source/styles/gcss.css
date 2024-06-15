@@ -8,8 +8,9 @@ a {
     text-decoration: none;
 }
 .temper {
-  width: 30px;
-  border-radius: 50%;
+  padding-top: 5px;
+  width: 27px;
+  border-radius: 10%;
 }
 .image {
     display: flex;
@@ -53,13 +54,12 @@ a {
 	
 .search{
   position: relative;
-  margin: 3px 0 0 3px;
+  margin: 3px 5px 0 3px;
   padding: 3px 0 0 3px;
 }
 .inputsearch{
   background: red;
   border:0
-  font-size: 25px;
   font-family: arial;
   margin: 0;
   height:27px;
@@ -67,10 +67,13 @@ a {
   transition: width 0.3s ease;
   border-radius: 30px;
   text-align: center;
-  padding: 0 10px 0 10px;
-  color: white;
+  padding: 0 5px 0 5px;
+  color: aqua;
   font-weight: bold;
   box-shadow: 0 3px 6px black;
+}
+.inputsearch::placeholder {
+	color: aqua;
 }
 
 .btn1{
