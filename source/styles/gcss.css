@@ -7,8 +7,9 @@ body {
 a {
     text-decoration: none;
 }
-.temp {
+img .temp {
 	width: 20px;
+}
 .image {
     display: flex;
     justify-content: space-between;
