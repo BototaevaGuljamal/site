@@ -7,7 +7,7 @@ body {
 a {
     text-decoration: none;
 }
-a img .temper {
+img .temper {
   width: 30px;
   border-radius: 50%;
 }
@@ -85,7 +85,6 @@ a img .temper {
   transition: transform 0.3s ease;
   margin: 1px 0 0 5px;
   padding: 0;
-  display: none;
 }
 .btn1:focus, .inputsearch:focus{
   outline: none;
@@ -105,7 +104,7 @@ a img .temper {
 }
 
 .btn1, input[value="🔎"] {
-display: inline-block;
+display: none;
 text-align: content;
 
 }
