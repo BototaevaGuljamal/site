@@ -21,6 +21,89 @@ a {
     
 }
 
+.button {
+  display: inline-block;
+  padding: 2px 2px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: 1px ridge rgba(170, 50, 220, .6);
+  border-radius: 1rem;
+  color: #FF3333;
+  background-color: #04AA6D;
+  border: none;
+  box-shadow: 0 2px #999;
+  margin: 1px;
+
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+	
+.search{
+  position: relative;
+  margin: 3px 0 0 3px;
+  padding: 3px 0 0 3px;
+}
+.inputsearch{
+  background: red;
+  border:0
+  font-size: 25px;
+  font-family: arial;
+  margin: 0;
+  height:27px;
+  width: 27px;
+  transition: width 0.3s ease;
+  border-radius: 30px;
+  text-align: center;
+  padding: 0 10px 0 10px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 3px 6px black;
+}
+
+.btn1{
+  border-radius: 30px;
+  border:0;
+  position:absolute;
+  fonts-size:20px;
+  cursor: pointer;
+  height: 26px;
+  text-align: content;
+  width: 26px;
+  transition: transform 0.3s ease;
+  margin: 1px 0 0 5px;
+  padding: 0;
+}
+.btn1:focus, .inputsearch:focus{
+  outline: none;
+  width: 234px;
+}
+.search.active .inputsearch{
+  border-radius: 10px;
+  width: 234px;
+  padding-left: 13px;
+
+}
+.search.active .btn1 {
+  transform: translateX(0px);
+}
+.btn1 input[type=submit] {
+
+}
+.btn1, input[value="🔎"] {
+display: inline-block;
+text-align: content;
+}
+
+
 .carousel-item {
     width: 95%
     text-align: content;
