@@ -85,23 +85,25 @@ a img {
   transition: transform 0.3s ease;
   margin: 1px 0 0 5px;
   padding: 0;
+  display: none;
 }
 .btn1:focus, .inputsearch:focus{
   outline: none;
   width: 234px;
+  display: inline-block;
 }
 .search.active .inputsearch{
   border-radius: 10px;
   width: 234px;
   padding-left: 13px;
+  display: inline-block;
 
 }
 .search.active .btn1 {
   transform: translateX(0px);
+  display: inline-block;
 }
-.btn1 input[type=submit] {
 
-}
 .btn1, input[value="🔎"] {
 display: inline-block;
 text-align: content;
