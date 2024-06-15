@@ -7,8 +7,9 @@ body {
 a {
     text-decoration: none;
 }
-img .temp {
-	width: 20px;
+a img .temp {
+  max-width: 10%;
+  height: auto;
 }
 .image {
     display: flex;
