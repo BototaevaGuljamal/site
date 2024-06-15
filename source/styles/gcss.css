@@ -7,7 +7,7 @@ body {
 a {
     text-decoration: none;
 }
-a img .temp {
+a img {
   max-width: 10%;
   height: auto;
 }
