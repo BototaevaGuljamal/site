@@ -17,18 +17,17 @@ body {
 }
 
 .font-effect-fire-animation .font-effect-neon {
-    display: block;
-    margin: 50px;
-    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
 
 }
 .font-effect-neon:hover {
     text-decoration: underline;
     background-color: aqua;
-}
-.font-effect-fire-animation {
-    font-size: auto;
-}
+    
 p h1 {
     font-weight: bold;
     text-align: top;
