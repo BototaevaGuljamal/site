@@ -31,7 +31,9 @@ body {
     text-decoration: underline;
     background-color: aqua;
 }
-
+.font-effect-fire-animation {
+    font-size: 100px;
+}
 p h1 {
     color: aqua;
     font-weight: bold;
