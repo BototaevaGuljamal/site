@@ -16,22 +16,16 @@ body {
     background: #06283D;
 }
 .image1 {
-    display: inline-box;
-    padding: 0;
-    margin: 10;
-    height: 50vh;
-    
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .image1:hover {
     text-decoration: underline;
     background-color: aqua;
-}
-.image2 {
-    display: inline;
-    padding: 0;
-    margin: 10;
-    height: 30vh;
 }
 
 p h1 {
