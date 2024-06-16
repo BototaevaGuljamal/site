@@ -16,7 +16,7 @@ body {
     background: #06283D;
 }
 
-.font-effect-fire-animation .font-effect-neon {
+/*.font-effect-fire-animation .font-effect-neon {
     display: none;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +32,7 @@ p h1 {
     font-weight: bold;
     text-align: top;
     
-}
+}*/
 .container {
     position: relative;
     width: 400px;
