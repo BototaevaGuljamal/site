@@ -17,7 +17,7 @@ body {
 }
 
 .font-effect-fire-animation .font-effect-neon {
-    display: inline;
+    display: block;
     margin: 50px;
     padding: 50px;
 
@@ -27,7 +27,7 @@ body {
     background-color: aqua;
 }
 .font-effect-fire-animation {
-    font-size: 50px;
+    font-size: auto;
 }
 p h1 {
     font-weight: bold;
