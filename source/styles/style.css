@@ -16,9 +16,7 @@ body {
     background: #06283D;
 }
 .image1 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: inline;
     padding: 0;
     margin: 10;
 }
@@ -28,9 +26,7 @@ body {
     background-color: aqua;
 }
 .image2 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: inline;
     padding: 0;
     margin: 10;
 }
