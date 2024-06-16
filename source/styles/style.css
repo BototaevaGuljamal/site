@@ -16,7 +16,6 @@ body {
     background: #06283D;
 }
 .image1 {
-    height: 100vh;
     display: flex;
     align-items: top;
     justify-content: space-between;
@@ -24,10 +23,11 @@ body {
 
 .font-effect-fire-animation .font-effect-neon {
     display: inline-block;
-    
-    
+    margin: 50px;
+    padding: 50px;
+
 }
-.image1:hover {
+.font-effect-neon:hover {
     text-decoration: underline;
     background-color: aqua;
 }
