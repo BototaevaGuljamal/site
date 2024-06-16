@@ -5,13 +5,28 @@
     outline: none;
     box-sizing: border-box;
 }
-
+a {
+    text-decoration: none;
+}
 body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #06283D;
+}
+.image {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.image .button:hover {
+    text-decoration: underline;
+    background-color: aqua;
+    
 }
 p h1 {
     color: aqua;
