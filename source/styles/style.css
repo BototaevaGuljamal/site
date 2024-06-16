@@ -16,13 +16,16 @@ body {
     background: #06283D;
 }
 .image1 {
-    width: 100%;
-    height: min-content;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.font-effect-fire-animation .font-effect-neon {
+    display: inline-block;
+    
+}
 .image1:hover {
     text-decoration: underline;
     background-color: aqua;
