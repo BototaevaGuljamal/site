@@ -10,13 +10,12 @@ a {
 .temper {
   border: solid 1px green;
   cursor: pointer;
-  padding-top: 5px;
+  padding: 5px;
   width: 20px;
-  padding: 1px;
   border-radius: 10%;
   box-shadow: 0 3px 6px black;
-  
-
+  background: aqua;
+  color: red;
 }
 .image {
     display: flex;
