@@ -319,7 +319,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
   transform: translateY(3px);
 }
 .font-effect-neon {
-    font-size: auto;
+    font-size: 20px;
     margin: 2px;
     padding: 1px 2px 1px 2px;
     margin: 0px 2px 0px 2px;
