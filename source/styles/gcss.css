@@ -10,9 +10,8 @@ a {
 .temper {
   border: solid 1px green;
   cursor: pointer;
-  padding: 0;
-  margin: 2px 0 0 0;
-  font-size: 20px;
+  padding: 2px;
+  margin: 4px 0 0 0;
   width: 22px;
   border-radius: 10%;
   box-shadow: 0 3px 6px black;
