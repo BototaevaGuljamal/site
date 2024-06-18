@@ -16,23 +16,20 @@ body {
     background: #06283D;
 }
 
-/*.font-effect-fire-animation .font-effect-neon {
-    display: none;
-    align-items: center;
-    justify-content: space-between;
+.font-effect-fire-animation {
+    display: inline-block;
+    align-items: top;
     margin: 10px;
     padding: 10px;
+    font-size: 50px;
+    
 
 }
 .font-effect-neon:hover {
     text-decoration: underline;
     background-color: aqua;
     
-p h1 {
-    font-weight: bold;
-    text-align: top;
     
-}*/
 .container {
     position: relative;
     width: 400px;
