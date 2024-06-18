@@ -10,11 +10,11 @@ a {
 .temper {
   border: solid 1px green;
   cursor: pointer;
-  padding: 2px;
-  margin: 4px 0 0 0;
+  padding: 4px;
+  margin: 5px 0 0 0;
   width: 22px;
   border-radius: 10%;
-  outline: 1px ridge rgba(170, 50, 220, .6);
+  outline: 2px ridge rgba(170, 50, 220, .6);
   box-shadow: 0 3px 6px black;
   background-color: aqua;
 }
@@ -230,16 +230,14 @@ h4 {
 
 .qr {
     display: inline-block;
-    margin: 0;
-    padding: 0;
+    margin: 5px 0 5px 0;
+    padding: 1px 0 1px 0;
     text-align: center;
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
     border-radius: 10px;
 }
-.qrcode {
-	margin: 5px 0 5px 0;
-}
+
 .qr img {
    max-width: 65%;
     width: auto;
