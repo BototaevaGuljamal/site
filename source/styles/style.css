@@ -47,7 +47,7 @@ p h1 {
 
 .search-box {
     width: 100%;
-    height: min-content;
+    height: content;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -138,12 +138,12 @@ p h1 {
 }
 
 .weather-details .humidity {
-    padding-left: 20px;
+    padding-left: 10px;
     justify-content: flex-start;
 }
 
 .weather-details .wind {
-    padding-right: 20px;
+    padding-right: 10px;
     justify-content: flex-end;
 }
 
