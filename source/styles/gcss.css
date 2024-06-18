@@ -319,15 +319,15 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
   transform: translateY(3px);
 }
 .font-effect-neon {
-    /*margin: 2px;
+    margin: 2px;
     padding: 1px 2px 1px 2px;
-    margin: 0px 2px 0px 2px;*/
+    margin: 0px 2px 0px 2px;
     display: flex;
     width: 60px;
-    /*border: solid 1px green;
+    border: solid 1px green;
     color: hsla(240, 100%, 54%, 1);
     box-shadow: 0 3px 6px black;
-    cursor: pointer;*/
+    cursor: pointer;
     border-radius: 10px;
 }
 .font-effect-neon a:hover {
@@ -336,7 +336,6 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
 .font-effect-neon:active {
   background-color: gold;
-  box-shadow: 0 2px #666;
   transform: translateY(2px);
 }
 
