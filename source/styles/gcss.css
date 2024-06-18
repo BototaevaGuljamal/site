@@ -18,6 +18,13 @@ a {
   box-shadow: 0 3px 6px black;
   background-color: aqua;
 }
+.temper:active {
+  background-color: gold;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+
 .image {
     display: flex;
     justify-content: space-between;
@@ -39,14 +46,14 @@ a {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  outline: 1px ridge rgba(170, 50, 220, .6);
+  outline: 3px ridge rgba(170, 50, 220, .6);
   border-radius: 1rem;
   color: #FF3333;
   background-color: #04AA6D;
   border: none;
   box-shadow: 0 2px #999;
   margin: 1px;
-
+  font-weight: bold;
 }
 
 .button:hover {background-color: #3e8e41}
@@ -176,11 +183,12 @@ text-align: content;
 
 video {
     display: inline;
-    padding: 0;
-    margin: 1px;
+    padding: 1px;
+    margin: 3px;
     width: 100%;
     text-align: center;
     border-radius: 20px;
+    outline: 3px ridge rgba(170, 50, 220, .6);
 }
 
 h4 {
@@ -243,6 +251,7 @@ h4 {
     width: auto;
     padding: 0;
     margin: 5px 0 0 0;
+    
 }
 .ahref {
     cursor: pointer;
