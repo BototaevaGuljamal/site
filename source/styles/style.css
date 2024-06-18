@@ -15,20 +15,6 @@ body {
     justify-content: center;
     background: #06283D;
 }
-
-.font-effect-fire-animation {
-    display: inline-block;
-    align-items: top;
-    margin: 10px;
-    padding: 10px;
-    font-size: 50px;
-    
-
-}
-.font-effect-neon:hover {
-    text-decoration: underline;
-    background-color: aqua;
-    
     
 .container {
     position: relative;
