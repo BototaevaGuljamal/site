@@ -14,6 +14,7 @@ a {
   margin: 4px 0 0 0;
   width: 22px;
   border-radius: 10%;
+  outline: 1px ridge rgba(170, 50, 220, .6);
   box-shadow: 0 3px 6px black;
   background-color: aqua;
 }
