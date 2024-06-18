@@ -14,8 +14,7 @@ a {
   width: 20px;
   border-radius: 10%;
   box-shadow: 0 3px 6px black;
-  background: aqua;
-  color: red;
+  background-color: aqua;
 }
 .image {
     display: flex;
