@@ -10,9 +10,10 @@ a {
 .temper {
   border: solid 1px green;
   cursor: pointer;
-  padding: 5px;
+  padding: 0;
   margin: 2px 0 0 0;
-  width: 25px;
+  font-size: 20px;
+  width: 22px;
   border-radius: 10%;
   box-shadow: 0 3px 6px black;
   background-color: aqua;
@@ -91,7 +92,7 @@ a {
   text-align: content;
   width: 26px;
   transition: transform 0.3s ease;
-  margin: 1px 0 0 5px;
+  margin: 1px 0 0 1px;
   padding: 0;
 }
 .btn1:focus, .inputsearch:focus{
