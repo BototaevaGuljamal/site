@@ -8,10 +8,13 @@ a {
     text-decoration: none;
 }
 .temper {
+  border: solid 1px green;
+  cursor: pointer;
   padding-top: 5px;
   width: 25px;
   border-radius: 10%;
-  box-shadow: box-shadow: 0 3px 6px black;
+  box-shadow: 0 3px 6px black;
+  
 
 }
 .image {
@@ -232,6 +235,9 @@ h4 {
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
     border-radius: 10px;
+}
+.qrcode {
+	margin: 5px 0 5px 0;
 }
 .qr img {
    max-width: 65%;
