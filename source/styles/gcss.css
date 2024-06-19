@@ -69,7 +69,7 @@ a {
 }
 .inputsearch{
   background: red;
-  border:0
+  border:0;
   font-family: arial;
   margin: -1px 0 0 0;
   height:27px;
@@ -126,7 +126,7 @@ text-align: content;
 }
 
 .carousel-item {
-    width: 95%
+    width: 95%;
     text-align: content;
     margin: 5px;
     padding: 5px;
