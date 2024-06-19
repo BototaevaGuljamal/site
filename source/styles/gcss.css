@@ -71,7 +71,7 @@ a {
   background: red;
   border:0
   font-family: arial;
-  margin: 0;
+  margin: -1px 0 0 0;
   height:27px;
   width: 27px;
   transition: width 0.3s ease;
@@ -108,6 +108,7 @@ a {
   border-radius: 10px;
   width: 234px;
   padding-left: 13px;
+  margin: 5px 0 5px 0;
 }
 .inputsearch:active {
   background-color: gold;
