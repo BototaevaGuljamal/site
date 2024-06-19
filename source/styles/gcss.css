@@ -40,7 +40,7 @@ a {
 
 .button {
   display: inline-block;
-  padding: 2px 2px;
+  padding: 0;
   font-size: 15px;
   cursor: pointer;
   text-align: center;
@@ -51,7 +51,7 @@ a {
   background-color: #04AA6D;
   border: none;
   box-shadow: 0 2px #999;
-  margin: 1px;
+  margin: 3px;
   font-weight: bold;
 }
 
@@ -59,10 +59,8 @@ a {
 
 .button:active {
   background-color: #3e8e41;
-  box-shadow: 0 2px #666;
   transform: translateY(2px);
 }
-
 	
 .search{
   position: relative;
@@ -124,6 +122,12 @@ text-align: content;
 
 }
 
+.navbar-toggler {
+    margin: 3px 0 1px 0;
+}
+.navbar-toggler-icon {
+    margin: 3px 0 1px 0;
+}
 
 .carousel-item {
     width: 95%
