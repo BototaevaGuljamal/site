@@ -40,8 +40,8 @@ a {
 
 .button {
   display: inline-block;
-  padding: -1px 1px -1px 1px;
-  font-size: 13px;
+  padding: -1px 0 -1px 0;
+  font-size: 14px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -64,7 +64,7 @@ a {
 	
 .search{
   position: relative;
-  margin: 3px 5px 0 3px;
+  margin: 3px 0 0 3px;
   padding: 3px 0 0 3px;
 }
 .inputsearch{
@@ -110,7 +110,7 @@ a {
   padding-left: 13px;
 }
 .inputsearch:active {
-  background-color: #3e8e41;
+  background-color: gold;
   transform: translateY(2px);
 }
 .search.active .btn1 {
@@ -122,11 +122,6 @@ a {
 display: none;
 text-align: content;
 
-}
-
-
-span .navbar-toggler-icon {
-    margin: 3px 0 3px 0;
 }
 
 .carousel-item {
@@ -187,7 +182,7 @@ span .navbar-toggler-icon {
 video {
     display: inline;
     padding: 0;
-    margin: 5px;
+    margin: 0;
     width: 100%;
     text-align: center;
     border-radius: 20px;
@@ -197,12 +192,12 @@ h4 {
     display: inline-block;
     text-align: center;
     position: absolute;
-  top: 5%;
+  top: 6%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
   color: aqua;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: light;
     margin: 0;
     padding: 0;
@@ -240,7 +235,7 @@ h4 {
 
 .qr {
     display: inline-block;
-    margin: 5px 0 5px 0;
+    margin: 5px 1px 5px 1px;
     padding: 1px 0 1px 0;
     text-align: center;
     border: solid 1px green;
@@ -278,12 +273,12 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     color: rgb(255, 248, 248);
     display: inline;
     padding: 1px 2px 1px 2px;
-    margin: 1px;
+    margin: 0;
 }
 
 .font-effect-anaglyph {
     background: linear-gradient(180deg, #fffeff 0%, #6ef705 100%);
-    margin: 5px;
+    margin: 0 5px 0 5px;
     padding: 4px 6px 4px 6px;
     font-size: 12px;
     border: solid 2px green;
@@ -304,7 +299,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
 .font-effect-fire-animation {
     font-size: auto;
-    margin: 5px;
+    margin: 0 5px 0 5px;
     padding: 4px 6px 4px 6px;
     font-size: 12px;
     border: solid 2px green;
@@ -323,13 +318,10 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
   transform: translateY(3px);
 }
 .font-effect-neon {
-    margin: 2px;
-    padding: 1px 2px 1px 2px;
+    padding: 0;
     margin: 0px 2px 0px 2px;
     display: flex;
-    width: 60px;
     border: solid 1px green;
-    color: hsla(240, 100%, 54%, 1);
     box-shadow: 0 3px 6px black;
     cursor: pointer;
     border-radius: 10px;
