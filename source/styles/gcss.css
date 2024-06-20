@@ -124,7 +124,7 @@ display: none;
 text-align: content;
 
 }
-
+.navbar-toggler-icon {
 	width: auto;
 	height: auto;
 	margin: 5px 0 0 0;
@@ -132,11 +132,15 @@ text-align: content;
   border-radius: 50%;
   outline: 2px ridge rgba(170, 50, 220, .6);
   box-shadow: 0 3px 6px black;
+	background: none;
+	background-color: none;
 }
 .navbar-toggler-icon:active {
         transform: translateY(2px);
 	border: none;
 	outline: none;
+	background: none;
+	background-color: none;
 }
 
 .navbar-toggler {
