@@ -125,6 +125,24 @@ text-align: content;
 
 }
 
+	width: auto;
+	height: auto;
+	margin: 5px 0 0 0;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: 2px ridge rgba(170, 50, 220, .6);
+  box-shadow: 0 3px 6px black;
+}
+.navbar-toggler-icon:active {
+        transform: translateY(2px);
+	border: none;
+	outline: none;
+}
+
+.navbar-toggler {
+	border: none;
+	outline: none;
+}
 .carousel-item {
     width: 95%;
     text-align: content;
