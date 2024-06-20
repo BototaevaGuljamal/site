@@ -320,12 +320,13 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
 .font-effect-neon {
     padding: 0;
-    margin: 0px 2px 0px 2px;
+    margin: 0;
     display: flex;
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
     cursor: pointer;
     border-radius: 10px;
+    width: 60px;
 }
 .font-effect-neon a:hover {
     text-decoration: underline;
