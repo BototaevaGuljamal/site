@@ -79,7 +79,7 @@ a {
   transition: width 0.3s ease;
   border-radius: 30px;
   text-align: left;
-  padding: 1px 5px 0 5px;
+  padding: 0 10px 0 5px;
   color: aqua;
   font-weight: bold;
   box-shadow: 0 3px 6px black;
