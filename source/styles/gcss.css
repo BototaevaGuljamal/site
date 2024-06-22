@@ -102,7 +102,7 @@ a {
   padding: 0;
 }
 
-.btn1:focus, inputsearch:focus{
+.btn1:focus, .inputsearch:focus{
   outline: none;
   width: 234px;
 
