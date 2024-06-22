@@ -78,7 +78,7 @@ a {
   width: 27px;
   transition: width 0.3s ease;
   border-radius: 30px;
-  text-align: center;
+  text-align: right;
   padding: 1px 5px 0 6px;
   color: aqua;
   font-weight: bold;
@@ -116,6 +116,7 @@ a {
   background-color: gold;
   transform: translateY(2px);
   box-shadow: 0 1px 1px black;
+  padding: 0 10px 0 5px;
 }
 .search.active {
   transform: translateX(0px);
