@@ -78,8 +78,8 @@ a {
   width: 27px;
   transition: width 0.3s ease;
   border-radius: 30px;
-  text-align: right;
-  padding: 1px 5px 0 6px;
+  text-align: left;
+  padding: 1px 5px 0 17px;
   color: aqua;
   font-weight: bold;
   box-shadow: 0 3px 6px black;
@@ -87,7 +87,7 @@ a {
 .inputsearch::placeholder {
 	color: aqua;
 }
-
+/*
 .btn1{
   border-radius: 30px;
   border:0;
@@ -101,8 +101,8 @@ a {
   margin: 1px 0 0 1px;
   padding: 0;
 }
-
-.btn1:focus, .inputsearch:focus{
+*/
+.inputsearch:focus{
   outline: none;
   width: 234px;
 
