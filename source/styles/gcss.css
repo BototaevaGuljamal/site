@@ -70,10 +70,10 @@ a {
 .inputsearch{
   background: red;
   border:0;
-  font-size: 20px;
+  font-size: 18px;
   margin: -1px 0 0 0;
-  height:26px;
-  width: 26px;
+  height:27px;
+  width: 27px;
   transition: width 0.3s ease;
   border-radius: 30px;
   text-align: center;
@@ -113,6 +113,7 @@ a {
 .inputsearch:active {
   background-color: gold;
   transform: translateY(2px);
+  box-shadow: 0 1px 1px black;
 }
 .search.active .btn1 {
   transform: translateX(0px);
@@ -141,6 +142,7 @@ text-align: content;
 	outline: none;
 	background: none;
 	background-color: none;
+	box-shadow: 0 1px 1px black;
 }
 
 .navbar-toggler {
