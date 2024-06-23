@@ -109,7 +109,7 @@ a {
 	height: auto;
 	margin: 5px 0 0 0;
   cursor: pointer;
- /outline: 2px ridge rgba(170, 50, 220, .6);
+ outline: 2px ridge rgba(170, 50, 220, .6);
   box-shadow: 0 3px 6px black;
 	background: none;
 	background-color: none;
@@ -124,15 +124,6 @@ a {
 	box-shadow: 0 0.5px 1px black;
 	border: none;
 	border-radius: 30%;
-}
-
-.navbar-toggler {
-	border: none;
-	outline: none;
-}
-.navbar-toggler:active {
-	border: none;
-	outline: none;
 }
 .carousel-item {
     width: 95%;
