@@ -121,9 +121,7 @@ a {
 
 
 .btn1, input[value="🔎"] {
-display: none;
 text-align: content;
-
 }
 /*
 .navbar-toggler-icon {
