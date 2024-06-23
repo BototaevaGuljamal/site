@@ -94,14 +94,14 @@ a {
   width: 234px;
   padding-left: 13px;
   margin: 5px 0 5px 0;
-  padding: 0 10px;
-
 }
 .inputsearch:active {
   background-color: gold;
   transform: translateY(2px);
   box-shadow: 0 1px 1px black;
-  padding: 0 10px;
+}
+inputsearch:placeholder {
+	padding: 0 10px;
 }
 .carousel-item {
     width: 95%;
