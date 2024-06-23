@@ -84,26 +84,6 @@ a {
   box-shadow: 0 3px 6px black;
 }
 
-/*
-.btn1{
-  border-radius: 30px;
-  border:0;
-  position:absolute;
-  font-size:20px;
-  cursor: pointer;
-  height: 26px;
-  text-align: content;
-  width: 26px;
-  transition: transform 0.3s ease;
-  margin: 1px 0 0 1px;
-  padding: 0;
-}*/
-.btn1 {
-	font-size: 0px;
-	border: none;
-	outline: none;
-}
-
 .inputsearch:focus{
   outline: none;
   width: 234px;
@@ -124,7 +104,6 @@ a {
   padding: 0 10px;
 }
 
-/*
 .navbar-toggler-icon {
 	width: auto;
 	height: auto;
@@ -154,7 +133,7 @@ a {
 .navbar-toggler:active {
 	border: none;
 	outline: none;
-}*/
+}
 .carousel-item {
     width: 95%;
     text-align: content;
