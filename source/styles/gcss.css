@@ -110,7 +110,8 @@ inputsearch:placeholder {
     padding: 5px;
     
 }
-.btn btn-danger {
+#liveToastBtn,
+.btn .btn-danger {
 transform: rotate(90deg);
 }
 
