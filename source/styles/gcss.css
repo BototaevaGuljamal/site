@@ -111,7 +111,7 @@ inputsearch:placeholder {
     
 }
 .btn btn-danger {
-	rotate: 50%;
+transform: rotate(90deg);
 }
 
 .accordion {
