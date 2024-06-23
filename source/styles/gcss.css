@@ -79,7 +79,7 @@ a {
   transition: width 0.3s ease;
   border-radius: 30px;
   text-align: left;
-  padding: 0 10px 0 10px;
+  padding: 0 5px;
   color: aqua;
   font-weight: bold;
   box-shadow: 0 3px 6px black;
@@ -115,11 +115,9 @@ a {
   background-color: gold;
   transform: translateY(2px);
   box-shadow: 0 1px 1px black;
+  padding: 0 10px;
 }
-.search.active {
-  transform: translateX(20px);
 
-}
 /*
 .btn1, input[value="🔎"] {
 display: none;
