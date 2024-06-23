@@ -125,6 +125,7 @@ display: none;
 text-align: content;
 
 }
+/*
 .navbar-toggler-icon {
 	width: auto;
 	height: auto;
@@ -154,7 +155,7 @@ text-align: content;
 .navbar-toggler:active {
 	border: none;
 	outline: none;
-}
+}*/
 .carousel-item {
     width: 95%;
     text-align: content;
