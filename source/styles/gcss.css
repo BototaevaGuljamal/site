@@ -112,10 +112,10 @@ inputsearch:placeholder {
 }
 #liveToastBtn,
 .btn .btn-danger {
-transform: rotate(270deg);
+transform: rotate(180deg);
 position: absolute;
-  top: 0%;
-  left: 0%;
+  top: 10%;
+  left: 10%;
   transform: translate(-50%, -50%);
   z-index: 1;
 
