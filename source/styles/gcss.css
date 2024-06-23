@@ -110,6 +110,9 @@ inputsearch:placeholder {
     padding: 5px;
     
 }
+.accordion {
+	margin: 0 0 0 50px;
+}
 .collapse ul li a:hover {
     text-decoration: underline;
     background-color: aqua;
