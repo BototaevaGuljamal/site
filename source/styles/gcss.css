@@ -89,7 +89,7 @@ a {
   border-radius: 30px;
   border:0;
   position:absolute;
-  fonts-size:20px;
+  font-size:20px;
   cursor: pointer;
   height: 26px;
   text-align: content;
@@ -99,7 +99,7 @@ a {
   padding: 0;
 }*/
 .btn1 {
-	fonts-size:0px
+	font-size: 0px;
 	border: none;
 	outline: none;
 }
@@ -124,10 +124,6 @@ a {
   padding: 0 10px;
 }
 
-
-.btn1, input[value="🔎"] {
-text-align: content;
-}
 /*
 .navbar-toggler-icon {
 	width: auto;
