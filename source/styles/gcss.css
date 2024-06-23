@@ -115,7 +115,7 @@ inputsearch:placeholder {
 transform: rotate(270deg);
 position: absolute;
   top: 0%;
-  left: 00%;
+  left: 0%;
   transform: translate(-50%, -50%);
   z-index: 1;
 
