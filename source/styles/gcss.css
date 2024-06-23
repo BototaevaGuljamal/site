@@ -110,6 +110,10 @@ inputsearch:placeholder {
     padding: 5px;
     
 }
+.btn btn-danger {
+	rotate: 50%;
+}
+
 .accordion {
 	margin: 0 0 0 50px;
 }
