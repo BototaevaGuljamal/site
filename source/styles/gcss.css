@@ -84,7 +84,7 @@ a {
   box-shadow: 0 3px 6px black;
 }
 
-/*
+
 .btn1{
   border-radius: 30px;
   border:0;
@@ -98,7 +98,7 @@ a {
   margin: 1px 0 0 1px;
   padding: 0;
 }
-*/
+
 .inputsearch:focus{
   outline: none;
   width: 234px;
@@ -119,18 +119,18 @@ a {
   padding: 0 10px;
 }
 
-/*
+
 .btn1, input[value="🔎"] {
 display: none;
 text-align: content;
 
-}*/
+}
 .navbar-toggler-icon {
 	width: auto;
 	height: auto;
 	margin: 5px 0 0 0;
   cursor: pointer;
- /* outline: 2px ridge rgba(170, 50, 220, .6);*/
+ /outline: 2px ridge rgba(170, 50, 220, .6);
   box-shadow: 0 3px 6px black;
 	background: none;
 	background-color: none;
@@ -139,7 +139,7 @@ text-align: content;
 }
 .navbar-toggler-icon:active {
         transform: translateY(2px);
-	/*outline: 1px ridge rgba(170, 50, 220, .6);*/
+	outline: 1px ridge rgba(170, 50, 220, .6);
 	background: none;
 	background-color: none;
 	box-shadow: 0 0.5px 1px black;
