@@ -103,21 +103,6 @@ a {
   box-shadow: 0 1px 1px black;
   padding: 0 10px;
 }
-
-.navbar-toggler-icon {
-	width: auto;
-	height: auto;
-	margin: 5px 0 0 0;
-  cursor: pointer;
- outline: 2px ridge rgba(170, 50, 220, .6);
-  box-shadow: 0 3px 6px black;
-	border-radius: 30%;
-}
-.navbar-toggler-icon:active {
-        transform: translateY(2px);
-	box-shadow: 0 1px 1px black;
-	border-radius: 30%;
-}
 .carousel-item {
     width: 95%;
     text-align: content;
