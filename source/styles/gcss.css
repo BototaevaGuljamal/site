@@ -144,6 +144,7 @@ inputsearch:placeholder {
   background: lime;
   margin: 5px 0 0 0;
   padding: 0 1px 0 1px;
+  width: 22px;
 }
 #liveToastBtn:active {
 	border-radius: 30%;
@@ -151,6 +152,7 @@ inputsearch:placeholder {
   background: yellow;
   margin: 5px 0 0 0;
   padding: 0 1px 0 1px;
+  width: 22px;
 }
 .accordion {
 	margin: 0 0 0 0;
