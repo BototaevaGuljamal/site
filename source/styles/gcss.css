@@ -124,14 +124,15 @@ inputsearch:placeholder {
 .btn .btn-danger {
 transform: rotate(180deg);
 position: absolute;
-  top: 10%;
-  left: 10%;
-  transform: translate(-20%, -20%);
-  z-index: 2;
+  top: 5%;
+  left: 5%;
+  transform: translate(-10%, -10%);
+  z-index: 1;
 }
 
 .accordion {
 	margin: 0 0 0 0;
+	width: auto;
 }
 .collapse ul li a:hover {
     text-decoration: underline;
