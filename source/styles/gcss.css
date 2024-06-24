@@ -110,6 +110,22 @@ inputsearch:placeholder {
     padding: 5px;
     
 }
+.navbar-toggler-icon {
+	border-radius: 30px;
+	box-shadow: 0 3px 6px black;
+}
+.navbar-toggler-icon:active {
+	border-radius: 30px;
+	box-shadow: 0 1px 2px black;
+}
+.navbar-toggler {
+	border: none;
+	outline: none;
+}
+.navbar-toggler:active {
+	border: none;
+	outline: none;
+}
 .col-lg-2 {
 	display: flex;
     justify-content: space-between;
