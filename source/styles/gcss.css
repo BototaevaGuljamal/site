@@ -139,19 +139,19 @@ inputsearch:placeholder {
 }*/
 
 #liveToastBtn {
-transform: rotate(0deg);
-position: absolute;
-  top: 5%;
-  left: 5%;
-  transform: translate(-5%, -5%);
-  z-index: 3;
   border-radius: 40%;
   box-shadow: 0 3px 6px black;
   background: aqua;
   margin: 0;
   padding: 0;
 }
-
+#liveToastBtn:active {
+	border-radius: 40%;
+  box-shadow: 0 1px 2px black;
+  background: green;
+  margin: 0;
+  padding: 0;
+}
 .accordion {
 	margin: 0 0 0 0;
 	width: auto;
