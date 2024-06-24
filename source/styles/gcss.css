@@ -120,14 +120,16 @@ inputsearch:placeholder {
     text-align: center;
 	position: relative;
 }
-#liveToastBtn,
-.btn .btn-danger {
+#liveToastBtn {
 transform: rotate(180deg);
 position: absolute;
   top: 5%;
   left: 5%;
   transform: translate(-10%, -10%);
   z-index: 1;
+  border-radius: 30px;
+  box-shadow: 0 3px 6px black;
+  background: aqua;
 }
 
 .accordion {
