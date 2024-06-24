@@ -127,6 +127,7 @@ position: absolute;
   top: 10%;
   left: 10%;
   transform: translate(-20%, -20%);
+  z-index: 1;
 }
 
 .accordion {
