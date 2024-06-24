@@ -73,7 +73,7 @@ a {
   background: red;
   border:0;
   font-size: 16px;
-  margin: 0 0 0 0;
+  margin: 1px 0 0 0;
   height:27px;
   width: 27px;
   transition: width 0.3s ease;
@@ -144,7 +144,7 @@ inputsearch:placeholder {
   border-radius: 30%;
   box-shadow: 0 3px 6px black;
   background: lime;
-  margin: 4px 0 0 0;
+  margin: 3px 0 0 0;
   padding: 0;
   width: 25px;
 }
@@ -152,9 +152,9 @@ inputsearch:placeholder {
 	border-radius: 30%;
   box-shadow: 0 1px 2px black;
   background: yellow;
-  margin: 5px 0 0 0;
+  margin: 3px 0 0 0;
   padding: 0;
-  width: 20px;
+  width: 25px;
 }
 .toast-header img {
 	width: 20px;
