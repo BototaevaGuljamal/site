@@ -130,7 +130,7 @@ position: absolute;
 }
 
 .accordion {
-	margin: 0 0 0 50px;
+	margin: 0 0 0 0;
 }
 .collapse ul li a:hover {
     text-decoration: underline;
