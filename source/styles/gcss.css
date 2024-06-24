@@ -66,8 +66,8 @@ a {
 	
 .search{
   position: relative;
-  margin: 3px 0 0 3px;
-  padding: 3px 0 0 3px;
+  margin: 0;
+  padding: 0;
 }
 .inputsearch{
   background: red;
@@ -87,12 +87,12 @@ a {
 
 .inputsearch:focus{
   outline: none;
-  width: 234px;
+  width: 200px;
 
 }
 .search.active .inputsearch{
   border-radius: 10px;
-  width: 234px;
+  width: 200px;
   padding-left: 13px;
   margin: 5px 0 5px 0;
   background: yellow;
@@ -145,16 +145,16 @@ inputsearch:placeholder {
   box-shadow: 0 3px 6px black;
   background: lime;
   margin: 5px 0 0 0;
-  padding: 0 1px 0 1px;
-  width: 22px;
+  padding: 0;
+  width: 20px;
 }
 #liveToastBtn:active {
 	border-radius: 30%;
   box-shadow: 0 1px 2px black;
   background: yellow;
   margin: 5px 0 0 0;
-  padding: 0 1px 0 1px;
-  width: 22px;
+  padding: 0;
+  width: 20px;
 }
 .accordion {
 	margin: 0 0 0 0;
