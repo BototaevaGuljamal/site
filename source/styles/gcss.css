@@ -202,17 +202,6 @@ inputsearch:placeholder {
     background: linear-gradient(315deg, #fffeff 0%, #6ef705 100%);
 }
 
-.col-lg-6 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100vh;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    position: relative;
-}
-
 video {
     display: inline;
     padding: 0;
