@@ -42,16 +42,15 @@ a {
 .button {
   display: inline-block;
   padding: -1px 0 -1px 0;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  outline: 2px ridge rgba(170, 50, 220, .6);
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   background-color: gold;
   border: none;
   box-shadow: 0 3px black;
-  margin: 5px 0 5px 0;
+  margin: 5px -1px 5px -1px;
   font-weight: bold;
 }
 
@@ -130,16 +129,6 @@ inputsearch:placeholder {
 	border: none;
 	outline: none;
 }
-/*.col-lg-2 {
-	display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100vh;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-	position: relative;
-}*/
 
 #liveToastBtn {
   border-radius: 30%;
@@ -215,7 +204,7 @@ h4 {
     display: inline-block;
     text-align: center;
     position: absolute;
-  top: 35%;
+  top: 10rem;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -292,7 +281,7 @@ h4 {
 .font-effect-3d {
     background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    font-size: auto;
+    font-size: 12px;
     color: rgb(255, 248, 248);
     display: inline;
     padding: 1px 2px 1px 2px;
@@ -348,7 +337,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     box-shadow: 0 3px 6px black;
     cursor: pointer;
     border-radius: 10px;
-    width: 60px;
+    width: 50px;
 }
 .font-effect-neon a:hover {
     text-decoration: underline;
@@ -359,19 +348,24 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
   transform: translateY(2px);
 }
 
-button.btn .btn-info {
+button .btn, .btn-info {
 	border-radius: 15px;
 	box-shadow: 0 3px 6px black;
         cursor: pointer;
 	
 }
-button.btn .btn-info:active {
+button .btn, .btn-info:active {
 transform: translateY(2px);
 background-color: lime;
+color: lime;
 border-radius: 15px;
 box-shadow: 0 1px 2px black;
 cursor: pointer;
 }
+
+
+
+
 /* MEDIA */
 
 @media (
