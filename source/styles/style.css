@@ -43,7 +43,10 @@ body {
     
 }
 .image img {
-    width: 10%;
+    width: 30%;
+}
+.image h5 {
+    color: rgb(255, 248, 248);
     
 }
 .font-effect-3d {
@@ -64,7 +67,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     box-shadow: 0 3px 6px black;
     cursor: pointer;
     border-radius: 10px;
-    width: 60px;
+    width: auto;
 }
 .font-effect-neon a:hover {
     text-decoration: underline;
