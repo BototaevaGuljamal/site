@@ -38,8 +38,8 @@ body {
     top: 0;
     left: 0;
     transform: translate(0, 0);
-    margin: 0;
-    padding: 0;
+    margin: 0 5px;
+    padding: 0 5px;
     
 }
 .weather {
@@ -83,7 +83,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
 .font-effect-neon {
     padding: 0;
-    margin: 0 0 0 5px;
+    margin: 0 5px 0 5px;
     display: flex;
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
