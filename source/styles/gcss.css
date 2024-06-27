@@ -378,7 +378,7 @@ border: none;
 
 @media (
     min-width:700px) 
-.qr {
+.qrcode {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
