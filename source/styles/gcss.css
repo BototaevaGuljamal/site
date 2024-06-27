@@ -270,7 +270,7 @@ h4 {
     background-color: aqua;
 }
 .font-effect-outline {
-    display: inline;
+    display: flex;
     color: red;
     font-size: auto;
     text-align: center;
@@ -346,19 +346,20 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 .font-effect-neon:active {
   background-color: gold;
   transform: translateY(2px);
+  box-shadow: 0 1px 2px black;
 }
 
 button .btn, .btn-info {
-	border-radius: 15px;
+	border-radius: 30px;
 	box-shadow: 0 3px 6px black;
         cursor: pointer;
-	
+	margin: 0 0 5px 0;
 }
 button .btn, .btn-info:active {
 transform: translateY(2px);
 background-color: lime;
 color: lime;
-border-radius: 15px;
+border-radius: 30px;
 box-shadow: 0 1px 2px black;
 cursor: pointer;
 }
