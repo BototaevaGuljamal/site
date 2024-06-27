@@ -51,7 +51,7 @@ body {
     position: absolute;
     z-index: 2;
     top: 12%;
-    left: 50%;
+    left: 0%;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
@@ -61,6 +61,7 @@ body {
     width: 18%;
     margin: 0;
     padding: 0;
+    display: inline;
 }
 .weather h5 {
     color: red;
@@ -69,6 +70,7 @@ body {
     padding: 0;
     font-size: 25px;
     font-style: Roboto;
+    display: inline;
 }
 
 .font-effect-3d {
