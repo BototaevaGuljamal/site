@@ -258,11 +258,12 @@ h4 {
     border: solid 1px green;
     box-shadow: 0 3px 6px black;
     border-radius: 10px;
+    background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
 }
 .qr:active{
-	box-shadow: none;
 	transform: translateY(2px);
-	border: none;
+	border: solid .5px green;
+	box-shadow: none;
 }
 .qr img {
    max-width: 65%;
@@ -367,7 +368,6 @@ button .btn, .btn-info {
 	margin: 0 1px 6px 1px;
 }
 button .btn, .btn-info:active {
-transform: translateY(2px);
 border-radius: 30px;
 box-shadow: none;
 border: none;
