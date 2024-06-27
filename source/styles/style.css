@@ -52,7 +52,7 @@ body {
     position: absolute;
     z-index: 2;
     top: 12%;
-    left: 0%;
+    left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
@@ -70,7 +70,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 25px;
-    font-style: Roboto;
+    font-style: "Roboto";
     display: inline;
 }
 
