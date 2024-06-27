@@ -136,7 +136,6 @@ inputsearch:placeholder {
 .navbar-toggler:active {
 	border: none;
 	outline: none;
-	display: none;
 }
 
 #liveToastBtn {
