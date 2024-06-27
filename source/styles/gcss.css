@@ -82,7 +82,7 @@ a {
   box-shadow: 0 3px 6px black;
   cursor: pointer;
 }
-.inputsearch::placeholder {
+.search input::placeholder {
     font-size: 20px;
     font-weight: 500;
     color: #06283D;
