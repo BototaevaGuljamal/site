@@ -96,11 +96,11 @@ a {
   background: yellow;
 }
 .inputsearch:active {
-  background-color: gold;
+  background-color: aqua;
   transform: translateY(2px);
   box-shadow: none;
 }
-inputsearch:placeholder {
+inputsearch::placeholder {
 	padding: 0 10px;
 	background: yellow;
 }
