@@ -61,7 +61,14 @@ a {
   transform: translateY(2px);
   box-shadow: 0 1px black;
 }
-	
+.hrefbutton {
+  box-shadow: 0 3px 6px black;
+}
+
+.hrefbutton:active {
+	transform: translateY(2px);
+  box-shadow: 0 1px 2px black;
+}
 .search{
   position: relative;
   margin: 0;
@@ -297,8 +304,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     margin: 0 5px 0 5px;
     padding: 4px 6px 4px 6px;
     font-size: 12px;
-    border: solid 2px green;
-    box-shadow: 0 3px 6px black;
+    border: solid 1px green;
     display: inline; 
     cursor: pointer;
     border-radius: 10px;
@@ -307,10 +313,6 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     text-decoration: underline;
     background-color: aqua;
 }
-.font-effect-anaglyph:active {
-  background-color: gold;
-  transform: translateY(3px);
-}
 
 
 .font-effect-fire-animation {
@@ -318,9 +320,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     margin: 0 5px 0 5px;
     padding: 4px 6px 4px 6px;
     font-size: 12px;
-    border: solid 2px green;
+    border: solid 1px green;
     background: linear-gradient(180deg, #fffeff 0%, #6ef705 100%);
-    box-shadow: 0 3px 6px black;
     display: inline;
     cursor: pointer;
     border-radius: 10px;
@@ -329,10 +330,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     text-decoration: underline;
     background-color: aqua;
 }
-.font-effect-fire-animation:active {
-  background-color: gold;
-  transform: translateY(3px);
-}
+
 .font-effect-neon {
     padding: 0;
     margin: 0;
