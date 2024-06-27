@@ -252,7 +252,24 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     animation-delay: 0.5s;
 }
 
-
+@media (
+    min-width:700px) {
+    .image {
+        width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    margin: 0;
+    padding: 0;
+    }
+    }
 
 
 @keyframes fadeIn {
