@@ -82,6 +82,13 @@ a {
   box-shadow: 0 3px 6px black;
   cursor: pointer;
 }
+.inputsearch::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+    color: #06283D;
+    text-transform: capitalize;
+}
+
 
 .inputsearch:focus{
   outline: none;
@@ -99,11 +106,7 @@ a {
   background-color: aqua;
   transform: translateY(2px);
   box-shadow: none;
-}
-inputsearch::placeholder {
-	padding: 0 10px;
-	background: yellow;
-}
+	
 .carousel-item {
     width: 95%;
     text-align: content;
