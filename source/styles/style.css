@@ -28,7 +28,7 @@ body {
     transition: 0.6s ease-out;
 }
 .image {
-    width: 400px;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@ body {
     padding: 0;
 }
 .weather {
-    width: 400px;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ body {
     position: absolute;
     z-index: 2;
     top: 12%;
-    left: 75%;
+    left: 65%;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
