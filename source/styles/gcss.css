@@ -153,6 +153,7 @@ inputsearch:placeholder {
   margin: 3px 0 0 0;
   padding: 0;
   width: 25px;
+  transform: translateY(2px);
 }
 .toast-header img {
 	width: 20px;
