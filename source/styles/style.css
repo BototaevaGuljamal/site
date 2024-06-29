@@ -28,7 +28,7 @@ body {
     transition: 0.6s ease-out;
 }
 .image {
-    width: 80%;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
@@ -52,25 +52,26 @@ body {
     position: absolute;
     z-index: 2;
     top: 12%;
-    left: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
 }
 
 .weather img {
-    width: 18%;
+    display: inline;
+    width: 20%;
     margin: 0;
     padding: 0;
     display: inline;
 }
 .weather h5 {
+    display: inline;
     color: red;
     font-weight: bold;
     margin: 0;
     padding: 0;
-    font-size: 25px;
-    font-style: "Roboto";
+    font-size: 30px;
     display: inline;
 }
 
@@ -89,7 +90,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     margin: 0;
     display: inline;
     cursor: pointer;
-    width: 20px;
+    width: 16px;
 }
 
 .search-box {
@@ -247,7 +248,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 @media (
     min-width:700px) {
     .image {
-        width: auto;
+        width: 1200px;
     height: auto;
     display: flex;
     align-items: center;
