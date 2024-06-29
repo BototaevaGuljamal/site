@@ -26,3 +26,9 @@
     justify-content: space-between;
     text-align: center;
 }
+
+.knopki {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
