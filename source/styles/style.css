@@ -237,6 +237,14 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     animation-delay: 0.5s;
 }
 
+@keyframes fadeIn {
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+
 @media (
     min-width:700px) {
 
@@ -253,7 +261,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
     
     .image {
-        width: 1200px;
+        width: 1000px;
     height: auto;
     display: flex;
     align-items: center;
@@ -269,7 +277,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     }
 
     .weather {
-    width: 1200px;
+    width: 1000px;
     height: auto;
     display: flex;
     align-items: center;
@@ -283,13 +291,5 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     margin: 0;
     padding: 0;
 }
-    
+        
     }
-
-
-@keyframes fadeIn {
-    to {
-        scale: 1;
-        opacity: 1;
-    }
-}
