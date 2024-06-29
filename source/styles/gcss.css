@@ -31,11 +31,16 @@ body {
 
 .font-effect-fire-animation {
     display: inline;
-    
+    border: solid 1px green;
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
 }
 
 .font-effect-anaglyph {
     display: inline;
+    border: solid 1px green;
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
 }
 .knopki {
     display: flex;
@@ -45,4 +50,7 @@ body {
 
 .temper {
     width: 20px;
+    border: solid 1px green;
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
 }
