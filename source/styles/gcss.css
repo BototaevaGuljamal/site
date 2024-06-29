@@ -32,6 +32,7 @@ body {
 .font-effect-fire-animation {
     display: inline;
     margin: 0 10% 0 5%;
+    padding: 1% 2% 1% 2%;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -40,6 +41,7 @@ body {
 .font-effect-anaglyph {
     display: inline;
     margin: 0 5% 0 10%;
+    padding: 1% 2% 1% 2%;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
