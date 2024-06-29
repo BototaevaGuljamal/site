@@ -27,6 +27,10 @@
     text-align: center;
 }
 
+.font-effect-fire-animation {
+    display: inline;
+    
+}
 .knopki {
     display: flex;
     justify-content: space-between;
