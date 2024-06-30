@@ -87,3 +87,12 @@ a:active {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
+#liveToastBtn {
+    width: 20px;
+    border: solid 1px green;
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
+}
+
+
+
