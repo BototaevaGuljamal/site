@@ -116,9 +116,9 @@ video {
     cursor: pointer;
 }
 .qr {
-    width: 60%;
-    padding: 1%;
-    margin: 2%;
+    width: 50%;
+    padding: 0;
+    margin: 0;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
