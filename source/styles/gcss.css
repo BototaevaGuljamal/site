@@ -78,7 +78,9 @@ a:active {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-
+.temper img {
+    width: 20%;
+}
 .btn .btn-light {
     padding: 0;
     margin: 4px 4px;
@@ -114,7 +116,7 @@ video {
     cursor: pointer;
 }
 .qr {
-    width: 50%;
+    width: 20%;
     padding: 1%;
     margin: 2%;
     border: solid 1px green;
