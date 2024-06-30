@@ -12,15 +12,6 @@ body {
     justify-content: space-between;
     text-align: center;
 }
-/*
-.image img {
-    
-}
-
-.image
-
-.image
-*/
 
 a {
   outline: none;
@@ -89,7 +80,7 @@ a:active {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-.btn-light {
+.btn.btn-light {
     padding: 2px 2px;
     margin: 4px 4px;
     width: 20px;
