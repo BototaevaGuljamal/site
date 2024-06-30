@@ -124,7 +124,7 @@ video {
     border-radius: 10px;
 }
 .qr img {
-    width: 50%;
+    width: auto;
     tect-align: center;
 }
 .contact {
