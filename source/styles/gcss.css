@@ -73,20 +73,16 @@ a:active {
 }
 
 .temper {
-    margin: 4px 4px 4px 4px;
-    width: 10%;
+    width: 30%;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-.temper img {
-    width: 10%;
-    padding: 2px 2px 2px 2px;
-}
+
 .btn .btn-light {
     padding: 0;
     margin: 4px 4px;
-    width: 30px;
+    width: 30%;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -98,7 +94,7 @@ a:active {
 .toast-header img {
     padding: 1px;
     margin: 2px;
-    width: 30px;
+    width: 30%;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -109,7 +105,7 @@ video {
     width: 100%;
     
 }
-.qr {
+.qrcode {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -117,10 +113,10 @@ video {
     margin: 0;
     cursor: pointer;
 }
-.qrcode {
-    width: 30%;
-    padding: 1px;
-    margin: 2px;
+.qr {
+    width: 50%;
+    padding: 1%;
+    margin: 2%;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
