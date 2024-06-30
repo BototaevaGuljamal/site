@@ -89,7 +89,7 @@ a:active {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-#liveToastBtn img{
+.reklama {
     padding: 1px;
     margin: 2px;
     width: 20px;
