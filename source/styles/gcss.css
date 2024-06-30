@@ -73,12 +73,16 @@ a:active {
 }
 
 .temper {
-    padding: 2px 2px 2px 2px;
+    
     margin: 4px 4px 4px 4px;
     width: 30px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
+}
+.temper img {
+    width: 20px;
+    padding: 2px 2px 2px 2px;
 }
 .btn .btn-light {
     padding: 0;
@@ -89,6 +93,8 @@ a:active {
     border-radius: 10px;
 }
 .btn-light img {
+    width: 20px;
+}
     
 .toast-header img {
     padding: 1px;
