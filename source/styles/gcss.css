@@ -116,7 +116,7 @@ video {
     cursor: pointer;
 }
 .qr {
-    width: 40%;
+    width: 60%;
     padding: 1%;
     margin: 2%;
     border: solid 1px green;
@@ -124,7 +124,8 @@ video {
     border-radius: 10px;
 }
 .qr img {
-    width: 20%;
+    width: 50%;
+    tect-align: center;
 }
 .contact {
     display: flex;
