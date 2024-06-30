@@ -118,7 +118,7 @@ video {
     cursor: pointer;
 }
 .qrcode {
-    width: 50%;
+    width: 30%;
     padding: 1px;
     margin: 2px;
     border: solid 1px green;
