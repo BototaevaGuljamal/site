@@ -80,7 +80,7 @@ a:active {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-button .btn, .btn-light {
+button {
     padding: 2px 2px;
     margin: 4px 4px;
     width: 20px;
@@ -100,6 +100,6 @@ button .btn, .btn-light {
 
 
 video {
-    width: 80%;
+    width: 100%;
     
 }
