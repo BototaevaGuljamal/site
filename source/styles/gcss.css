@@ -73,7 +73,7 @@ a:active {
 }
 
 .temper {
-    width: 30%;
+    width: 25%;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -116,7 +116,7 @@ video {
     cursor: pointer;
 }
 .qr {
-    width: 20%;
+    width: 40%;
     padding: 1%;
     margin: 2%;
     border: solid 1px green;
