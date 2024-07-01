@@ -127,14 +127,18 @@ video {
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
-    width: 200px;
+    width: 150px;
     padding: 0;
     margin: 5px 5px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-
+.qr img, .qr ahref {
+    display: inline;
+    text-align: center;
+    width: 140px;
+}
 .contact {
     display: flex;
     justify-content: space-between;
