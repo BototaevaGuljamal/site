@@ -78,15 +78,16 @@ a:active {
 }
 
 .temper {
-    width: 20px;
+    width: 30px;
+    padding: 5px;
+    margin: 5px;
     cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
 .temper img {
-    width: 20px;
-    padding: 5px;
+    width: auto;
 }
 .btn-light {
     width: 30px;
@@ -95,7 +96,7 @@ a:active {
     cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 .btn-light img {
     width: auto;
@@ -131,7 +132,7 @@ video {
     text-align: center;
 }
 .qr img {
-    width: 200px;
+    width: 180px;
     margin: 1px;
     padding: 1px;
     box-shadow: 0 2px 4px black;
