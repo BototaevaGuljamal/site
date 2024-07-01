@@ -118,9 +118,13 @@ a:active {
 
 .search input {
     width: 0;
+    border: none;
+    outline: none;
+    transition: 0.8s;
+    background: transparent;
 }
 
-.search input:hover {
+.search:hover input {
     width: 100px;
     
 }
