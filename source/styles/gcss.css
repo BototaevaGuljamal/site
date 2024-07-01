@@ -91,8 +91,8 @@ a:active {
 }
 .btn-light {
     width: 25px;
-    padding: 0;
-    margin: 0;
+    padding: 5px;
+    margin: 5px;
     cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
