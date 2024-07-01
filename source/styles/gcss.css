@@ -140,6 +140,8 @@ video {
     padding: 0;
     margin: 1px;
     padding: 1px;
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
 }
 
 .qr ahref {
