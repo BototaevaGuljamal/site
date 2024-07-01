@@ -135,7 +135,8 @@ video {
     border-radius: 10px;
 }
 .qr img {
-    display: inline;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
     width: 140px;
     padding: 0;
@@ -143,7 +144,8 @@ video {
 }
 
 .qr ahref {
-    display: inline;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
     width: 140px;
     padding: 0;
