@@ -112,7 +112,7 @@ a:active {
 }
 
 .search input {
-    width: 25px
+    width: 25px;
     border: none;
     outline: none;
     transition: 0.8s;
