@@ -91,7 +91,7 @@ a:active {
 }
 .btn-light {
     width: 30px;
-    padding: 5px;
+    padding: 2px;
     margin: 5px;
     cursor: pointer;
     border: solid 1px green;
@@ -126,10 +126,7 @@ video {
     margin: 0;
 }
 .qr {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: center;
+    display: inline;
 }
 .qr img {
     width: 150px;
