@@ -128,12 +128,9 @@ video {
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
-    width: 150px;
-    padding: 0;
+    width: 170px;
+    padding: 5px;
     margin: 5px 5px;
-    border: solid 1px green;
-    box-shadow: 0 2px 4px black;
-    border-radius: 10px;
 }
 .qr img {
     width: 130px;
