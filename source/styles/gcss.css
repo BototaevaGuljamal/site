@@ -110,14 +110,9 @@ a:active {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-.search {
-    display: flex;
-    box-shadow: 0 2px 4px black;
-    border-radius: 10px;
-}
 
 .search input {
-    width: 0;
+    width: 25px
     border: none;
     outline: none;
     transition: 0.8s;
@@ -125,8 +120,9 @@ a:active {
 }
 
 .search:hover input {
-    width: 100px;
-    
+    width: 150px;
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
 }
 
 video {
