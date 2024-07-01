@@ -88,16 +88,17 @@ a:active {
     width: 20px;
     padding: 5px;
 }
-.btn .btn-light {
-    padding: 0;
-    margin: 4px 4px;
+.btn-light {
+    width: 30px;
+    padding: 5px;
+    margin: 5px;
     cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
 .btn-light img {
-    width: 20px;
+    width: auto;
 }
     
 .toast-header img {
