@@ -123,18 +123,18 @@ video {
     cursor: pointer;
 }
 .qr {
-    width: 45%;
+    width: 50px;
     padding: 0;
-    margin: 5px 5px;
+    margin: 2px 2px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
     text-align: center;
 }
 .qr img {
-    width: 90%
+    width: 50px
     text-align: center;
-    margin: 5px 0 0 0;
+    margin: 2px 0 0 0;
 }
 .contact {
     display: flex;
