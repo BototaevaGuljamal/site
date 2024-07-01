@@ -16,6 +16,7 @@ body {
 a {
   outline: none;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:link {
@@ -45,17 +46,18 @@ a:active {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin: 0;
+    margin: 0 0 5px 0;
     padding: 0;
 }
 
 .font-effect-fire-animation {
     display: inline;
-    margin: 0 10% 0 5%;
+    margin: 0 10% 0 20%;
     padding: 1% 2% 1% 2%;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .font-effect-anaglyph {
@@ -65,15 +67,18 @@ a:active {
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
+    cursor: pointer;
 }
 .knopki {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin: 0 0 5px 0;
+    padding: 0;
 }
 
 .temper {
-    width: 25px;
+    cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -84,7 +89,7 @@ a:active {
 .btn .btn-light {
     padding: 0;
     margin: 4px 4px;
-    width: 30px;
+    cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -97,7 +102,7 @@ a:active {
     padding: 1px;
     margin: 2px;
     width: 30px;
-    border: solid 1px green;
+    border: none;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
@@ -105,7 +110,8 @@ a:active {
 
 video {
     width: 100%;
-    
+    margin: 5px 0 5px 0;
+    border-radius: 10px;
 }
 .qrcode {
     display: flex;
@@ -116,12 +122,13 @@ video {
     cursor: pointer;
 }
 .qr {
-    width: 50%;
+    width: 40%;
     padding: 0;
-    margin: 0;
+    margin: 5px 5px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
+    text-align: center;
 }
 .qr img {
     width: auto;
