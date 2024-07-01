@@ -87,7 +87,7 @@ a:active {
     border-radius: 10px;
 }
 .temper img {
-    width: auto;
+    width: 20px;
 }
 .btn-light {
     width: 30px;
@@ -96,10 +96,10 @@ a:active {
     cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .btn-light img {
-    width: auto;
+    width: 20px;
 }
     
 .toast-header img {
@@ -132,7 +132,7 @@ video {
     text-align: center;
 }
 .qr img {
-    width: 180px;
+    width: 150px;
     margin: 1px;
     padding: 1px;
     box-shadow: 0 2px 4px black;
