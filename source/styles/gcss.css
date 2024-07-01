@@ -134,13 +134,22 @@ video {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-.qr img, .qr ahref {
+.qr img {
     display: inline;
     text-align: center;
     width: 140px;
     padding: 0;
     margin: 1px;
 }
+
+.qr ahref {
+    display: inline;
+    text-align: center;
+    width: 140px;
+    padding: 0;
+    margin: 1px;
+}
+
 .contact {
     display: flex;
     justify-content: space-between;
