@@ -86,6 +86,7 @@ a:active {
 }
 .temper img {
     width: 20px;
+    padding: 5px;
 }
 .btn .btn-light {
     padding: 0;
