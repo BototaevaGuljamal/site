@@ -78,6 +78,7 @@ a:active {
 }
 
 .temper {
+    width: 20px;
     cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
