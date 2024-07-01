@@ -129,24 +129,13 @@ video {
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
-    width: 170px;
-    padding: 5px;
-    margin: 5px 5px;
 }
 .qr img {
-    width: 130px;
-    padding: 0;
+    width: 200px;
     margin: 1px;
     padding: 1px;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
-}
-
-.qr ahref {
-    width: 130px;
-    padding: 0;
-    margin: 1px;
-    padding:1px;
 }
 
 .contact {
