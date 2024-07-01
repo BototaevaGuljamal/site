@@ -138,6 +138,8 @@ video {
     display: inline;
     text-align: center;
     width: 140px;
+    padding: 0;
+    margin: 1px;
 }
 .contact {
     display: flex;
