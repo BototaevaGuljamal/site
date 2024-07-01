@@ -123,7 +123,7 @@ video {
     cursor: pointer;
 }
 .qr {
-    width: 40%;
+    width: 45%;
     padding: 0;
     margin: 5px 5px;
     border: solid 1px green;
@@ -132,8 +132,9 @@ video {
     text-align: center;
 }
 .qr img {
-    width: auto;
-    tect-align: center;
+    width: 90%
+    text-align: center;
+    margin: 5px 0 0 0;
 }
 .contact {
     display: flex;
