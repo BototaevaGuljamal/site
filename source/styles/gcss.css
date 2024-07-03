@@ -46,39 +46,43 @@ a:active {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    width: 100%;
+    width: 95%;
     margin: 0 0 4px 0;
     padding: 0;
 }
 
 .font-effect-fire-animation {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     display: inline;
     margin: 0;
-    padding: 2px 4px -4px 4px;
-    border: solid 1px green;
+    padding: 0;
+    border: none;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .font-effect-anaglyph {
+    font-size: 15px;
+    font-weight: bold;
     display: inline;
     margin: 0;
-    padding: 2px 4px -4px 4px;
-    border: solid 1px green;
+    padding: 0;
+    border: none;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .temper {
-    width: 40px;
+    width: 20px;
     border: solid 1px green;
     border-radius: 10px;
 }
-
+.temper img {
+    margin: 5px;
+}
 .btn-light {
     border: solid 1px green;
     border-radius: 10px;
