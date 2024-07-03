@@ -9,7 +9,7 @@ body {
 }
 .image {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
 }
 
