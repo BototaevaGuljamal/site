@@ -73,11 +73,13 @@ a:active {
 
 .temper {
     width: 20px;
+    border: solid 1px green;
     border-radius: 10px;
 }
 
 .btn-light {
-
+    border: solid 1px green;
+    border-radius: 10px;
 }
 
 .toast-header img {
