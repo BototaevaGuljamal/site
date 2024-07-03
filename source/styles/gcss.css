@@ -44,16 +44,16 @@ a:active {
 
 .hrefbutton {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
-    margin: 0 0 5px 0;
+    margin: 0;
     padding: 0;
 }
 
 .font-effect-fire-animation {
     display: inline;
     margin: 0;
-    padding: 1px;
+    padding: 2px 2px 0 2px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -63,7 +63,7 @@ a:active {
 .font-effect-anaglyph {
     display: inline;
     margin: 0;
-    padding: 1px;
+    padding: 2px 2px 0 2px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -71,28 +71,23 @@ a:active {
 }
 
 .temper {
-    width: 30px;
-    padding: 5px;
+    width: 20px;
+    padding: 2px;
     margin: 0;
     cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-.temper img {
-    width: 20px;
-}
+
 .btn-light {
-    width: 25px;
-    padding: 5px;
+    width: 20px;
+    padding: 1px;
     margin: 0;
     cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
-}
-.btn-light img {
-    width: 20px;
 }
     
 .toast-header img {
@@ -114,7 +109,7 @@ a:active {
 }
 
 .search:hover input {
-    width: 150px;
+    width: 130px;
     height: 30px;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -139,7 +134,7 @@ video {
     
 }
 .qr img {
-    width: 170px;
+    width: 160px;
     margin: 1px;
     padding: 1px;
     box-shadow: 0 2px 4px black;
