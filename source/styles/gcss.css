@@ -53,7 +53,7 @@ a:active {
 
 .font-effect-fire-animation {
     display: inline;
-    margin: 2px;
+    margin: 0;
     padding: 2px 4px 0 4px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
@@ -63,7 +63,7 @@ a:active {
 
 .font-effect-anaglyph {
     display: inline;
-    margin: 2px;
+    margin: 0;
     padding: 2px 4px 0 4px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
@@ -72,7 +72,7 @@ a:active {
 }
 
 .temper {
-    width: 30px;
+    width: 20px;
 }
 
 .btn-light {
