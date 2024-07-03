@@ -53,7 +53,7 @@ a:active {
 .font-effect-fire-animation {
     display: inline;
     margin: 2px;
-    padding: 2px 2px 0 2px;
+    padding: 2px 4px 0 4px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -63,7 +63,7 @@ a:active {
 .font-effect-anaglyph {
     display: inline;
     margin: 2px;
-    padding: 2px 2px 0 2px;
+    padding: 2px 4px 0 4px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -72,33 +72,27 @@ a:active {
 
 .temper {
     width: 20px;
-    padding: 0;
-    margin: 0;
+    padding: 4px;
+    margin: 2px;
     cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 30px;
 }
-.temper img {
-    padding: 2px;
-    margin: 2px;
-}
+
 .btn-light {
     width: 20px;
-    padding: 0;
-    margin: 0;
+    padding: 4px;
+    margin: 2px;
     cursor: pointer;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 30px;
 }
-.btn-light img {
-    padding: 2px;
-    margin: 2px;
-}    
+
 .toast-header img {
-    padding: 1px;
-    margin: 2px;
+    padding: 0;
+    margin: 0;
     width: 30px;
     border: none;
     box-shadow: 0 2px 4px black;
