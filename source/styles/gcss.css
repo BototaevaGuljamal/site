@@ -47,14 +47,14 @@ a:active {
     justify-content: space-around;
     text-align: center;
     width: 100%;
-    margin: 0;
+    margin: 0 0 4px 0;
     padding: 0;
 }
 
 .font-effect-fire-animation {
     display: inline;
     margin: 0;
-    padding: 2px 4px 0 4px;
+    padding: 2px 4px -4px 4px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -64,7 +64,7 @@ a:active {
 .font-effect-anaglyph {
     display: inline;
     margin: 0;
-    padding: 2px 4px 0 4px;
+    padding: 2px 4px -4px 4px;
     border: solid 1px green;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
