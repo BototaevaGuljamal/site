@@ -46,6 +46,7 @@ a:active {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -71,23 +72,11 @@ a:active {
 }
 
 .temper {
-    width: 20px;
-    padding: 4px;
-    margin: 2px;
-    cursor: pointer;
-    border: solid 1px green;
-    box-shadow: 0 2px 4px black;
-    border-radius: 30px;
+    
 }
 
 .btn-light {
-    width: 20px;
-    padding: 4px;
-    margin: 2px;
-    cursor: pointer;
-    border: solid 1px green;
-    box-shadow: 0 2px 4px black;
-    border-radius: 30px;
+
 }
 
 .toast-header img {
