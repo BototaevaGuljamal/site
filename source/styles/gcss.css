@@ -73,6 +73,7 @@ a:active {
 
 .temper {
     width: 20px;
+    border-radius: 10px;
 }
 
 .btn-light {
