@@ -74,8 +74,7 @@ a:active {
 }
 
 .temper {
-    width: 20px;
-    margin: 5px;
+    width: 40px;
     border: solid 1px green;
     border-radius: 10px;
 }
