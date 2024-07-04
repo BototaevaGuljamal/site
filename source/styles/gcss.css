@@ -78,15 +78,18 @@ a:active {
 }
 
 .temper {
-    width: 25px;
-    border: solid 1px green;
-    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0 5px 0 5px;
+    margin: 0px;  
+    box-shadow: 0 2px 4px black;
+    border-radius: 30px;
 }
 
 .btn-light {
     border: none;
     outline: none;
-    padding: 0px;
+    padding: 0 5px 0 5px;
     margin: 0px;  
     box-shadow: 0 2px 4px black;
     border-radius: 30px;
