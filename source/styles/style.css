@@ -42,6 +42,25 @@ body {
     margin: 0;
     padding: 0;
 }
+.image img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.image img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.neon img {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 0;  
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
+}
+
 .weather {
     width: 100%;
     height: auto;
