@@ -23,10 +23,10 @@ body {
 }
 
 .neon img {
-    width: 40px;
+    width: 35px;
     border: none;
     outline: none;
-    padding: 4px;
+    padding: 3px;
     margin: 0;  
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
