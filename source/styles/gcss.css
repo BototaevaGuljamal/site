@@ -125,7 +125,8 @@ h5:active {
     border: none;
     outline: none;
     box-sizing: border-box;
-    background: linear-gradient(360deg, #76e85f 0%, #ffffff 100%);
+    border-radius: 10px;
+    background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
 }
 
 .font-effect-fire-animation {
