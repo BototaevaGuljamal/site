@@ -30,34 +30,75 @@ body {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-a {
+.ahref, h5, h6 {
   outline: none;
   text-decoration: none;
   cursor: pointer;
 }
 
-a:link {
+h6:link {
+  color: #265301;
+}
+h5:link {
+  color: #265301;
+}
+.ahref:link {
   color: #265301;
 }
 
-a:visited {
+
+h6:visited {
+  color: #437a16;
+}
+h5:visited {
+  color: #437a16;
+}
+.ahref:visited {
   color: #437a16;
 }
 
-a:focus {
+
+h6:focus {
+  border-bottom: 1px solid;
+  background: #bae498;
+}
+h5:focus {
+  border-bottom: 1px solid;
+  background: #bae498;
+}
+.ahref:focus {
   border-bottom: 1px solid;
   background: #bae498;
 }
 
-a:hover {
+
+h6:hover {
+  border-bottom: 1px solid;
+  background: #cdfeaa;
+}
+h5:hover {
+  border-bottom: 1px solid;
+  background: #cdfeaa;
+}
+.ahref:hover {
   border-bottom: 1px solid;
   background: #cdfeaa;
 }
 
-a:active {
+
+h6:active {
   background: #265301;
   color: #cdfeaa;
 }
+h5:active {
+  background: #265301;
+  color: #cdfeaa;
+}
+.ahref:active {
+  background: #265301;
+  color: #cdfeaa;
+}
+
 
 .hrefbutton {
     display: flex;
