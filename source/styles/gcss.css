@@ -44,7 +44,7 @@ a:active {
 
 .hrefbutton {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     width: 95%;
     margin: 0 0 4px 0;
