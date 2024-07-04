@@ -101,6 +101,8 @@ a:active {
 .search input {
     width: 30px;
     height: 30px;
+    border: none;
+    outline: none;
     box-shadow: 0 2px 4px black;
     border-radius: 30px;
     transition: 0.8s;
@@ -110,6 +112,8 @@ a:active {
 .search:hover input {
     width: 130px;
     height: 30px;
+    border: none;
+    outline: none;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
