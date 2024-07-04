@@ -30,7 +30,7 @@ body {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-.ahref, h5, h6 {
+a {
   outline: none;
   text-decoration: none;
   cursor: pointer;
