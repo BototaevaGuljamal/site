@@ -84,7 +84,8 @@ a:active {
     margin: 5px;
 }
 .btn-light {
-    border: solid 1px green;
+    border: none;
+    box-shadow: 0 2px 4px black;
     border-radius: 30px;
 }
 
