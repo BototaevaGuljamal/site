@@ -15,7 +15,7 @@ body {
 .image img {
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 1px;
+  padding: 5px;
 }
 
 .image img:hover {
@@ -26,7 +26,7 @@ body {
     
     border: none;
     outline: none;
-    padding: 0;
+    padding: 5px;
     margin: 0;  
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
