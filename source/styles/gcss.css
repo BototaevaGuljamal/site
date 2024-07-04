@@ -14,8 +14,8 @@ body {
 }
 .image img {
   border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 3px;
+  border-radius: 10px;
+  padding: 4px;
 }
 
 .image img:hover {
@@ -23,9 +23,10 @@ body {
 }
 
 .neon img {
+    width: 40px;
     border: none;
     outline: none;
-    padding: 5px;
+    padding: 4px;
     margin: 0;  
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
