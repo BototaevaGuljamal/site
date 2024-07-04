@@ -95,10 +95,10 @@ a:active {
 .btn-light {
     border: none;
     outline: none;
-    padding: 0 5px 0 5px;
+    padding: 0 2px 0 2px;
     margin: 0px;  
     box-shadow: 0 2px 4px black;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .toast-header img {
