@@ -63,7 +63,9 @@ a:active {
     border-radius: 10px;
     cursor: pointer;
 }
-
+.font-effect-fire-animation a {
+    padding: 0 5px 0 5px;
+}
 .font-effect-anaglyph {
     font-size: 15px;
     font-weight: bold;
@@ -75,6 +77,9 @@ a:active {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
     cursor: pointer;
+}
+.font-effect-anaglyph a {
+    padding: 0 5px 0 5px;
 }
 
 .temper {
