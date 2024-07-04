@@ -81,7 +81,7 @@ a:active {
     width: 25px;
     border: none;
     outline: none;
-    padding: 0 5px 0 5px;
+    padding: 5px 5px 5px 5px;
     margin: 0px;  
     box-shadow: 0 2px 4px black;
     border-radius: 30px;
@@ -93,7 +93,7 @@ a:active {
     padding: 0 5px 0 5px;
     margin: 0px;  
     box-shadow: 0 2px 4px black;
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 .toast-header img {
