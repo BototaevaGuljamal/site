@@ -58,6 +58,7 @@ a:active {
     margin: 0;
     padding: 0;
     border: none;
+    outline: none;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
     cursor: pointer;
@@ -70,21 +71,23 @@ a:active {
     margin: 0;
     padding: 0;
     border: none;
+    outline: none;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .temper {
-    width: 20px;
+    width: 30px;
     border: solid 1px green;
     border-radius: 10px;
 }
 .temper img {
-    margin: 5px;
+    padding: 5px 5px;
 }
 .btn-light {
     border: none;
+    outline: none;
     box-shadow: 0 2px 4px black;
     border-radius: 30px;
 }
