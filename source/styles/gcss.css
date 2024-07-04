@@ -15,7 +15,7 @@ body {
 .image img {
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 5px;
+  padding: 3px;
 }
 
 .image img:hover {
@@ -23,7 +23,6 @@ body {
 }
 
 .neon img {
-    
     border: none;
     outline: none;
     padding: 5px;
@@ -107,7 +106,7 @@ a:active {
     padding: 3px 3px;
     margin: 0px;  
     box-shadow: 0 2px 4px black;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .btn-light {
