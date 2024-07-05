@@ -157,6 +157,19 @@ h5:active {
     background: transparent;
 }
 
+.btn-info {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
+}
+.btn-info:active {
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .font-effect-fire-animation {
     font-size: 15px;
     font-weight: bold;
@@ -272,10 +285,4 @@ video {
     margin: 0;
 }
 
-.btn-info {
-    width: 160px;
-    margin: 5px;
-    padding: 5px;
-    box-shadow: 0 2px 4px black;
-    border-radius: 10px;
-}
+
