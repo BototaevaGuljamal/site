@@ -271,3 +271,11 @@ video {
     padding: 0;
     margin: 0;
 }
+
+.btn-info {
+    width: 160px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
+}
