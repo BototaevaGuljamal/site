@@ -128,6 +128,18 @@ h5:active {
     border-radius: 10px;
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
 }
+btn-light {
+    border: none;
+    outline: none;
+}
+btn-light:hover{
+    border: none;
+    outline: none;
+}
+btn-light:active {
+    border: none;
+    outline: none;
+}
 .btn-light img {
     width: 25px;
     height: 25px;
