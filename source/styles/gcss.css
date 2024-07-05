@@ -128,6 +128,26 @@ h5:active {
     border-radius: 10px;
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
 }
+.btn-light img {
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 4px black;
+    border-radius: 25px;
+    transition: 0.8s;
+    background: transparent;
+}
+.toast-header img {
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 4px black;
+    border-radius: 25px;
+    transition: 0.8s;
+    background: transparent;
+}
 
 .font-effect-fire-animation {
     font-size: 15px;
@@ -161,28 +181,6 @@ h5:active {
 }
 
 .temper {
-    width: 25px;
-    height: 25px;
-    border: none;
-    outline: none;
-    box-shadow: 0 2px 4px black;
-    border-radius: 25px;
-    transition: 0.8s;
-    background: transparent;
-}
-
-.btn-light {
-    width: 25px;
-    height: 25px;
-    border: none;
-    outline: none;
-    box-shadow: 0 2px 4px black;
-    border-radius: 25px;
-    transition: 0.8s;
-    background: transparent;
-}
-
-.toast-header img {
     width: 25px;
     height: 25px;
     border: none;
