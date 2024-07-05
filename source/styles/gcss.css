@@ -157,7 +157,7 @@ h5:active {
 }
 .btn-light {
      box-shadow: 0 2px 4px black;
-    border-radius: 25px
+    border-radius: 25px;
 }
 .btn-light:hover{
     background-color: #3e8e41;
