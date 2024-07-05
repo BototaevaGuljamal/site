@@ -221,6 +221,8 @@ h5:active {
 }
 
 .temper {
+    width: 25px;
+    height: 25px;
      box-shadow: 0 2px 4px black;
     border-radius: 25px
 }
