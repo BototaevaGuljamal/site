@@ -134,7 +134,7 @@ h5:active {
     border: none;
     outline: none;
     box-shadow: 0 2px 4px black;
-    border-radius: 25px;
+    border-radius: 10px;
     transition: 0.8s;
     background: transparent;
 }
@@ -186,7 +186,7 @@ h5:active {
     border: none;
     outline: none;
     box-shadow: 0 2px 4px black;
-    border-radius: 25px;
+    border-radius: 10px;
     transition: 0.8s;
     background: transparent;
 }
