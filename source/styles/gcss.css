@@ -141,6 +141,12 @@ h5:active {
   transform: translateY(4px);
 }
 
+.btn-info img {
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+}
 .btn-light {
      box-shadow: 0 2px 4px black;
     border-radius: 25px
