@@ -215,6 +215,9 @@ h5:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+.temper img {
+    padding: 5px 5px;
+}
 .search input {
     width: 25px;
     height: 25px;
