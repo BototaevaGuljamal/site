@@ -170,6 +170,12 @@ btn-light:active {
     border-radius: 10px;
     cursor: pointer;
 }
+.font-effect-fire-animation:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .font-effect-fire-animation a {
     padding: 0 5px 0 5px;
 }
@@ -185,6 +191,12 @@ btn-light:active {
     border-radius: 10px;
     cursor: pointer;
 }
+.font-effect-anaglyph:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .font-effect-anaglyph a {
     padding: 0 5px 0 5px;
 }
@@ -199,7 +211,11 @@ btn-light:active {
     transition: 0.8s;
     background: transparent;
 }
-
+.temper:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .search input {
     width: 25px;
     height: 25px;
