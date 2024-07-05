@@ -127,15 +127,15 @@ h5:active {
     border-radius: 10px;
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
 }
-btn-light {
+.btn-light {
      box-shadow: 0 2px 4px black;
     border-radius: 25px
 }
-btn-light:hover{
+.btn-light:hover{
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
 }
-btn-light:active {
+.btn-light:active {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
