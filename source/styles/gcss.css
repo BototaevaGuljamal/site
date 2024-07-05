@@ -50,7 +50,9 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-
+h6 {
+    font-size: 15px;
+}
 h6:link {
   color: #265301;
 }
@@ -291,8 +293,4 @@ video {
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
-}
-
-h6 {
-    font-size: 20px;
 }
