@@ -128,17 +128,17 @@ h5:active {
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
 }
 btn-light {
-    border: none;
-    outline: none;
+     box-shadow: 0 2px 4px black;
+    border-radius: 25px
 }
 btn-light:hover{
-    border: none;
-    outline: none;
-    
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
 }
 btn-light:active {
-    border: none;
-    outline: none;
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 .btn-light img {
     width: 25px;
