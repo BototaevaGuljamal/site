@@ -237,7 +237,8 @@ h5:active {
   transform: translateY(4px);
 }
 .temper img {
-    width: 10px;
+    width: 15px;
+    height: 15px;
     border: none;
     outline: none;
 }
