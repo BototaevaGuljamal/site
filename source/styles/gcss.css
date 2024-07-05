@@ -127,6 +127,20 @@ h5:active {
     border-radius: 10px;
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
 }
+.btn-info {
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
+}
+.btn-info:hover{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}
+.btn-info:active {
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .btn-light {
      box-shadow: 0 2px 4px black;
     border-radius: 25px
@@ -157,19 +171,6 @@ h5:active {
     background: transparent;
 }
 
-.btn-info {
-    width: 25px;
-    height: 25px;
-    margin: 5px;
-    padding: 5px;
-    box-shadow: 0 2px 4px black;
-    border-radius: 10px;
-}
-.btn-info:active {
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
 .font-effect-fire-animation {
     font-size: 15px;
     font-weight: bold;
