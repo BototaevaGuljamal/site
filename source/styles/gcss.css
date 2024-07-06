@@ -57,6 +57,24 @@ body {
     display: inline;
     padding: 0 5px;
 }
+
+.contact p a img {
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 4px black;
+    border-radius: 25px;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.contact p a img:active {
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 a {
   outline: none;
   text-decoration: none;
