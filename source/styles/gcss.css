@@ -117,26 +117,7 @@ h6:active {
     border-radius: 10px;
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
 }
-.btn-success {
-    box-shadow: 0 2px 4px black;
-    border-radius: 10px;
-}
-.btn-success:hover{
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-}
-.btn-success:active {
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
 
-.btn-success img {
-    width: 25px;
-    height: 25px;
-    border: none;
-    outline: none;
-}
 h5 img {
     width: 25px;
     height: 25px;
