@@ -47,7 +47,9 @@ body {
 }
 .contact {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
     padding: 0;
     margin: 0;
 }
