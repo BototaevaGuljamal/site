@@ -43,7 +43,8 @@ body {
 }
 .image img {
     display: inline;
-    margin: 0 0 0 5px;
+    margin: 0;
+    padding: 0;
 }
 .image img:hover {
   background-color: #3e8e41}
@@ -58,8 +59,8 @@ body {
     width: 35px;
     border: none;
     outline: none;
-    padding: 3px;
-    margin: 0 0 0 0;  
+    padding: 0;
+    margin: 0;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
