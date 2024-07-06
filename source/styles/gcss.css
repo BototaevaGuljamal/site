@@ -150,16 +150,17 @@ h5:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
-.toast-header img {
+.btn-light img {
     width: 25px;
     height: 25px;
     border: none;
     outline: none;
-    box-shadow: 0 2px 4px black;
-    border-radius: 25px;
-    transition: 0.8s;
-    background: transparent;
+}
+.toast-header img {
+    width: 30px;
+    height: auto;
+    border: none;
+    outline: none;
 }
 
 .font-effect-fire-animation {
