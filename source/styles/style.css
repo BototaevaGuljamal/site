@@ -47,7 +47,8 @@ body {
     padding: 0;
 }
 .image img:hover {
-  background-color: #3e8e41}
+  background-color: #3e8e41;
+}
 
 .image img:active {
   background-color: #3e8e41;
