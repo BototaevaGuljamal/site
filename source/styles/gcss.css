@@ -244,7 +244,9 @@ h5 img {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-
+.navbar-toggler {
+    background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
+}
 video {
     width: 100%;
     margin: 5px 0 5px 0;
