@@ -188,7 +188,7 @@ h5 img {
 }
 
 .font-effect-fire-animation a {
-    padding: 0 5px 0 5px;
+    padding: 2px 5px -2px 5px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .font-effect-anaglyph {
@@ -210,7 +210,7 @@ h5 img {
 }
 
 .font-effect-anaglyph a {
-    padding: 0 5px 0 5px;
+    padding: 2px 5px -2px 5px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
