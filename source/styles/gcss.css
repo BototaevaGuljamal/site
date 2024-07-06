@@ -251,7 +251,7 @@ h5 img {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-.search input::placeholder {
+.search:active input::placeholder {
     font-size: 20px;
     font-weight: 500;
     color: #06283D;
