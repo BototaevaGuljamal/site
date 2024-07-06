@@ -174,12 +174,7 @@ h5:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.btn-light img {
-    width: 25px;
-    height: 25px;
-    border: none;
-    outline: none;
-}
+.btn-light img,
 .toast-header img {
     width: 25px;
     height: 25px;
