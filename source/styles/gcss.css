@@ -269,3 +269,10 @@ video {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
+.ahref img {
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
