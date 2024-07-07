@@ -165,7 +165,7 @@ a {
     font-size: 3rem;
     font-weight: 800;
     margin-top: 20px;
-    margin-left: -16px;
+   /* margin-left: -16px;*/
 }
 
 .weather-box .temperature span {
@@ -185,7 +185,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .weather-details .humidity,
