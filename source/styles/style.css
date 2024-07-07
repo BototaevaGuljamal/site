@@ -10,7 +10,6 @@ a {
 }
 body {
     height: 100vh;
-    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,7 +18,7 @@ body {
 
 .container {
     position: relative;
-    width: 100%;
+    width: 400px;
     height: 105px;
     background: #fff;
     padding: 28px 32px;
