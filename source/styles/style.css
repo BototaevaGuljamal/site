@@ -82,9 +82,9 @@ a {
     align-items: justify;
     position: absolute;
     z-index: 3;
-    top: 0%;;
-    left: 0%;
-    transform: translate(0%, 0%);
+    top: 10%;;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .weath img {
