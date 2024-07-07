@@ -20,7 +20,7 @@ body {
     box-sizing: border-box;
     background: linear-gradient(180deg, #76e85f 0%, #ffffff 100%);
 }
-.image img {
+.image a img {
   width: 28px;
     height: 28px;
     border: none;
