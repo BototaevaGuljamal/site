@@ -74,36 +74,28 @@ a {
     border-radius: 15px;
 }
 
-/*.weather {
+.weath {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
     align-items: justify;
-    position: absolute;
-    z-index: 2;
-    top: 10%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    margin: 0 5px 0 5px;
-    padding: 0;
 }
 
-.weather img {
+.weath img {
     display: inline;
-    width: 16%;
+    width: 50px;
     margin: 0;
     padding: 0;
 }
-.weather h5 {
+.weath h5 {
     display: inline;
     color: red;
     font-weight: bold;
     margin: 0;
     padding: 0;
-    font-size: 25px;
 }
-*/
+
 .search-box {
     width: 100%;
     height: min-content;
