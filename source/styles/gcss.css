@@ -187,7 +187,7 @@ h5 img {
   transform: translateY(4px);
 }
 .font-effect-fire-animation a {
-    margin: 0 5px -2px 5px;
+    margin: 0 5px 0 5px;
 }
 .font-effect-anaglyph {
     font-size: 14px;
@@ -206,7 +206,9 @@ h5 img {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
+.font-effect-anaglyph a {
+    margin: 0 5px 0 5px;
+}
 .temper {
     padding: 0 4.5px 0 4.5px;
      box-shadow: 0 2px 4px black;
