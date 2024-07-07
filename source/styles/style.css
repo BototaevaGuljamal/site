@@ -20,7 +20,7 @@ a {
 
 .container {
     position: relative;
-    width: 400px;
+    width: 100vw;
     height: 105px;
     background: #fff;
     padding: 28px 32px;
