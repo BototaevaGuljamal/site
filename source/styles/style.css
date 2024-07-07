@@ -106,7 +106,7 @@ body {
     width: 100%;
     height: min-content;
     display: flex;
-    align-items: justify;
+    align-items: center;
     justify-content: space-between;
 }
 
