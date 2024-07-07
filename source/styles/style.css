@@ -31,14 +31,14 @@ body {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: justify;
     position: absolute;
     z-index: 2;
     top: 0%;;
     left: 0%;
     transform: translate(0%, 0%);
-    margin: 0;
+    margin: 0 5px 0 5px;
     padding: 2px 0 5px 0;
 }
 .image img {
@@ -70,23 +70,22 @@ body {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: justify;
     position: absolute;
     z-index: 2;
     top: 12%;
     left: 55%;
     transform: translate(-50%, -50%);
-    margin: 0;
+    margin: 0 5px 0 5px;
     padding: 0;
 }
 
 .weather img {
     display: inline;
-    width: 18%;
+    width: 16%;
     margin: 0;
     padding: 0;
-    display: inline;
 }
 .weather h5 {
     display: inline;
@@ -95,7 +94,6 @@ body {
     margin: 0;
     padding: 0;
     font-size: 25px;
-    display: inline;
 }
 
 .search-box {
