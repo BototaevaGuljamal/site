@@ -11,7 +11,7 @@ a {
 body {
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: justify;
     justify-content: space-between;
     background: #06283D;
 }
