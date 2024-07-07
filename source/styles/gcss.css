@@ -137,8 +137,8 @@ h6:active {
 }
 
 h5 img {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: auto;
     border: none;
     outline: none;
 }
