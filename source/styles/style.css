@@ -80,11 +80,16 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: justify;
+    position: absolute;
+    z-index: 3;
+    top: 0%;;
+    left: 0%;
+    transform: translate(0%, 0%);
 }
 
 .weath img {
     display: inline;
-    width: 50px;
+    width: 25px;
     margin: 0;
     padding: 0;
 }
