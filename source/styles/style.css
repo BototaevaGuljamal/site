@@ -78,7 +78,7 @@ a {
     border-radius: 15px;
 }
 
-.weather {
+/*.weather {
     width: 100%;
     height: auto;
     display: flex;
@@ -107,7 +107,7 @@ a {
     padding: 0;
     font-size: 25px;
 }
-
+*/
 .search-box {
     width: 100%;
     height: min-content;
