@@ -9,9 +9,9 @@ body {
 }
 .image {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: justify;
-    margin: 0;
+    margin: 0 5px 0 5px;
     padding: 2px 0 5px 0;
     border: none;
     outline: none;
@@ -246,7 +246,21 @@ h5 img {
 }
 .navbar-toggler {
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
 }
+
+.navbar-toggler:hover{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}
+
+.navbar-toggler:active {
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 video {
     width: 100%;
     margin: 5px 0 5px 0;
@@ -254,7 +268,7 @@ video {
 }
 .qrcode {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     text-align: justify;
     padding: 0;
