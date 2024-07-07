@@ -156,27 +156,27 @@ a {
 
 .weather-box img {
     width: 60%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .weather-box .temperature {
     position: relative;
     color: #06283D;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: -16px;
 }
 
 .weather-box .temperature span {
     position: absolute;
     margin-left: 4px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .weather-box .description {
     color: #06283D;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     text-transform: capitalize;
 }
@@ -185,19 +185,20 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .weather-details .humidity,
 .weather-details .wind {
     display: flex;
     align-items: center;
-    width: 50%;
-    height: 100px;
+    width: 60%;
+    height: 80px;
 }
 
 .weather-details .humidity {
-    padding-left: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
     justify-content: flex-start;
 }
 
@@ -215,7 +216,7 @@ a {
 
 .weather-details span {
     color: #06283D;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }
 
