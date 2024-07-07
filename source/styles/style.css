@@ -42,10 +42,15 @@ body {
     padding: 2px 0 5px 0;
 }
 .image img {
-    display: inline;
-    margin: 0;
+  width: 30px;
+    border: none;
+    outline: none;
     padding: 0;
+    margin: 0;  
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
 }
+
 .image img:hover {
   background-color: #3e8e41;
 }
