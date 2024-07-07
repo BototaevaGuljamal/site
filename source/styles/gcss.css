@@ -174,7 +174,7 @@ h5 img {
     font-weight: bold;
     display: inline;
     margin: 0;
-    padding: 0 5px;
+    padding: 0 5px -1px 0;
     border: none;
     outline: none;
     box-shadow: 0 2px 4px black;
@@ -192,7 +192,7 @@ h5 img {
     font-weight: bold;
     display: inline;
     margin: 0;
-    padding: 0 5px;
+    padding: 0 5px -1px 0;
     border: none;
     outline: none;
     box-shadow: 0 2px 4px black;
@@ -263,6 +263,7 @@ video {
 .qr {
     display: inline;
     text-align: center;
+    margin: 2px 0 2px 0;
 }
 .qr img {
     height: 150px;
