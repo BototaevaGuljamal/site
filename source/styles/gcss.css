@@ -263,7 +263,7 @@ video {
 .qr {
     display: inline;
     text-align: center;
-    margin: 2px 0 2px 0;
+    margin: 5px 0 5px 0;
 }
 .qr img {
     height: 150px;
