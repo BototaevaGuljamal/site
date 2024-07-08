@@ -57,9 +57,6 @@ body {
 .font-effect-3d img {
     border: 1px solid green;
 }
-.font-effect-3d .gerb img {
-    border-radius: 15px;
-}
 .contact {
     display: flex;
     justify-content: space-around;
