@@ -54,6 +54,10 @@ body {
     box-shadow: 0 2px 4px black;
     border-radius: 15px;
 }
+.font-effect-3d img {
+    border: 1px solid green;
+}
+
 .contact {
     display: flex;
     justify-content: space-around;
