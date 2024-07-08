@@ -73,7 +73,9 @@ a {
     box-shadow: 0 2px 4px black;
     border-radius: 15px;
 }
-
+.image img {
+    border-radius: 50px;
+}
 .weath {
     width: 100%;
     height: auto;
