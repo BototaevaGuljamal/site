@@ -63,17 +63,19 @@ a {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.neon {
+.neon img {
     width: 27px;
     height: 27px;
     border: none;
     outline: none;
     padding: 1px;
-    margin: 0 5px 0 0;  
+    margin: 0;
     box-shadow: 0 2px 4px black;
     border-radius: 15px;
 }
-
+.neon {
+    margin: 0 5px 0 0;
+}
 .weath {
     width: 100%;
     height: auto;
