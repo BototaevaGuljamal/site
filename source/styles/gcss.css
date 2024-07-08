@@ -36,10 +36,10 @@ body {
     border-radius: 15px;
 }
 
-.image img:hover {
+.image a img:hover {
   background-color: #3e8e41}
 
-.image img:active {
+.image a img:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
