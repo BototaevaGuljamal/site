@@ -239,8 +239,8 @@ h5 img {
     padding: 0;
 }
 .search input {
-    width: 29px;
-    height: 29px;
+    width: 28px;
+    height: 28px;
     border: none;
     outline: none;
     box-shadow: 0 2px 4px black;
@@ -251,7 +251,7 @@ h5 img {
 
 .search:hover input {
     width: 120px;
-    height: 29px;
+    height: 28px;
     border: none;
     outline: none;
     box-shadow: 0 2px 4px black;
