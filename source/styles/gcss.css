@@ -221,9 +221,9 @@ h5 img {
     margin: 5px 5px 0 5px;
 }
 .temper {
-    padding: 0 4.5px 0 4.5px;
+    padding: 0 5px 0 5px;
      box-shadow: 0 2px 4px black;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .temper:hover{
     background-color: #3e8e41;
@@ -235,8 +235,8 @@ h5 img {
   transform: translateY(4px);
 }
 .temper img {
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     border: none;
     outline: none;
 }
