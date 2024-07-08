@@ -63,7 +63,7 @@ a {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.neon img {
+.neon {
     width: 27px;
     height: 27px;
     border: none;
