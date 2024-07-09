@@ -269,8 +269,8 @@ h5 img {
   transform: translateY(4px);
 }
 .temper img {
-    width: 25px;
-    height: 25px;
+    width: auto;
+    height: 27px;
     border: none;
     outline: none;
     margin: 5px 10px;
