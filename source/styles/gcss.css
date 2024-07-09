@@ -259,11 +259,11 @@ h5 img {
 }
 .temper:hover{
     background-color: #3e8e41;
-  box-shadow: 0 5px gold;
+  box-shadow: 0 5px #666;
 }
 .temper:active {
     background-color: #3e8e41;
-  box-shadow: 0 5px gold;
+  box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 .temper img {
@@ -271,6 +271,8 @@ h5 img {
     height: 25px;
     border: none;
     outline: none;
+    margin: 0;
+    padding: 10px 10px;
 }
 video {
     width: 100%;
