@@ -218,9 +218,8 @@ h5 img {
 }
 
 .temper {
-    padding: 0;
      box-shadow: 0 2px 4px black;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 .temper:hover{
     background-color: #3e8e41;
@@ -237,6 +236,7 @@ h5 img {
     border: none;
     outline: none;
     padding: 0;
+    margin: 0;
 }
 .search input {
     width: 28px;
