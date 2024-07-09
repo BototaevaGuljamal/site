@@ -254,7 +254,7 @@ h5 img {
   transform: translateY(4px);
 }
 .temper {
-     box-shadow: 0 2px 4px black;
+     box-shadow: 0 2px 4px yellow;
     border-radius: 25px;
 }
 .temper:hover{
