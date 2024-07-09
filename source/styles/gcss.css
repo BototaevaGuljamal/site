@@ -49,7 +49,7 @@ body {
     height: 27px;
     border: none;
     outline: none;
-    padding: 1px;
+    padding: 1px 1px;
     margin: 0 5px 0 0; 
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
