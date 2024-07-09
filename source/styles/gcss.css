@@ -276,18 +276,19 @@ h5 img {
 }
 .temper img {
     width: auto;
-    height: 27px;
+    height: 25px;
     border: none;
     outline: none;
-    margin: 5px 10px;
+    margin: 7px 8px;
     padding: 0;
 }
 h2 img {
-    width: 25px;
+    width: 24px;
 }
 
-ul li {
+ul a li {
     font-family: 'Abril Fatface', serif;
+    color: aqua;
 }
 .font-effect-emboss {
     font-size: 24px;
