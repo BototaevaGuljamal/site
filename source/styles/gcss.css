@@ -259,11 +259,11 @@ h5 img {
 }
 .temper:hover{
     background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  box-shadow: 0 5px gold;
 }
 .temper:active {
     background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  box-shadow: 0 5px gold;
   transform: translateY(4px);
 }
 .temper img {
