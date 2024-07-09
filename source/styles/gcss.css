@@ -91,6 +91,7 @@ a {
   outline: none;
   text-decoration: none;
   cursor: pointer;
+  text-shadow: 2px 2px 2px #ababab;
 }
 
 h6:link {
