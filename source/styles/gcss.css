@@ -256,7 +256,7 @@ h5 img {
   transform: translateY(4px);
 }
 .temper {
-     box-shadow: 0 2px 4px yellow;
+     box-shadow: 0 2px 4px black;
     border-radius: 25px;
 }
 .temper:hover{
@@ -273,7 +273,7 @@ h5 img {
     height: 25px;
     border: none;
     outline: none;
-    margin: 10px 10px;
+    margin: 5px 10px;
     padding: 0;
 }
 video {
