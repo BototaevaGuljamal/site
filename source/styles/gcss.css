@@ -234,12 +234,14 @@ h5 img {
 }
 
 .search:hover input {
-    width: 180px;
+    width: 170px;
     height: 28px;
     border: none;
     outline: none;
     box-shadow: 0 2px 4px black;
     border-radius: 25px;
+    background: aqua;
+    color: red;
 }
 .navbar-toggler {
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
