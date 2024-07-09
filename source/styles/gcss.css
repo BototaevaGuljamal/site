@@ -217,27 +217,7 @@ h5 img {
   transform: translateY(4px);
 }
 
-.temper {
-     box-shadow: 0 2px 4px black;
-    border-radius: 10px;
-}
-.temper:hover{
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-}
-.temper:active {
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.temper img {
-    width: 16px;
-    height: 16px;
-    border: none;
-    outline: none;
-    padding: 0 5px 0 5px;
-    margin: 0;
-}
+
 .search input {
     width: 28px;
     height: 28px;
@@ -273,7 +253,25 @@ h5 img {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
+.temper {
+     box-shadow: 0 2px 4px black;
+    border-radius: 25px;
+}
+.temper:hover{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}
+.temper:active {
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.temper img {
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+}
 video {
     width: 100%;
     margin: 5px 0 5px 0;
