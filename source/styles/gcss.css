@@ -310,3 +310,7 @@ video {
     border: none;
     outline: none;
 }
+.ahref {
+    text-shadow: 3px 3px 3px #ababab;
+}
+
