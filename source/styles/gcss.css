@@ -93,7 +93,8 @@ a {
   cursor: pointer;
 }
 h6,
-.ahref {
+.ahref,
+.a {
     text-shadow: 2px 2px 2px #ababab;
 }
 h6:link {
