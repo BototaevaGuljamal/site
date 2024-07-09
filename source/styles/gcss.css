@@ -279,14 +279,14 @@ h5 img {
     height: 25px;
     border: none;
     outline: none;
-    margin: 7px 8px;
+    margin: 7px 9px;
     padding: 0;
 }
 h2 img {
     width: 24px;
 }
 
-ul a li {
+ul li a {
     font-family: 'Abril Fatface', serif;
     color: aqua;
 }
