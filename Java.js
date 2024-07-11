@@ -11,5 +11,5 @@ return	Exits a function
 try	Implements error handling to a block of statements
 */
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
+  document.getElementById("demo4").innerHTML = "Paragraph changed.";
 }
