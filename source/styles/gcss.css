@@ -288,6 +288,7 @@ h5 img {
     padding: 0;
 }
 .btn-toggle {
+    box-shadow: 0 2px 4px black;
     border-radius: 25px;
 }
 .btn-toggle:hover{
@@ -300,7 +301,7 @@ h5 img {
   transform: translateY(4px);
 }
 .btn-toggle img {
-    width: auto;
+    width: 25px;
     height: 25px;
     border: none;
     outline: none;
