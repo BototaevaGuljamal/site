@@ -53,9 +53,7 @@ body {
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
 		<div class="hrefbutton">
-		<button>
-			<a href="Java.html"class="neon"><img src="source/files/Java.png" alt="Java"/></a>
-		</button>
+		
                   <div class="font-effect-fire-animation"><a
                         href="https://docs.google.com/presentation/d/1qY8UHBf5epSFzcZQDXUrZSKAxeo6kfrmoYrxDaKzAaM/edit?usp=drive_link"
                         class="alert-link" target="_blank">портфолио</a>
@@ -74,6 +72,10 @@ body {
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
        </button>
+		    <button>
+			<a href="Java.html"class="neon"><img src="source/files/Java.png" alt="Java"/></a>
+		</button>
+		    
 		    <a href="weather.html" class="temper">
 		       <img src="source/files/Weather.png" alt="погода">
 	                </a>
@@ -129,6 +131,20 @@ body {
     </div>
   </div>
 </div> 
+		    <label>
+  <input type="checkbox" onchange="changeTheme(this.checked)">
+  🌗
+</label>
+<script>
+  function changeTheme(isChecked) {
+    if (isChecked) {
+      document.body.setAttribute('dark', '');
+    } else {
+      document.body.removeAttribute('dark');
+    }
+  }
+</script>
+		    
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-auto mb-lg-auto">
                         <li class="nav-item">
