@@ -335,3 +335,12 @@ video {
     text-shadow: 3px 3px 3px #ababab;
 }
 
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #222222;
+    --text-color: #ffffff;
+    --accent-color: #00a7ff;
+  }
+    
