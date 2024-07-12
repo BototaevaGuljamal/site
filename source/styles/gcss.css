@@ -287,6 +287,28 @@ h5 img {
     margin: 7px 10px;
     padding: 0;
 }
+.btn-toggle {
+    order-radius: 25px;
+}
+.btn-toggle:hover{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}
+.btn-toggle:active {
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/*
+.btn-toggle img {
+    width: auto;
+    height: 24px;
+    border: none;
+    outline: none;
+    margin: 7px 10px;
+    padding: 0;
+}
+*/
 h2 img {
     width: 24px;
 }
