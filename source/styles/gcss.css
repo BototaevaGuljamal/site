@@ -288,7 +288,7 @@ h5 img {
     padding: 0;
 }
 .btn-toggle {
-    order-radius: 25px;
+    border-radius: 25px;
 }
 .btn-toggle:hover{
     background-color: #3e8e41;
@@ -299,16 +299,15 @@ h5 img {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-/*
 .btn-toggle img {
     width: auto;
-    height: 24px;
+    height: 25px;
     border: none;
     outline: none;
-    margin: 7px 10px;
+    margin: 0;
     padding: 0;
 }
-*/
+
 h2 img {
     width: 24px;
 }
