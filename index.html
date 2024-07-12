@@ -133,17 +133,8 @@ body {
 </div> 
 		    <label>
   <input type="checkbox" onchange="changeTheme(this.checked)">
-  🌗
 </label>
-<script>
-  function changeTheme(isChecked) {
-    if (isChecked) {
-      document.body.setAttribute('dark', '');
-    } else {
-      document.body.removeAttribute('dark');
-    }
-  }
-</script>
+
 		    
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-auto mb-lg-auto">
@@ -367,6 +358,15 @@ if (toastTrigger) {
   })
 }
 	</script>   
+		    <script>
+  function changeTheme(isChecked) {
+    if (isChecked) {
+      document.body.setAttribute('dark', '');
+    } else {
+      document.body.removeAttribute('dark');
+    }
+  }
+</script>
 </body>
 	
 
