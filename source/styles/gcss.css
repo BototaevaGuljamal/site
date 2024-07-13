@@ -20,14 +20,14 @@ body.dark-theme {
   color: #eee;
   background: #121212;
 }
-.navbar.dark-theme {
+ul.dark-theme {
     color: #eee;
   background: #121212;
 }
 body.dark-theme a {
   color: #809fff;
 }
-.navbar.dark-theme a {
+ul.dark-theme a {
   color: #809fff;
 }
 
