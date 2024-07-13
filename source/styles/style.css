@@ -20,10 +20,10 @@ a {
 /* Стили Тёмной темы */
 body.dark-theme {
   color: #eee;
-/*  background: #121212;*/
-  background-image: url('source/files/Night.jpg');
+  background: #121212;
+  /*background-image: url('source/files/Night.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 body.dark-theme a {
   color: #809fff;
@@ -45,8 +45,8 @@ button:active {
   transform: translateY(4px);
 }
 button img{
-    width: 20px;
-    height: 20px;
+    width: 21px;
+    height: 21px;
     border: none;
     outline: none;
     margin: 3px 3px;
