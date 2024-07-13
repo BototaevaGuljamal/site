@@ -299,7 +299,7 @@ h5 img {
 }
 button {
     box-shadow: 0 2px 4px black;
-    border-radius: 30px;
+    border-radius: 10px;
     margin: 0 3px 0 0;
 }
 button:hover{
