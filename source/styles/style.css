@@ -20,7 +20,10 @@ a {
 /* Стили Тёмной темы */
 body.dark-theme {
   color: #eee;
-  background: #121212;
+/*  background: #121212;*/
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 body.dark-theme a {
   color: #809fff;
