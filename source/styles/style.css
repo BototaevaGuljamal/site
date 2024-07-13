@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #06283D;
+    background: linear-gradient(90deg, #76e85f 0%, #ffffff 100%);
 }
 a {
     text-decoration: none;
