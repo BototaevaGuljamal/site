@@ -319,8 +319,8 @@ button:active {
   transform: translateY(4px);
 }
 button img{
-    width: 24px;
-    height: 24px;
+    width: 23px;
+    height: 23px;
     border: none;
     outline: none;
     margin: 3px 3px;
