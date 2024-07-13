@@ -16,14 +16,7 @@ body {
 a {
     text-decoration: none;
 }
-/*body {
-  color: #222;
-  background: #fff;
-}
-a {
-  color: #0033cc;
-}
-*/
+
 /* Стили Тёмной темы */
 body.dark-theme {
   color: #eee;
@@ -32,15 +25,17 @@ body.dark-theme {
 body.dark-theme a {
   color: #809fff;
 }
-button img {
+
+
+button {
     box-shadow: 0 2px 4px black;
     border-radius: 30px;
 }
-button img:hover{
+button:hover{
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
 }
-button img:active {
+button:active {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
