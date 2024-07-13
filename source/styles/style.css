@@ -21,7 +21,7 @@ a {
 body.dark-theme {
   color: #eee;
 /*  background: #121212;*/
-  background-image: url('');
+  background-image: url('source/files/Night.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
