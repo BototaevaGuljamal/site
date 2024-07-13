@@ -16,12 +16,12 @@ body {
 }
 
 /* Стили Тёмной темы */
-div.dark-theme {
+body.dark-theme {
   color: #eee;
   background: #121212;
 }
 
-div.dark-theme a {
+body.dark-theme a {
   color: #809fff;
 }
 
