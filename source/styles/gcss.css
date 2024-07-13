@@ -19,7 +19,7 @@ body {
 body.dark-theme {
   color: #eee;
   /*background: #121212;*/
-  background: <img src="source/files/Night.jpg">;
+  background image: url("source/files/Night.jpg");
 }
 ul.dark-theme {
     color: #eee;
