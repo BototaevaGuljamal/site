@@ -14,14 +14,7 @@ body {
     box-sizing: border-box;
     background: linear-gradient(90deg, #76e85f 0%, #ffffff 100%);
 }
-/*body {
-  color: #222;
-  background: #fff;
-}
-a {
-  color: #0033cc;
-}
-*/
+
 /* Стили Тёмной темы */
 body.dark-theme {
   color: #eee;
@@ -304,7 +297,7 @@ h5 img {
     margin: 7px 10px;
     padding: 0;
 }
-button img {
+button{
     box-shadow: 0 2px 4px black;
     border-radius: 30px;
 }
