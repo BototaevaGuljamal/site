@@ -18,7 +18,8 @@ body {
 /* Стили Тёмной темы */
 body.dark-theme {
   color: #eee;
-  background: #121212;
+  /*background: #121212;*/
+  background: <img src="source/files/Night.jpg">;
 }
 ul.dark-theme {
     color: #eee;
