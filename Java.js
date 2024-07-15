@@ -10,6 +10,11 @@ function	Declares a function
 return	Exits a function
 try	Implements error handling to a block of statements
 */
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+🕰</button>
+
 function myFunction() {
   document.getElementById("demo4").innerHTML = "Paragraph changed.";
 }
