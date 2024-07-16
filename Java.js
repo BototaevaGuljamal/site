@@ -11,9 +11,6 @@ return	Exits a function
 try	Implements error handling to a block of statements
 */
 
-function myFunction1() {
-document.getElementById('demo').innerHTML = Date();
-
 function myFunction() {
   document.getElementById("demo4").innerHTML = "Paragraph changed.";
 }
