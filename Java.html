@@ -8,8 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
     <title>Java</title>
-    
-
 <style>
 * {
 	margin: 10px 10px;
@@ -219,11 +217,9 @@ document.getElementById("demo13").innerHTML = cars3[0];
 </script>
 
 17.
-
-<head>
     <title>Toggle Visibility</title>
-</head>
-    <div id="myDiv" style="display: none;">Hello, World!</div>
+
+    <div id="myDiv" style="display: none;">Hello, visibility!</div>
     <button onclick="toggleVisibility()">Toggle Visibility</button>
 
     <script>
@@ -239,8 +235,6 @@ document.getElementById("demo13").innerHTML = cars3[0];
 
 
 18.
-
-<head>
     <title>Toggle Class</title>
     <style>
         .hidden {
@@ -250,35 +244,31 @@ document.getElementById("demo13").innerHTML = cars3[0];
             display: block;
         }
     </style>
-</head>
 
-    <div id="myDiv" class="hidden">Hello, World!</div>
+    <div id="myDiv2" class="hidden">Hello, class!</div>
     <button onclick="toggleClass()">Toggle Class</button>
 
     <script>
         function toggleClass() {
-            var div = document.getElementById("myDiv");
+            var div = document.getElementById("myDiv2");
             div.classList.toggle("hidden");
             div.classList.toggle("visible");
         }
     </script>
 
 20.
-
-<head>
     <title>Toggle Text</title>
-</head>
 
-    <div id="myDiv">Hello, World!</div>
+    <div id="myDiv3">Hello, Text!</div>
     <button onclick="toggleText()">Toggle Text</button>
 
     <script>
         function toggleText() {
-            var div = document.getElementById("myDiv");
-            if (div.innerHTML === "Hello, World!") {
+            var div = document.getElementById("myDiv3");
+            if (div.innerHTML === "Hello, Text!") {
                 div.innerHTML = "Goodbye, World!";
             } else {
-                div.innerHTML = "Hello, World!";
+                div.innerHTML = "Hello, Text!";
             }
         }
     </script>
