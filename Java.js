@@ -11,9 +11,8 @@ return	Exits a function
 try	Implements error handling to a block of statements
 */
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-🕰</button>
+
+onclick="document.getElementById('demo').innerHTML = Date()"
 
 function myFunction() {
   document.getElementById("demo4").innerHTML = "Paragraph changed.";
