@@ -219,6 +219,27 @@ document.getElementById("demo13").innerHTML = cars3[0];
 </script>
 
 17.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toggle Visibility</title>
+</head>
+<body>
+    <div id="myDiv" style="display: none;">Hello, World!</div>
+    <button onclick="toggleVisibility()">Toggle Visibility</button>
+
+    <script>
+        function toggleVisibility() {
+            var div = document.getElementById("myDiv");
+            if (div.style.display === "none") {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
 
 
 
