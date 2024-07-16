@@ -345,6 +345,21 @@ h2 img {
   transform: translateY(4px);
 }
 
+.dropdown-item {
+  margin: 5px 0 0 0;
+  border-radius: 5px;
+  background: linear-gradient(360deg, #76e85f 0%, #ffffff 100%);
+}
+.dropdown-item:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+}
+.dropdown-item:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 video {
     width: 100%;
     margin: 5px 0 5px 0;
