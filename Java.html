@@ -219,12 +219,10 @@ document.getElementById("demo13").innerHTML = cars3[0];
 </script>
 
 17.
-<!DOCTYPE html>
-<html>
+
 <head>
     <title>Toggle Visibility</title>
 </head>
-<body>
     <div id="myDiv" style="display: none;">Hello, World!</div>
     <button onclick="toggleVisibility()">Toggle Visibility</button>
 
@@ -238,8 +236,53 @@ document.getElementById("demo13").innerHTML = cars3[0];
             }
         }
     </script>
-</body>
-</html>
+
+
+18.
+
+<head>
+    <title>Toggle Class</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+        .visible {
+            display: block;
+        }
+    </style>
+</head>
+
+    <div id="myDiv" class="hidden">Hello, World!</div>
+    <button onclick="toggleClass()">Toggle Class</button>
+
+    <script>
+        function toggleClass() {
+            var div = document.getElementById("myDiv");
+            div.classList.toggle("hidden");
+            div.classList.toggle("visible");
+        }
+    </script>
+
+20.
+
+<head>
+    <title>Toggle Text</title>
+</head>
+
+    <div id="myDiv">Hello, World!</div>
+    <button onclick="toggleText()">Toggle Text</button>
+
+    <script>
+        function toggleText() {
+            var div = document.getElementById("myDiv");
+            if (div.innerHTML === "Hello, World!") {
+                div.innerHTML = "Goodbye, World!";
+            } else {
+                div.innerHTML = "Hello, World!";
+            }
+        }
+    </script>
+
 
 
 
