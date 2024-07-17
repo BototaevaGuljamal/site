@@ -21,9 +21,6 @@ a {
 body.dark-theme {
   color: #eee;
   background: #121212;
-  /*background-image: url('source/files/Night.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
 body.dark-theme a {
   color: #809fff;
@@ -135,6 +132,7 @@ button img{
     margin: 0;
     padding: 0;
 }
+/*
 .weath h5 {
     display: inline;
     color: maroon;
@@ -143,7 +141,7 @@ button img{
     padding: 0;
     font-size: 35px;
 }
-
+*/
 .search-box {
     width: 100%;
     height: min-content;
