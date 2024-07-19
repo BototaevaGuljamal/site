@@ -101,7 +101,7 @@ body.dark-theme a {
   transform: translateY(4px);
 }
 
-a {
+a, h6, .ahref {
   outline: none;
   text-decoration: none;
   cursor: pointer;
@@ -398,12 +398,3 @@ video {
 .ahref {
     text-shadow: 3px 3px 3px #ababab;
 }
-
-/*
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #222222;
-    --text-color: #ffffff;
-    --accent-color: #00a7ff;
-  }
-    */
