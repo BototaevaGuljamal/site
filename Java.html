@@ -50,6 +50,30 @@
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python в HTML с Brython</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.min.js"></script>
+</head>
+<body onload="brython()">
+    <h1>Пример использования Python в HTML</h1>
+
+    <script type="text/python">
+        from browser import document
+
+        def приветствие(event):
+            document["result"].text = "Привет, мир!"
+
+        document["mybutton"].bind("click", приветствие)
+    </script>
+
+    <button id="mybutton">Нажми меня</button>
+    <p id="result"></p>
+</body>
+</html>
+
+	  
 1.
 
 <h2><p id="demo"></p>
