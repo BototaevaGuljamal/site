@@ -1,1 +1,169 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="Nx7TEtl3bYYQ7-aPhOyaa7vdlkI7wqr7bRzUyh5PvG4" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <style>
+        * {
+            margin: 10px 10px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+
+    <button>
+        <a href="index.html" class="neon">
+            <img src="source/files/Home.png" width="30px" alt="Home">
+        </a>
+    </button>
+    <h4>"JAVA SCRIPT" үйрөнүү.</h4>
+
+    <!-- Animated Button -->
+    <button class="button">Нажми меня</button>
+
+    <h2><p id="demo"></p></h2>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Убакытты көрсөт!</button>
+
+    <h2>What Can JavaScript Do?</h2>
+    <p id="demo1">JavaScript can change HTML content.</p>
+    <button type="button" onclick='document.getElementById("demo1").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+    <h2>What Can JavaScript Do?</h2>
+    <p>JavaScript can change HTML attribute values.</p>
+    <p>In this case, JavaScript changes the value of the src (source) attribute of an image.</p>
+    <button onclick="document.getElementById('myImage').src='source/files/Bulbon.png'">Жандыр</button>
+    <img id="myImage" src="source/files/Bulboff.png" style="width:100px">
+    <button onclick="document.getElementById('myImage').src='source/files/Bulboff.png'">Өчүр</button>
+
+    <h2>What Can JavaScript Do?</h2>
+    <p id="demo2">JavaScript can change the style of an HTML element.</p>
+    <button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">Click Me!</button>
+
+    <h2>What Can JavaScript Do?</h2>
+    <p id="demo3">JavaScript can hide HTML elements.</p>
+    <button type="button" onclick="document.getElementById('demo3').style.display='none'">Click Me!</button>
+
+    <p id="demo4">A Paragraph.</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <h2>My First Web Page</h2>
+    <p>My first paragraph.</p>
+    <button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+    <h2>My First Web Page</h2>
+    <p>My first paragraph.</p>
+    <script>window.alert(5 + 6);</script>
+
+    <h2>The window.print() Method</h2>
+    <p>Click the button to print the current page.</p>
+    <button onclick="window.print()">Print this page</button>
+
+    <h2>JavaScript Statements</h2>
+    <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+    <p id="demo6"></p>
+    <script>
+        let x, y, z;  
+        x = 5;        
+        y = 6;        
+        z = x + y;    
+        document.getElementById("demo6").innerHTML = "The value of z is " + z + ".";  
+    </script>
+
+    <h2>JavaScript Statements</h2>
+    <p>JavaScript code blocks are written between { and }</p>
+    <button type="button" onclick="myFunction1()">Click Me!</button>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+    <script>
+        function myFunction1() {
+            document.getElementById("demo7").innerHTML = "Hello Dolly!";
+            document.getElementById("demo8").innerHTML = "How are you?";
+        }
+    </script>
+
+    <h2>JavaScript Number Methods</h2>
+    <p>The toFixed() method rounds a number to a given number of digits.</p>
+    <p>For working with money, toFixed(2) is perfect.</p>
+    <p id="demo9"></p>
+    <script>
+        let x = 9.656;
+        document.getElementById("demo9").innerHTML = x.toFixed(0) + "<br>" + x.toFixed(2) + "<br>";
+    </script>
+
+    <h1>JavaScript Arrays</h1>
+    <p id="demo10"></p>
+    <script>
+        const cars = ["Saab", "Volvo", "BMW"];
+        document.getElementById("demo10").innerHTML = cars;
+    </script>
+
+    <h1>JavaScript Arrays</h1>
+    <p id="demo11"></p>
+    <script>
+        const cars1 = ["Saab", "Volvo", "BMW"];
+        document.getElementById("demo11").innerHTML = cars1;
+    </script>
+
+    <h1>JavaScript Arrays</h1>
+    <p id="demo12"></p>
+    <script>
+        const cars2 = [];
+        cars2[0]= "Saab";
+        cars2[1]= "Volvo";
+        cars2[2]= "BMW";
+        document.getElementById("demo12").innerHTML = cars2;
+    </script>
+
+    <h1>JavaScript Arrays</h1>
+    <h2>Bracket Indexing</h2>
+    <p>JavaScript array elements are accessed using numeric indexes (starting from 0).</p>
+    <p id="demo13"></p>
+    <script>
+        const cars3 = ["Saab", "Volvo", "BMW"];
+        document.getElementById("demo13").innerHTML = cars3[0];
+    </script>
+
+    <div id="myDiv" style="display: none;">Hello, visibility!</div>
+    <button onclick="toggleVisibility()">Toggle Visibility</button>
+    <script>
+        function toggleVisibility() {
+            var div = document.getElementById("myDiv");
+            if (div.style.display === "none") {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        }
+    </script>
+
+    <div id="myDiv2" class="hidden">Hello, class!</div>
+    <button onclick="toggleClass()">Toggle Class</button>
+    <script>
+        function toggleClass() {
+            var div = document.getElementById("myDiv2");
+            div.classList.toggle("hidden");
+            div.classList.toggle("visible");
+        }
+    </script>
+
+    <div id="myDiv3">Hello, Text!</div>
+    <button onclick="toggleText()">Toggle Text</button>
+    <script>
+        function toggleText() {
+            var div = document.getElementById("myDiv3");
+            if (div.innerHTML === "Hello, Text!") {
+                div.innerHTML = "Goodbye, World!";
+            } else {
+                div.innerHTML = "Hello, Text!";
+            }
+        }
+    </script>
+
+    <script src="Java.js"></script>
+</body>
+</html>
