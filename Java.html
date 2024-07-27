@@ -15,6 +15,37 @@
     </style>
 </head>
 <body>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Акселерометр</title>
+</head>
+<body>
+    <h1>Данные акселерометра</h1>
+    <p>Acceleration X: <span id="acceleration-x">N/A</span></p>
+    <p>Acceleration Y: <span id="acceleration-y">N/A</span></p>
+    <p>Acceleration Z: <span id="acceleration-z">N/A</span></p>
+
+    <script>
+        // Проверка поддержки DeviceMotionEvent
+        if (window.DeviceMotionEvent) {
+            // Функция для обработки данных акселерометра
+            function handleMotion(event) {
+                var acc = event.acceleration;
+                document.getElementById('acceleration-x').innerText = acc.x ? acc.x.toFixed(2) : "N/A";
+                document.getElementById('acceleration-y').innerText = acc.y ? acc.y.toFixed(2) : "N/A";
+                document.getElementById('acceleration-z').innerText = acc.z ? acc.z.toFixed(2) : "N/A";
+            }
+
+            // Добавление обработчика событий
+            window.addEventListener('devicemotion', handleMotion, false);
+        } else {
+            alert("Данные акселерометра не поддерживаются вашим устройством.");
+        }
+    </script>
+</body>
+</html>
+
     <!DOCTYPE html>
 <html>
 <head>
