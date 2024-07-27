@@ -15,6 +15,30 @@
     </style>
 </head>
 <body>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Гироскоп</title>
+</head>
+<body>
+    <h1>Гироскопические данные</h1>
+    <p>Alpha: <span id="alpha"></span></p>
+    <p>Beta: <span id="beta"></span></p>
+    <p>Gamma: <span id="gamma"></span></p>
+
+    <script>
+        if (window.DeviceOrientationEvent) {
+            window.addEventListener('deviceorientation', function(event) {
+                document.getElementById('alpha').innerText = event.alpha.toFixed(2);
+                document.getElementById('beta').innerText = event.beta.toFixed(2);
+                document.getElementById('gamma').innerText = event.gamma.toFixed(2);
+            }, false);
+        } else {
+            alert("Гироскопические данные не поддерживаются вашим устройством.");
+        }
+    </script>
+</body>
+</html>
 
     <button>
         <a href="index.html" class="neon">
