@@ -15,91 +15,6 @@
     </style>
 </head>
 <body>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Акселерометр</title>
-</head>
-<body>
-    <h1>Данные акселерометра</h1>
-    <p>Acceleration X: <span id="acceleration-x">N/A</span></p>
-    <p>Acceleration Y: <span id="acceleration-y">N/A</span></p>
-    <p>Acceleration Z: <span id="acceleration-z">N/A</span></p>
-
-    <script>
-        // Проверка поддержки DeviceMotionEvent
-        if (window.DeviceMotionEvent) {
-            // Функция для обработки данных акселерометра
-            function handleMotion(event) {
-                var acc = event.acceleration;
-                document.getElementById('acceleration-x').innerText = acc.x ? acc.x.toFixed(2) : "N/A";
-                document.getElementById('acceleration-y').innerText = acc.y ? acc.y.toFixed(2) : "N/A";
-                document.getElementById('acceleration-z').innerText = acc.z ? acc.z.toFixed(2) : "N/A";
-            }
-
-            // Добавление обработчика событий
-            window.addEventListener('devicemotion', handleMotion, false);
-        } else {
-            alert("Данные акселерометра не поддерживаются вашим устройством.");
-        }
-    </script>
-</body>
-</html>
-
-    <!DOCTYPE html>
-<html>
-<head>
-    <title>Гироскоп</title>
-</head>
-<body>
-    <h1>Гироскопические данные</h1>
-    <p>Alpha: <span id="alpha">N/A</span></p>
-    <p>Beta: <span id="beta">N/A</span></p>
-    <p>Gamma: <span id="gamma">N/A</span></p>
-
-    <script>
-        // Проверка поддержки DeviceOrientationEvent
-        if (window.DeviceOrientationEvent) {
-            // Функция для обработки данных гироскопа
-            function handleOrientation(event) {
-                document.getElementById('alpha').innerText = event.alpha ? event.alpha.toFixed(2) : "N/A";
-                document.getElementById('beta').innerText = event.beta ? event.beta.toFixed(2) : "N/A";
-                document.getElementById('gamma').innerText = event.gamma ? event.gamma.toFixed(2) : "N/A";
-            }
-
-            // Добавление обработчика событий
-            window.addEventListener('deviceorientation', handleOrientation, false);
-        } else {
-            alert("Гироскопические данные не поддерживаются вашим устройством.");
-        }
-    </script>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Гироскоп</title>
-</head>
-<body>
-    <h1>Гироскопические данные</h1>
-    <p>Alpha: <span id="alpha"></span></p>
-    <p>Beta: <span id="beta"></span></p>
-    <p>Gamma: <span id="gamma"></span></p>
-
-    <script>
-        if (window.DeviceOrientationEvent) {
-            window.addEventListener('deviceorientation', function(event) {
-                document.getElementById('alpha').innerText = event.alpha.toFixed(2);
-                document.getElementById('beta').innerText = event.beta.toFixed(2);
-                document.getElementById('gamma').innerText = event.gamma.toFixed(2);
-            }, false);
-        } else {
-            alert("Гироскопические данные не поддерживаются вашим устройством.");
-        }
-    </script>
-</body>
-</html>
 
     <button>
         <a href="index.html" class="neon">
@@ -108,11 +23,8 @@
     </button>
     <h4>"JAVA SCRIPT" үйрөнүү.</h4>
 
-    <!-- Animated Button -->
-    <button class="button">Нажми меня</button>
-
     <h2><p id="demo"></p></h2>
-    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Убакытты көрсөт!</button>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Убакыт</button>
 
     <h2>What Can JavaScript Do?</h2>
     <p id="demo1">JavaScript can change HTML content.</p>
