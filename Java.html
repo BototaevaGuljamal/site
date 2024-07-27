@@ -11,10 +11,68 @@
         * {
             margin: 10px 10px;
             border: 1px solid red;
+            /* Basic styling for the button and popup */
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
         }
     </style>
 </head>
 <body>
+    <button id="openSearch">Search</button>
+
+    <div id="searchPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <input type="text" id="searchInput" placeholder="Type to search...">
+            <button id="searchButton">Search</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
 
     <button>
         <a href="index.html" class="neon">
@@ -160,7 +218,30 @@
             }
         }
     </script>
+<script>
+// Get elements
+const openSearchButton = document.getElementById('openSearch');
+const searchPopup = document.getElementById('searchPopup');
+const closeSpan = document.getElementsByClassName('close')[0];
 
+// Open the popup when the button is clicked
+openSearchButton.onclick = function() {
+    searchPopup.style.display = 'block';
+}
+
+// Close the popup when the 'x' span is clicked
+closeSpan.onclick = function() {
+    searchPopup.style.display = 'none';
+}
+
+// Close the popup when clicking outside of the popup content
+window.onclick = function(event) {
+    if (event.target == searchPopup) {
+        searchPopup.style.display = 'none';
+    }
+}
+
+    </script>
     <script src="Java.js"></script>
 </body>
 </html>
