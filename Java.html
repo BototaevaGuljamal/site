@@ -106,9 +106,37 @@ close:focus {
     <h2>What Can JavaScript Do?</h2>
     <p>JavaScript can change HTML attribute values.</p>
     <p>In this case, JavaScript changes the value of the src (source) attribute of an image.</p>
+
     <button onclick="document.getElementById('myImage').src='source/files/Bulbon.png'">Жандыр</button>
     <img id="myImage" src="source/files/Bulboff.png" style="width:100px">
     <button onclick="document.getElementById('myImage').src='source/files/Bulboff.png'">Өчүр</button>
+
+    <title>Изменяющаяся кнопка</title>
+    <style>
+        .red {
+            background-color: red;
+            color: white;
+        }
+        .blue {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+    <script>
+        function changeColor(button) {
+            if (button.classList.contains('red')) {
+                button.classList.remove('red');
+                button.classList.add('blue');
+            } else {
+                button.classList.remove('blue');
+                button.classList.add('red');
+            }
+        }
+    </script>
+
+    <button class="red" onclick="changeColor(this)">Нажми меня</button>
+
+
 
     <h2>What Can JavaScript Do?</h2>
     <p id="demo2">JavaScript can change the style of an HTML element.</p>
