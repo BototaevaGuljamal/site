@@ -22,7 +22,7 @@ a {
   color: #eee;
   background: #121212;
 }
-.dark-theme p, span, a{
+.dark-theme p, .dark-theme span, .dark-theme a{
   color: #809fff;
 }
 
