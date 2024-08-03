@@ -87,6 +87,10 @@
         btn.addEventListener("click", function () {
             // Переключаем (добавляем/удаляем) класс .dark-theme для body
             document.body.classList.toggle("dark-theme");
+       const divs = document.querySelectorAll("div");
+      divs.forEach(div => {
+        div.classList.toggle("dark-theme");
+      });
         });
     </script>
 </body>
