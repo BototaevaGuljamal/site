@@ -22,10 +22,10 @@ a {
   color: #eee;
   background: #121212;
 }
-.dark-theme p, .dark-theme div, .dark-theme i{
+/*.dark-theme {
   color: #809fff;
 }
-
+*/
 
 button {
     box-shadow: 0 2px 4px black;
