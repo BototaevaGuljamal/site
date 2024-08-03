@@ -17,14 +17,16 @@ body {
 
 /* Стили Тёмной темы */
 body.dark-theme {
+    header{
   color: #eee;
   background: #121212;
 }
-
+}
 body.dark-theme a {
+    header a{
   color: #809fff;
 }
-
+}
 .font-effect-3d {
     font-size: 15px;
 }
