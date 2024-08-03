@@ -17,13 +17,13 @@ body {
 
 /* Стили Тёмной темы */
 body.dark-theme,
-header.dark-theme{
+nav.dark-theme{
   color: #eee;
   background: #121212;
 }
 
 body.dark-theme a,
-header.dark-theme a{
+nav.dark-theme a{
   color: #809fff;
 }
 
