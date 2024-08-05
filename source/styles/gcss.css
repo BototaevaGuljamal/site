@@ -431,7 +431,7 @@ video {
     border: none;
     outline: none;
     padding: 2px 10px;
-    margin: 0; 
+    margin: 0 10px; 
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
@@ -439,7 +439,7 @@ video {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: 0 0 5px 0;
     padding: 0 0 1px 0;
     border: none;
@@ -447,5 +447,14 @@ video {
     border-radius: 25px;
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
 }
-
+.search:active input {
+    width: 200px;
+    height: 28px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 4px black;
+    border-radius: 25px;
+    background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
+    color: aqua;
+}
 }
