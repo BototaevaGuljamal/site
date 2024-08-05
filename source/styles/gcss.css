@@ -411,6 +411,10 @@ video {
     .font-effect-3d {
     font-size: 30px;
 }
+    .font-effect-3d img {
+        width: 40px;
+        height: auto;
+    }
     .image a img {
   width: 56px;
     height: 56px;
@@ -426,7 +430,7 @@ video {
     height: 54px;
     border: none;
     outline: none;
-    padding: 2px 2px;
+    padding: 2px 10px;
     margin: 0; 
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
@@ -435,7 +439,7 @@ video {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    width: 100%;
+    width: 80%;
     margin: 0 0 5px 0;
     padding: 0 0 1px 0;
     border: none;
