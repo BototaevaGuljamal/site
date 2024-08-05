@@ -411,15 +411,24 @@ video {
     .font-effect-3d {
     font-size: 30px;
 }
-    .image {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    margin: 0;
-    padding: 2px 0 5px 0;
+    .image a img {
+  width: 56px;
+    height: 56px;
     border: none;
     outline: none;
-    box-sizing: border-box;
-    background: linear-gradient(180deg, #76e85f 0%, #ffffff 100%);
+    padding: 0;
+    margin: 0 0 0 3px;  
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
+}
+    .neon img {
+    width: 54px;
+    height: 54px;
+    border: none;
+    outline: none;
+    padding: 2px 2px;
+    margin: 0; 
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
 }
 }
