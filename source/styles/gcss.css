@@ -431,4 +431,17 @@ video {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
+    .hrefbutton {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 0 0 1px 0;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
+}
+
 }
