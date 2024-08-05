@@ -16,12 +16,18 @@ body {
 }
 
 /* Стили Тёмной темы */
-.dark-theme {
+.dark-theme,
+body.dark-theme,
+div.datk-theme {
   color: #eee;
   background: #121212;
 }
 
-.dark-theme a{
+.dark-theme a,
+.dark-theme p,
+body.dark-theme a,
+div.dark-theme a,
+div.dark-theme p{
   color: #809fff;
 }
 
@@ -398,3 +404,5 @@ video {
 .ahref {
     text-shadow: 3px 3px 3px #ababab;
 }
+
+
