@@ -408,6 +408,9 @@ video {
 
 @media (
     min-width:700px) {
+    * {
+        display: none;
+    }
     .font-effect-3d {
     font-size: 30px;
 }
