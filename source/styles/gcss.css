@@ -395,17 +395,21 @@ video {
 }
 
 .btn-info {
+.btn-info {
     display: block;
     width: 100%;
-    padding: 15px; /* Отступы внутри кнопки */
-    background-color: #4CAF50; /* Цвет фона кнопки */
-    color: white; /* Цвет текста */
-    border: none; /* Без границы */
-    border-radius: 5px; /* Сглаживание углов */
-    font-size: 16px; /* Размер шрифта */
-    text-align: center; /* Текст по центру */
-    cursor: pointer; /* Курсор в виде руки при наведении */
+    max-width: 100%; /* Убедитесь, что ширина не ограничена */
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box; /* Включаем отступы и границы в расчёт ширины */
 }
+
 
 .btn-info:hover {
     background-color: #45a049; /* Изменение цвета фона при наведении */
