@@ -407,9 +407,10 @@ video {
 
 
 @media (
-    min-width:1920px) {
+    min-width:1600px) {
     * {
         display: none;
+        Сайт азырынча смартфон жана планшетте гана иштейт.
     }
     /*
     .font-effect-3d {
