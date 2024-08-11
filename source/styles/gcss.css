@@ -393,20 +393,20 @@ video {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-.btn-light{
+.btn-info{
      box-shadow: 0 2px 4px black;
     border-radius: 25px;
 }
-.btn-light:hover{
+.btn-info:hover{
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
 }
-.btn-light:active {
+.btn-info:active {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.btn-light img {
+.btn-info img {
     width: 25px;
     height: 25px;
     border: none;
@@ -430,7 +430,6 @@ video {
     min-width:1600px) {
     * {
         display: none;
-        Сайт азырынча смартфон жана планшетте гана иштейт.
     }
     /*
     .font-effect-3d {
