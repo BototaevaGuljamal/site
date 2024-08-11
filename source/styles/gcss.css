@@ -393,14 +393,24 @@ video {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-.btn-info{
-     box-shadow: 0 2px 4px black;
-    border-radius: 25px;
+
+.btn-info {
+    display: block;
+    width: 100%;
+    padding: 15px; /* Отступы внутри кнопки */
+    background-color: #4CAF50; /* Цвет фона кнопки */
+    color: white; /* Цвет текста */
+    border: none; /* Без границы */
+    border-radius: 5px; /* Сглаживание углов */
+    font-size: 16px; /* Размер шрифта */
+    text-align: center; /* Текст по центру */
+    cursor: pointer; /* Курсор в виде руки при наведении */
 }
-.btn-info:hover{
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+
+.btn-info:hover {
+    background-color: #45a049; /* Изменение цвета фона при наведении */
 }
+
 .btn-info:active {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
