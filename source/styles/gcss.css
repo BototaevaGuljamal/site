@@ -407,7 +407,7 @@ video {
 
 
 @media (
-    min-width:700px) {
+    min-width:1000px) {
     * {
         display: none;
     }
