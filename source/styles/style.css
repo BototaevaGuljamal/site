@@ -313,7 +313,7 @@ button img{
 }
 
 @media (
-    min-width:1920px) {
+    min-width:1600px) {
     * {display: none;
       }
 }
