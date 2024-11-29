@@ -437,7 +437,9 @@ video {
 .ahref {
     text-shadow: 3px 3px 3px #ababab;
 }
-
+.offcanvas-bottom {
+    padding: 0, 0, 50px, 0
+}
 
 @media (
     min-width:1600px) {
