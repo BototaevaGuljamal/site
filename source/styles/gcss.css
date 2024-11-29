@@ -438,7 +438,7 @@ video {
     text-shadow: 3px 3px 3px #ababab;
 }
 .offcanvas-bottom {
-    padding: 0, 0, 50px, 0
+    padding: 50px 50px 50px 50px
 }
 
 @media (
