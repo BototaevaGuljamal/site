@@ -26,7 +26,28 @@
     
 
 <style>
-    
+    .inputsearch {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.search-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #4285F4;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 </style>
 	
 </head>
@@ -49,7 +70,9 @@
                   </div>
         <div class="search">
        <form action="https://www.google.com/search" method="GET">
-       <input type="text" name="q" placeholder=" 🔎" class="inputsearch"/>
+       <input type="submit" value="Поиск" class="search-button"/>
+
+	       
        </form>
        </div>
 	</div>
