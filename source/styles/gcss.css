@@ -243,7 +243,27 @@ h5 img {
   transform: translateY(4px);
 }
 
-
+.inputsearch {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.search-button {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: #4285F4;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
 
 .navbar-toggler {
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
