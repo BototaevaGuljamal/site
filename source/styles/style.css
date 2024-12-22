@@ -42,8 +42,8 @@ button:active {
   transform: translateY(4px);
 }
 button img{
-    width: 50px;
-    height: 50px;
+    width: 21px;
+    height: 21px;
     border: none;
     outline: none;
     margin: 3px 3px;
@@ -190,7 +190,15 @@ button img{
     font-size: 28px;
     margin-right: 0;
 }
-
+button .lupa {
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin: 1px 1px;
+    padding: 0;
+    border-radius: 10px;
+}
 .weather-box {
     text-align: center;
 }
