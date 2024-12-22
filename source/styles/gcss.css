@@ -243,13 +243,9 @@ h5 img {
   transform: translateY(4px);
 }
 .search img {
-    width: 0px;
-    height: 0px;
-    border: none;
-    outline: none;
-    margin: 10px;
-    padding: 0;
-    font-size: 50px;
+    margin: 1px;
+    padding: 1px;
+    font-size: 16px;
 }
 .searchinput {
     width: 100%;
