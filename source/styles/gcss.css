@@ -243,6 +243,8 @@ h5 img {
   transform: translateY(4px);
 }
 .search img {
+    width: auto;
+    height: 24px;
     margin: 1px;
     padding: 1px;
     font-size: 16px;
