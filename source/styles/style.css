@@ -157,7 +157,7 @@ button img{
     font-weight: 500;
     text-transform: uppercase;
     padding-left: 32px;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 .search-box input::placeholder {
@@ -165,6 +165,7 @@ button img{
     font-weight: 500;
     color: #06283D;
     text-transform: capitalize;
+    margin-right: 50px;
 }
 
 .search-box button {
@@ -238,14 +239,15 @@ button img{
 .weather-details .humidity {
     padding-left: 2px;
     justify-content: flex-start;
+    color: #06283D;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .weather-details .wind {
     padding-right: 2px;
     justify-content: flex-end;
-}
-
-.weather-details i {
     color: #06283D;
     font-size: 20px;
     margin-right: 10px;
