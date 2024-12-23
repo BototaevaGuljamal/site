@@ -115,7 +115,7 @@ button img{
 }
 .weath {
     width: 100%;
-    height: auto;
+    height: 50%;
     display: flex;
     justify-content: space-around;
     align-items: justify;
