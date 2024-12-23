@@ -121,7 +121,7 @@ button img{
     align-items: justify;
     position: absolute;
     z-index: 3;
-    top: 15%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
