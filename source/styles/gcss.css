@@ -257,7 +257,8 @@ h5 img {
     border-radius: 10px;
 }
 .search-button {
-    padding: 0px;
+    width: 50px;
+    padding: 5px;
     font-size: 16px;
     border: none;
     background-color: #4285F4;
