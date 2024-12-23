@@ -141,7 +141,7 @@ button img{
     font-size: 24px;
     font-weight: 500;
     text-transform: uppercase;
-    padding-left: 50px;
+    padding-left: 30px;
     margin-right: 50px;
 }
 
@@ -150,7 +150,7 @@ button img{
     font-weight: 500;
     color: #06283D;
     text-transform: capitalize;
-    padding-left: 30px;
+    padding-left: 10px;
     margin-left: 10px;
 }
 
@@ -160,7 +160,7 @@ button img{
     height: 40px;
     color: #06283D;
     background: #dff6ff;
-    border-radius: 40%;
+    border-radius: 30%;
     font-size: 30px;
     transition: 0.4s ease;
 }
@@ -172,10 +172,8 @@ button img{
 
 
 button .lupa {
-    width: 20px;
-    height: 20px;
-    border: none;
-    outline: none;
+    width: 30px;
+    height: auto;
 }
 .weather-box {
     text-align: center;
