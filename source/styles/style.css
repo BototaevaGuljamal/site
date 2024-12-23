@@ -141,7 +141,7 @@ button img{
     font-size: 24px;
     font-weight: 500;
     text-transform: uppercase;
-    padding-left: 30px;
+    padding-left: 10px;
     margin-right: 50px;
 }
 
@@ -151,17 +151,17 @@ button img{
     color: #06283D;
     text-transform: capitalize;
     padding-left: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .search-box button {
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: auto;
     color: #06283D;
     background: #dff6ff;
-    border-radius: 30%;
-    font-size: 30px;
+    border-radius: 50%;
+    
     transition: 0.4s ease;
 }
 
@@ -172,7 +172,7 @@ button img{
 
 
 button .lupa {
-    width: 30px;
+    width: 40px;
     height: auto;
 }
 .weather-box {
