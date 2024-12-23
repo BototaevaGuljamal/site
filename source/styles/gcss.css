@@ -259,11 +259,11 @@ h5 img {
 .search-button {
     width: 100px;
     padding: 1px;
-    font-size: 16px;
+    font-size: 15px;
     border: none;
     background-color: #4285F4;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .search {
