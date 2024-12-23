@@ -60,6 +60,10 @@ search.addEventListener('click', () => {
                     image.src = 'images/fog.png';
                     break;
 
+                case 'Smoke':
+                    image.src = 'images/smoke.png';
+                    break;
+
                 default:
                     image.src = '';
             }
