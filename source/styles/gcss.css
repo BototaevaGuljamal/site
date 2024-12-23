@@ -257,13 +257,13 @@ h5 img {
     border-radius: 10px;
 }
 .search-button {
-    width: 50px;
-    padding: 5px;
+    width: 100px;
+    padding: 1px;
     font-size: 16px;
     border: none;
     background-color: #4285F4;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
 }
 .search {
