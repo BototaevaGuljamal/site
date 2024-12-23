@@ -121,27 +121,12 @@ button img{
     align-items: justify;
     position: absolute;
     z-index: 3;
-    top: 13%;
+    top: 11%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.weath img {
-    display: inline;
-    width: 60px;
-    margin: 0;
-    padding: 0;
-}
-/*
-.weath h5 {
-    display: inline;
-    color: maroon;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    font-size: 35px;
-}
-*/
+
 .search-box {
     width: 100%;
     height: min-content;
@@ -171,12 +156,12 @@ button img{
 
 .search-box button {
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     color: #06283D;
     background: #dff6ff;
     border-radius: 40%;
-    font-size: 50px;
+    font-size: 30px;
     transition: 0.4s ease;
 }
 
@@ -185,20 +170,12 @@ button img{
     background: #06283D;
 }
 
-.search-box img {
-    position: absolute;
-    color: #06283D;
-    font-size: 28px;
-    margin-right: 0;
-}
+
 button .lupa {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     border: none;
     outline: none;
-    margin: 1px;
-    padding: 1px;
-    font-size: 50px;
 }
 .weather-box {
     text-align: center;
