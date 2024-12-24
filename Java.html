@@ -111,6 +111,118 @@ close:focus {
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        #chat-container {
+            width: 60%;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        #messages {
+            height: 400px;
+            overflow-y: scroll;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 10px;
+            text-align: left;
+        }
+        .message {
+            margin: 10px 0;
+        }
+        .user {
+            text-align: right;
+            color: #007BFF;
+        }
+        .bot {
+            text-align: left;
+            color: #333;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>GPT Chatbot</h1>
+    <div id="chat-container">
+        <div id="messages"></div>
+        <input type="text" id="userInput" placeholder="Введите сообщение..." />
+        <button onclick="sendMessage()">Отправить</button>
+    </div>
+
+    <script>
+        const apiKey = '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';  // Вставьте свой ключ OpenAI
+        const apiUrl = 'https://api.openai.com/v1/chat/completions';
+
+        async function sendMessage() {
+            const userInput = document.getElementById('userInput').value;
+            const messagesContainer = document.getElementById('messages');
+
+            // Добавляем сообщение пользователя в чат
+            const userMessage = `<div class="message user"><strong>Вы:</strong> ${userInput}</div>`;
+            messagesContainer.innerHTML += userMessage;
+
+            // Очищаем поле ввода
+            document.getElementById('userInput').value = '';
+
+            // Отправляем запрос к OpenAI API
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${apiKey}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        model: 'gpt-4',  // Можно заменить на 'gpt-3.5-turbo'
+                        messages: [{ role: 'user', content: userInput }]
+                    })
+                });
+
+                const data = await response.json();
+                const botReply = data.choices[0].message.content;
+
+                // Добавляем ответ бота
+                const botMessage = `<div class="message bot"><strong>GPT:</strong> ${botReply}</div>`;
+                messagesContainer.innerHTML += botMessage;
+
+                // Прокрутка вниз
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+            } catch (error) {
+                console.error('Ошибка:', error);
+                const errorMessage = `<div class="message bot"><strong>Ошибка:</strong> Не удалось подключиться к GPT.</div>`;
+                messagesContainer.innerHTML += errorMessage;
+            }
+        }
+    </script>
+</body>
+</html>
 
     <!DOCTYPE html>
 <html lang="ru">
