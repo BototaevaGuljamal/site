@@ -184,6 +184,67 @@ close:focus {
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA - Astronomy Picture of the Day</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+        }
+        #image-container {
+            margin-top: 20px;
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+        }
+        #description {
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>NASA - Astronomy Picture of the Day</h1>
+    <div id="image-container">
+        <h2 id="title">Загрузка...</h2>
+        <img id="apodImage" src="" alt="NASA Image of the Day">
+        <p id="description"></p>
+    </div>
+
+    <script>
+        const apiKey = "zULSQrSqjCYjIR9V8hIUEJEeO3V28V1wGQ3QXCU8";
+        const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
+
+        async function fetchAPOD() {
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+
+                document.getElementById("title").textContent = data.title;
+                document.getElementById("apodImage").src = data.url;
+                document.getElementById("description").textContent = data.explanation;
+            } catch (error) {
+                console.error("Ошибка загрузки данных:", error);
+                document.getElementById("title").textContent = "Ошибка загрузки изображения.";
+                document.getElementById("description").textContent = "Попробуйте позже.";
+            }
+        }
+
+        fetchAPOD();
+    </script>
+</body>
+</html>
 
     <h2><p id="demo"></p></h2>
     <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Убакыт</button>
