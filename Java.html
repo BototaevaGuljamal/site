@@ -218,6 +218,82 @@ close:focus {
     <h1>NASA - Astronomy Picture of the Day</h1>
     <div id="image-container">
         <h2 id="title">Загрузка...</h2>
+        <img id="apodImage" src="" alt="NASA Image of the Day" style="display: none;">
+        <p id="description"></p>
+    </div>
+
+    <script>
+        const apiKey = "zULSQrSqjCYjIR9V8hIUEJEeO3V28V1wGQ3QXCU8";
+        const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
+
+        async function fetchAPOD() {
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+
+                if (response.ok) {
+                    document.getElementById("title").textContent = data.title;
+                    document.getElementById("description").textContent = data.explanation;
+
+                    // Проверка типа медиа (изображение или видео)
+                    if (data.media_type === "image") {
+                        document.getElementById("apodImage").src = data.url;
+                        document.getElementById("apodImage").style.display = "block";
+                    } else if (data.media_type === "video") {
+                        document.getElementById("description").innerHTML += `
+                            <br><a href="${data.url}" target="_blank">Смотреть видео</a>
+                        `;
+                    }
+                } else {
+                    document.getElementById("title").textContent = "Ошибка: " + data.code;
+                    document.getElementById("description").textContent = data.msg;
+                }
+            } catch (error) {
+                document.getElementById("title").textContent = "Ошибка подключения!";
+                document.getElementById("description").textContent = error.message;
+            }
+        }
+
+        fetchAPOD();
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA - Astronomy Picture of the Day</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+        }
+        #image-container {
+            margin-top: 20px;
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+        }
+        #description {
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>NASA - Astronomy Picture of the Day</h1>
+    <div id="image-container">
+        <h2 id="title">Загрузка...</h2>
         <img id="apodImage" src="" alt="NASA Image of the Day">
         <p id="description"></p>
     </div>
