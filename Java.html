@@ -672,6 +672,44 @@ window.onclick = function(event) {
 }
 
     </script>
+<script>
+    function calculate(operation) {
+        const num1 = parseFloat(document.getElementById("num1").value) || 0;
+        const num2 = parseFloat(document.getElementById("num2").value) || 0;
+        let result = 0;
+
+        switch(operation) {
+            case '+':
+                result = num1 + num2;
+                break;
+            case '-':
+                result = num1 - num2;
+                break;
+            case '*':
+                result = num1 * num2;
+                break;
+            case '/':
+                result = num2 !== 0 ? (num1 / num2) : 'Error (÷0)';
+                break;
+            case '^':
+                result = Math.pow(num1, num2);
+                break;
+            default:
+                result = 'Invalid Operation';
+        }
+        document.getElementById("result").innerText = `Result: ${result}`;
+    }
+
+    function sqrt() {
+        const num1 = parseFloat(document.getElementById("num1").value);
+        if (num1 >= 0) {
+            document.getElementById("result").innerText = `Result: ${Math.sqrt(num1)}`;
+        } else {
+            document.getElementById("result").innerText = 'Error (√ отриц. числа)';
+        }
+    }
+</script>
+
     <script src="Java.js"></script>
 </body>
 </html>
