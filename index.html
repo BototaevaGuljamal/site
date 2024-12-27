@@ -24,14 +24,50 @@
     <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
     <title>GB</title>
     
-
-<style>
     
-
-</style>
-	
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .calculator {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        input, button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
+
+<div class="calculator">
+    <h1>Calculator</h1>
+    <input type="number" id="num1" placeholder="Number 1">
+    <input type="number" id="num2" placeholder="Number 2 (for ^)">
+    
+    <div>
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate('*')">×</button>
+        <button onclick="calculate('/')">÷</button>
+        <button onclick="calculate('^')">^</button>
+        <button onclick="sqrt()">√</button>
+    </div>
+    
+    <h2 id="result">Result: 0</h2>
+</div>
+
+
    <div class="image">
     <a href="source/files/favicon_io/android-chrome-512x512.png"> <img src="source/files/favicon_io/android-chrome-512x512.png" alt="ЛОГОТИП"></a>
     <div class="font-effect-3d"><img src="source/files/Flag.jpg" alt="flag" width="20px"> Бототаева Гулжамал Закировна <img src="source/files/Gerb.jpg" alt="gerb" width="20px"></div>
@@ -366,6 +402,43 @@ if (toastTrigger) {
   })
 }
 	</script>   
+<script>
+    function calculate(operation) {
+        const num1 = parseFloat(document.getElementById("num1").value) || 0;
+        const num2 = parseFloat(document.getElementById("num2").value) || 0;
+        let result = 0;
+
+        switch(operation) {
+            case '+':
+                result = num1 + num2;
+                break;
+            case '-':
+                result = num1 - num2;
+                break;
+            case '*':
+                result = num1 * num2;
+                break;
+            case '/':
+                result = num2 !== 0 ? (num1 / num2) : 'Error (÷0)';
+                break;
+            case '^':
+                result = Math.pow(num1, num2);
+                break;
+            default:
+                result = 'Invalid Operation';
+        }
+        document.getElementById("result").innerText = `Result: ${result}`;
+    }
+
+    function sqrt() {
+        const num1 = parseFloat(document.getElementById("num1").value);
+        if (num1 >= 0) {
+            document.getElementById("result").innerText = `Result: ${Math.sqrt(num1)}`;
+        } else {
+            document.getElementById("result").innerText = 'Error (√ отриц. числа)';
+        }
+    }
+</script>
 
 </body>
 	
