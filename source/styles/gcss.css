@@ -1,4 +1,6 @@
-* {
+/* Смартфоны (до 599px) */
+@media (max-width: 599px) {
+    * {
     margin: 0px;
     padding: 0px;
     border: none;
@@ -22,7 +24,6 @@ div.datk-theme {
   color: #eee;
   background: #121212;
 }
-
 .dark-theme a,
 .dark-theme p,
 body.dark-theme a,
@@ -100,7 +101,6 @@ div.dark-theme p{
     transition: 0.8s;
     background: transparent;
 }
-
 .contact p a img:active {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
@@ -180,7 +180,6 @@ h5 img {
     border: none;
     outline: none;
 }
-
 .btn-light {
      box-shadow: 0 2px 4px black;
     border-radius: 25px;
@@ -206,7 +205,6 @@ h5 img {
     border: none;
     outline: none;
 }
-
 .font-effect-fire-animation {
     font-size: 15px;
     font-weight: bold;
@@ -400,7 +398,6 @@ video {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-
 .btn-info {
     display: block;
     width: 100%;
@@ -452,12 +449,6 @@ video {
     margin: 0px
     padding: 0px
 }
-
-/* Смартфоны (до 599px) */
-@media (max-width: 599px) {
-    .example {
-        background-color: lightblue;
-    }
 }
 
 /* Планшеты (от 600px до 1023px) */
