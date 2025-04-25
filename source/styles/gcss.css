@@ -48,7 +48,7 @@ div.dark-theme p{
     
     box-sizing: border-box;
 }
-.image a img {
+/*.image a img {
   width: 28px;
   height: 28px;
     
@@ -65,7 +65,7 @@ div.dark-theme p{
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
+} */
 .neon img {
     width: 27px;
     height: 27px;
