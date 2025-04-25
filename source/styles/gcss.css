@@ -454,7 +454,7 @@ video {
 }
 
 @media (
-    min-width:1600px) {
+    min-width:768px) {
     * {
         display: none;
     }
