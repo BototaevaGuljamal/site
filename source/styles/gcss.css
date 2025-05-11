@@ -37,7 +37,7 @@ div.dark-theme p{
 }
 
 .font-effect-3d {
-    font-size: 15px;
+    font-size: 14px;
 }
 .image {
     display: flex;
@@ -70,8 +70,7 @@ div.dark-theme p{
     width: 20px;
     height: auto;
     
-    padding: 0;
-    margin: 0; 
+    
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
