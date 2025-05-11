@@ -300,3 +300,25 @@ button .lupa {
     animation: colorChange 4s infinite;
 }
         }
+/* Планшеты (от 600px до 1023px) */
+/*@media (min-width: 600px) and (max-width: 1023px) {
+    body {
+        display: none;
+    }
+}
+
+
+/* Компьютеры и ноутбуки (от 1024px до 1919px) */
+/*@media (min-width: 1024px) and (max-width: 1919px) {
+    body {
+        display: none;
+    }
+}
+
+/* Смарт-ТВ и большие экраны (от 1920px и выше) */
+/*@media (min-width: 1920px) {
+    body {
+        display: none;
+    }
+}
+*/
