@@ -1,11 +1,12 @@
-* {
-    margin: 0px;
-    padding: 0px;
+/* Смартфоны (до 599px) */
+@media (max-width: 5999px) {
+    * {
+    margin: 0;
+    padding: 0;
     border: none;
     outline: none;
     box-sizing: border-box;
 }
-
 body {
     height: 100vh;
     display: flex;
@@ -298,10 +299,4 @@ button .lupa {
     font-size: 2.1em;
     animation: colorChange 4s infinite;
 }
-/*
-@media (
-    min-width:1600px) {
-    * {display: none;
-      }
-}
-*/
+        }
