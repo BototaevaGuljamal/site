@@ -67,7 +67,7 @@ div.dark-theme p{
   transform: translateY(4px);
 }
 .neon img {
-    width: 20px;
+    width: 40px;
     height: auto;
     
     
@@ -283,7 +283,7 @@ h5 img {
 }
 .temper {
      box-shadow: 0 2px 4px black;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 .temper:hover{
     background-color: #3e8e41;
@@ -296,7 +296,7 @@ h5 img {
 }
 .temper img {
     width: auto;
-    height: 24px;
+    height: 34px;
     
     margin: 7 10;
     padding: 0;
