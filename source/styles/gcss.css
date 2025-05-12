@@ -66,17 +66,8 @@ div.dark-theme p{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.neon img {
-    width: 40px;
-    height: 40px;
-    
-    
-    box-shadow: 0 2px 4px black;
-    border-radius: 10px;
-}
-.neon {
-    margin: 0 3 0 0;
-}
+
+
 .contact {
     display: flex;
     justify-content: space-around;
@@ -189,12 +180,7 @@ h5 img {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.btn-light img {
-    width: 25px;
-    height: 25px;
-    margin: 0;
-   padding: 0;
-}
+
 .toast-header img {
     width: 40px;
     height: auto;
@@ -268,7 +254,7 @@ h5 img {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
     margin: 0;
-    padding: 4 9;
+    padding: 4;
 }
 
 .navbar-toggler:hover{
@@ -393,7 +379,7 @@ video {
     display: block;
     width: 100%;
     max-width: 100%; /* Убедитесь, что ширина не ограничена */
-    padding: 15;
+    padding: 5;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -415,16 +401,16 @@ video {
   transform: translateY(4px);
 }
 .btn-info img {
-    width: 25px;
-    height: 25px;
+    width: 5px;
+    height: auto;
     
 }
 
 .ahref img {
     width: 20px;
     height: 20px;
-    margin: 0;
-    padding: 0;
+    margin: 5;
+    padding: 5;
     
 }
 .ahref {
