@@ -280,13 +280,12 @@ h5 img {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.temper img
-.btn-light {
-    width: auto;
-    height: 34px;
+.temper img {
+    width: 30px;
+    height: 30px;
     
-    margin: 10;
-    padding: 10;
+    margin: 0;
+    padding: 0;
 }
 .night {
     box-shadow: 0 2px 4px black;
