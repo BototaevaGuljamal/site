@@ -33,7 +33,8 @@ div.dark-theme {
 .dark-theme p,
 body.dark-theme a,
 div.dark-theme a,
-div.dark-theme p{
+div.dark-theme p,
+ strong.dark-theme, {
   color: #809fff;
 }
 
@@ -183,9 +184,10 @@ h5 img {
 }
 
 .toast-header img {
-    width: 40px;
+    width: 10px;
     height: auto;
-    
+    margin: 0px;
+   padding: 0px;
 }
 .font-effect-fire-animation {
     font-size: 14px;
@@ -238,7 +240,7 @@ h5 img {
     padding: 1;
     font-size: 14px;
     border: none;
-    background-color: #42f4a7;
+    background-color: #3853ff;
     color: white;
     border-radius: 10px;
     cursor: pointer;
