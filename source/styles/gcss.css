@@ -37,7 +37,7 @@ div.dark-theme p{
 }
 
 .font-effect-3d {
-    font-size: 1rem;
+    font-size: 0.8em;
 }
 .image {
     display: flex;
@@ -187,11 +187,11 @@ h5 img {
     
 }
 .font-effect-fire-animation {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     display: inline;
     margin: 5;
-    padding: 3px 5px;
+    padding: 3px 3px;
     
     box-shadow: 0 2px 4px black;
     border-radius: 5px;
@@ -204,11 +204,11 @@ h5 img {
 }
 
 .font-effect-anaglyph {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     display: inline;
     margin: 5;
-    padding: 3px 5px;
+    padding: 3px 3px;
     
     box-shadow: 0 2px 4px black;
     border-radius: 5px;
@@ -221,14 +221,13 @@ h5 img {
 }
 .search img {
     width: auto;
-    height: 24px;
-    margin: 1;
-    padding: 1;
+    height: 25px;
+    
     font-size: 16px;
 }
 .searchinput {
     width: 100%;
-    padding: 5;
+    padding: 0px;
     font-size: 15px;
     border: 1px solid #ccc;
     border-radius: 10px;
