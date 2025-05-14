@@ -37,7 +37,7 @@ div.dark-theme p{
 }
 
 .font-effect-3d {
-    font-size: 1.9rem;
+    font-size: 1rem;
 }
 .image {
     display: flex;
@@ -191,7 +191,7 @@ h5 img {
     font-weight: bold;
     display: inline;
     margin: 5;
-    padding: 3 5 0 5;
+    padding: 3px 5px;
     
     box-shadow: 0 2px 4px black;
     border-radius: 5px;
@@ -208,7 +208,7 @@ h5 img {
     font-weight: bold;
     display: inline;
     margin: 5;
-    padding: 3 5 0 5;
+    padding: 3px 5px;
     
     box-shadow: 0 2px 4px black;
     border-radius: 5px;
@@ -229,14 +229,14 @@ h5 img {
 .searchinput {
     width: 100%;
     padding: 5;
-    font-size: 16px;
+    font-size: 15px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
 .search-button {
     width: 100px;
     padding: 1;
-    font-size: 15px;
+    font-size: 14px;
     border: none;
     background-color: #4285F4;
     color: white;
@@ -285,7 +285,7 @@ h5 img {
     height: 30px;
     
     margin: 0;
-    padding: 0;
+    padding: 5px 5px;
 }
 .night {
     box-shadow: 0 2px 4px black;
@@ -306,7 +306,7 @@ h5 img {
     height: 22px;
     
     margin: 3 3;
-    padding: 10;
+    padding: 5px;
     border-radius: 5px;
 }
 
