@@ -23,7 +23,7 @@ body {
 
 /* Стили Тёмной темы */
 .dark-theme,
-.nav.dark-theme,
+.accordion-collapse collapse.dark-theme,
 body.dark-theme,
 div.dark-theme {
   color: #eee;
