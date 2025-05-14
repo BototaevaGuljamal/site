@@ -23,6 +23,7 @@ body {
 
 /* Стили Тёмной темы */
 .dark-theme,
+.nav.dark-theme,
 body.dark-theme,
 div.dark-theme {
   color: #eee;
@@ -44,7 +45,7 @@ div.dark-theme p{
     justify-content: space-between;
     text-align: justify;
     margin: 0;
-    padding: 2 0 2 0;
+    padding: 0;
     
     box-sizing: border-box;
 }
@@ -228,7 +229,7 @@ h5 img {
 .searchinput {
     width: 100%;
     padding: 0px;
-    font-size: 15px;
+    font-size: 25px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
@@ -237,7 +238,7 @@ h5 img {
     padding: 1;
     font-size: 14px;
     border: none;
-    background-color: #4285F4;
+    background-color: #42f4a7;
     color: white;
     border-radius: 10px;
     cursor: pointer;
