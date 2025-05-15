@@ -158,9 +158,9 @@ h6:active {
     text-align: justify;
     width: 100%;
     margin: 0px;
-    padding: 5px;
+    padding: 2px;
     
-    border-radius: 20px;
+    border-radius: 10px;
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
 }
 
@@ -170,7 +170,7 @@ h5 img {
     
 }
 .btn-light img {
-   padding: 5px;
+   padding: 1px 3px;
    margin: 0px;
 }
 .btn-light {
@@ -189,7 +189,7 @@ h5 img {
 }
 .photo img {
    width: 25px;
-   padding: 1px;
+   padding: 2px;
    margin: 0px;
 }
 .photo {
@@ -255,7 +255,7 @@ h5 img {
 .searchinput {
     width: 100%;
     padding: 0px;
-    font-size: 25px;
+    font-size: 55px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
@@ -311,7 +311,7 @@ h5 img {
     height: 30px;
     
     margin: 0;
-    padding: 5px 5px;
+    padding: 1px 2px;
 }
 .night {
     box-shadow: 0 2px 4px black;
@@ -331,7 +331,7 @@ h5 img {
     width: 22px;
     height: 22px;
     
-    margin: 3 3;
+    margin: 0;
     padding: 1px;
     border-radius: 5px;
 }
@@ -341,8 +341,8 @@ h2 img {
 }
 
 .font-effect-emboss {
-    font-size: 24px;
-    color: maroon;
+    font-size: 15px;
+    color: gold;
 }
 .nav-item {
   margin: 5 0 0 0;
@@ -443,12 +443,10 @@ video {
     text-shadow: 3px 3px 3px #ababab;
 }
 .offcanvas-bottom {
-    margin: 0;
-    padding: 0;
+    
 }
 .offcanvas-body small {
-    margin: 0;
-    padding: 0;
+    
 }
 }
 
