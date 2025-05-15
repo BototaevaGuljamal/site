@@ -169,10 +169,11 @@ h5 img {
     height: auto;
     
 }
+
 .btn-light {
      box-shadow: 0 2px 4px black;
     border-radius: 10px;
-   padding: 0px;
+   padding: 5px;
    margin: 0px;
 }
 .btn-light:hover{
@@ -185,8 +186,24 @@ h5 img {
   transform: translateY(4px);
 }
 
+.photo {
+     box-shadow: 0 2px 4px black;
+    border-radius: 10px;
+   padding: 5px;
+   margin: 0px;
+}
+.photo:hover{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}
+.photo:active {
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .toast-header img {
-    width: 5px;
+    width: 15px;
     height: auto;
     margin: 0px;
    padding: 0px;
