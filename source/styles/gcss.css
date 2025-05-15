@@ -54,8 +54,8 @@ div.dark-theme p,
   width: 28px;
   height: 28px;
     
-  padding: 0;
-  margin: 0 0 0 3;  
+  padding: 0px;
+  margin: 0px;  
   box-shadow: 0 2px 4px black;
   border-radius: 10px;
 }
@@ -150,7 +150,9 @@ h6:active {
   background: #265301;
   color: #cdfeaa;
 }
-
+.ahref img {
+   margin: 5px;
+}
 
 .hrefbutton {
     display: flex;
@@ -170,6 +172,7 @@ h5 img {
     
 }
 .btn-light img {
+   width: 20px;
    padding: 1px 3px;
    margin: 0px;
 }
@@ -188,7 +191,7 @@ h5 img {
   transform: translateY(4px);
 }
 .photo img {
-   width: 25px;
+   width: 30px;
    padding: 2px;
    margin: 0px;
 }
@@ -306,7 +309,7 @@ h5 img {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.temper {
+.temper img {
     width: 30px;
     height: 30px;
     
@@ -316,7 +319,7 @@ h5 img {
 .night {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
-    margin: 0 3 0 0;
+    margin: 0px;
 }
 .night:hover{
     background-color: #3e8e41;
@@ -331,8 +334,8 @@ h5 img {
     width: 22px;
     height: 22px;
     
-    margin: 0;
-    padding: 1px;
+    margin: 0px;
+    padding: 0px;
     border-radius: 5px;
 }
 
@@ -405,7 +408,8 @@ video {
     display: block;
     width: 100%;
     max-width: 100%; /* Убедитесь, что ширина не ограничена */
-    padding: 5;
+    padding: 0px;
+   margin: 0px;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -427,8 +431,8 @@ video {
   transform: translateY(4px);
 }
 .btn-info img {
-    width: 5px;
-    height: auto;
+    width: 0px;
+    height: 0px;
     
 }
 
