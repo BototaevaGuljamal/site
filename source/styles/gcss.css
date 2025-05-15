@@ -34,7 +34,7 @@ div.dark-theme {
 body.dark-theme a,
 div.dark-theme a,
 div.dark-theme p,
- strong.dark-theme, {
+ .strong.dark-theme, {
   color: #809fff;
 }
 
@@ -169,12 +169,14 @@ h5 img {
     height: auto;
     
 }
-
+.btn-light img {
+   padding: 5px;
+   margin: 0px;
+}
 .btn-light {
      box-shadow: 0 2px 4px black;
     border-radius: 10px;
-   padding: 5px;
-   margin: 0px;
+   
 }
 .btn-light:hover{
     background-color: #3e8e41;
@@ -185,12 +187,15 @@ h5 img {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
+.photo img {
+   width: 25px;
+   padding: 1px;
+   margin: 0px;
+}
 .photo {
      box-shadow: 0 2px 4px black;
     border-radius: 10px;
-   padding: 5px;
-   margin: 0px;
+   
 }
 .photo:hover{
     background-color: #3e8e41;
@@ -203,7 +208,7 @@ h5 img {
 }
 
 .toast-header img {
-    width: 15px;
+    width: 40px;
     height: auto;
     margin: 0px;
    padding: 0px;
