@@ -26,7 +26,8 @@ body {
 .accordion-collapse collapse.dark-theme,
 body.dark-theme,
 div.dark-theme,
-.btn-close, {
+.btn-close.dark-theme, 
+img.dark-theme, {
   color: #eee;
   background: #121212;
 }
@@ -35,7 +36,8 @@ div.dark-theme,
 body.dark-theme a,
 div.dark-theme a,
 div.dark-theme p,
- .strong.dark-theme, {
+ .strong.dark-theme,
+   {
   color: #809fff;
 }
 
@@ -459,8 +461,9 @@ video {
 .offcanvas-body small {
     
 }
-.offcanvas-title {
+.offcanvas-title img {
    height: 5px;
+   width: 5px;
 }
 }
 
