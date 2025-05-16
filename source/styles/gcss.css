@@ -23,23 +23,24 @@ body {
 
 /* Стили Тёмной темы */
 .dark-theme,
-.accordion-collapse collapse.dark-theme,
 body.dark-theme,
 div.dark-theme,
-.btn-close.dark-theme, 
-img.dark-theme, {
+.accordion-collapse.collapse.dark-theme,
+.btn-close.dark-theme,
+img.dark-theme {
   color: #eee;
   background: #121212;
 }
+
 .dark-theme a,
 .dark-theme p,
 body.dark-theme a,
 div.dark-theme a,
 div.dark-theme p,
- .strong.dark-theme,
-   {
+.strong.dark-theme {
   color: #809fff;
 }
+
 
 .font-effect-3d {
     font-size: 0.8em;
