@@ -25,7 +25,8 @@ body {
 .dark-theme,
 .accordion-collapse collapse.dark-theme,
 body.dark-theme,
-div.dark-theme {
+div.dark-theme,
+.btn-close, {
   color: #eee;
   background: #121212;
 }
@@ -449,11 +450,17 @@ video {
 .ahref {
     text-shadow: 3px 3px 3px #ababab;
 }
+.btn-close {
+   
+}
 .offcanvas-bottom {
     
 }
 .offcanvas-body small {
     
+}
+.offcanvas-title {
+   height: 5px;
 }
 }
 
