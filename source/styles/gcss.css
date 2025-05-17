@@ -29,6 +29,7 @@ div.dark-theme,
 .btn-close.dark-theme,
 .navbar-collapse.dark-theme,
 .collapse.dark-theme,
+.nav-item.dark-theme,
 img.dark-theme {
   color: #eee;
   background: #121212;
@@ -45,7 +46,7 @@ div.dark-theme p,
 
 
 .font-effect-3d {
-    font-size: 0.9em;
+    font-size: 1em;
 }
 .image {
     display: flex;
