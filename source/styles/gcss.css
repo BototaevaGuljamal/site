@@ -36,8 +36,7 @@ img.dark-theme {
   background: #121212;
   
 }
-.btn-close {
-   color: gold;
+
 }
 .dark-theme a,
 .dark-theme p,
@@ -186,7 +185,7 @@ h5 img {
     
 }
 .btn-light img {
-   width: 25px;
+   width: 20px;
    padding: 0px;
    margin: 0px;
 }
