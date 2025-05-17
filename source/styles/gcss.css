@@ -27,6 +27,7 @@ body.dark-theme,
 div.dark-theme,
 .accordion-collapse.collapse.dark-theme,
 .btn-close.dark-theme,
+.navbar-collapse.dark-theme,
 img.dark-theme {
   color: #eee;
   background: #121212;
