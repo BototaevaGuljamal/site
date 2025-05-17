@@ -22,6 +22,7 @@ body {
 }
 
 /* Стили Тёмной темы */
+
 .dark-theme,
 body.dark-theme,
 div.dark-theme,
@@ -31,6 +32,9 @@ div.dark-theme,
 .collapse.dark-theme,
 .nav-item.dark-theme,
 .nav-link.dark-theme,
+.container-fluid.dark-theme,
+.row.dark-theme,
+.col-lg-2.dark-theme,
 img.dark-theme {
   color: #eee;
   background: #121212;
@@ -97,8 +101,8 @@ div.dark-theme p,
 }
 
 .contact p a img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     
     box-shadow: 0 2px 4px black;
     border-radius: 25px;
@@ -164,7 +168,7 @@ h6:active {
   color: #cdfeaa;
 }
 .ahref img {
-   margin: 5px;
+   margin: 5px 0px;
 }
 
 .hrefbutton {
@@ -172,8 +176,8 @@ h6:active {
     justify-content: space-between;
     text-align: justify;
     width: 100%;
-    margin: 0px;
-    padding: 2px;
+    margin: 5px 0px;
+    padding: 0px;
     
     border-radius: 10px;
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
@@ -192,7 +196,7 @@ h5 img {
 .btn-light {
      box-shadow: 0 2px 4px black;
     border-radius: 10px;
-   
+    width: 20px;
 }
 .btn-light:hover{
     background-color: #3e8e41;
@@ -204,8 +208,8 @@ h5 img {
   transform: translateY(4px);
 }
 .photo img {
-   width: 30px;
-   padding: 5px;
+   width: 40px;
+   padding: 3px;
    margin: 0px;
 }
 .photo {
@@ -278,11 +282,11 @@ h5 img {
 .search-button {
     width: 100px;
     padding: 0px;
-    font-size: 14px;
+    font-size: 25px;
     border: none;
     background-color: #3853ff;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
 }
 .search {
@@ -296,7 +300,7 @@ h5 img {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
     margin: 0;
-    padding: 2px;
+    padding: 2px 4px;
 }
 
 .navbar-toggler:hover{
@@ -323,11 +327,11 @@ h5 img {
   transform: translateY(4px);
 }
 .temper img {
-    width: auto;
-    height: 30px;
+    width: 25px;
+    height: auto;
     
     margin: 0;
-    padding: 3px 3px;
+    padding: 5px;
 }
 .night {
     box-shadow: 0 2px 4px black;
@@ -357,11 +361,11 @@ h2 img {
 }
 
 .font-effect-emboss {
-    font-size: 15px;
-    color: emerald;
+    font-size: 10px;
+    color: #76e85f;
 }
 .nav-item {
-  margin: 5 0 0 0;
+  margin: 10px;
   border-radius: 5px;
   background: linear-gradient(180deg, #76e85f 0%, #ffffff 100%);
 }
@@ -389,7 +393,7 @@ h2 img {
   transform: translateY(4px);
 }
 .navbar-collapse {
-    margin: 5 0 0 0;
+    margin: 10px;
 }
 video {
     width: 100%;
