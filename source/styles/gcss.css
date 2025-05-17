@@ -34,6 +34,9 @@ div.dark-theme,
 img.dark-theme {
   color: #eee;
   background: #121212;
+  .btn-close {
+   color: gold;
+  }
 }
 
 .dark-theme a,
@@ -63,7 +66,7 @@ div.dark-theme p,
   height: 28px;
     
   padding: 0px;
-  margin: 0px;  
+  margin: 0px 5px;  
   box-shadow: 0 2px 4px black;
   border-radius: 10px;
 }
@@ -183,8 +186,8 @@ h5 img {
     
 }
 .btn-light img {
-   width: 20px;
-   padding: 1px 3px;
+   width: 30px;
+   padding: 1px;
    margin: 0px;
 }
 .btn-light {
@@ -321,7 +324,7 @@ h5 img {
   transform: translateY(4px);
 }
 .temper img {
-    width: 30px;
+    width: auto;
     height: 30px;
     
     margin: 0;
@@ -345,7 +348,7 @@ h5 img {
     width: 22px;
     height: 22px;
     
-    margin: 0px;
+    margin: 0px 5px;
     padding: 0px;
     border-radius: 5px;
 }
@@ -356,7 +359,7 @@ h2 img {
 
 .font-effect-emboss {
     font-size: 15px;
-    color: gold;
+    color: emerald;
 }
 .nav-item {
   margin: 5 0 0 0;
@@ -467,8 +470,7 @@ video {
     
 }
 .offcanvas-title img {
-   height: 5px;
-   width: 5px;
+   
 }
 }
 
