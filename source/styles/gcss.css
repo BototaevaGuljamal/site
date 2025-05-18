@@ -101,8 +101,8 @@ div.dark-theme p,
 }
 
 .contact p a img {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     
     box-shadow: 0 2px 4px black;
     border-radius: 25px;
@@ -196,7 +196,7 @@ h5 img {
 .btn-light {
      box-shadow: 0 2px 4px black;
     border-radius: 10px;
-    width: 20px;
+    width: 30px;
 }
 .btn-light:hover{
     background-color: #3e8e41;
@@ -208,14 +208,14 @@ h5 img {
   transform: translateY(4px);
 }
 .photo img {
-   width: 40px;
+   width: 30px;
    padding: 3px;
    margin: 0px;
 }
 .photo {
      box-shadow: 0 2px 4px black;
     border-radius: 10px;
-   
+   width: 40px;
 }
 .photo:hover{
     background-color: #3e8e41;
@@ -275,12 +275,12 @@ h5 img {
 .searchinput {
     width: 100%;
     padding: 0px;
-    font-size: 55px;
+    font-size: 25px;
     border: 10px solid #ccc;
     border-radius: 5px;
 }
 .search-button {
-    width: 100px;
+    width: 50px;
     padding: 0px;
     font-size: 25px;
     border: none;
@@ -316,6 +316,7 @@ h5 img {
 .temper {
      box-shadow: 0 2px 4px black;
     border-radius: 10px;
+   width: 30px;
 }
 .temper:hover{
     background-color: #3e8e41;
