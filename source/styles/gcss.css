@@ -420,11 +420,13 @@ video {
     border-radius: 10px;
 }
 .btn-info {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     width: 100%;
     max-width: 100%; /* Убедитесь, что ширина не ограничена */
     padding: 0px;
-   margin-bottom: 5px;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -433,6 +435,9 @@ video {
     text-align: center;
     cursor: pointer;
     box-sizing: border-box; /* Включаем отступы и границы в расчёт ширины */
+}
+.btn-info {
+     /* расстояние между иконкой и текстом */
 }
 
 
@@ -469,17 +474,14 @@ video {
     
 }
 .offcanvas-body small {
-    margin-bottom: 50px;
 }
 .offcanvas-title img {
    
 }
 
 .offcanvas-bottom.custom-offset {
-    height: 80%; /* или 300px, как тебе нужно */
-    bottom: 20px; /* отступ снизу */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    bottom: 50px; /* отступ снизу */
+    
 }
 
 
