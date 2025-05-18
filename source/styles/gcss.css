@@ -188,8 +188,8 @@ h5 img {
     height: auto;
     
 }
-.btn-light img {
-   width: 10px;
+.btn-light {
+   width: 20px;
    padding: 0px 5px;
    margin: 0px;
 }
@@ -274,7 +274,7 @@ h5 img {
     width: 100%;
     padding: 0px;
     font-size: 15px;
-    border: 5px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 .search-button {
@@ -350,7 +350,7 @@ h5 img {
     height: 22px;
     
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     border-radius: 5px;
 }
 
@@ -428,7 +428,7 @@ video {
     background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16px;
     text-align: center;
     cursor: pointer;
@@ -444,11 +444,11 @@ video {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-   margin-bottom: 50px;
+   padding-bottom: 50px;
 }
 .btn-info img {
-    width: 0px;
-    height: 0px;
+    width: 50px;
+    height: 50px;
     
 }
 
