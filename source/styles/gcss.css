@@ -189,7 +189,7 @@ h5 img {
     
 }
 .btn-light img {
-   width: 20px;
+   width: 30px;
    padding: 0px;
    margin: 0px;
 }
@@ -208,8 +208,8 @@ h5 img {
   transform: translateY(4px);
 }
 .photo img {
-   width: 30px;
-   padding: 3px;
+   width: 25px;
+   padding: 2px;
    margin: 0px;
 }
 .photo {
@@ -280,8 +280,8 @@ h5 img {
     border-radius: 5px;
 }
 .search-button {
-    width: 50px;
-    padding: 0px;
+    width: 100px;
+    padding: 10px;
     font-size: 25px;
     border: none;
     background-color: #3853ff;
