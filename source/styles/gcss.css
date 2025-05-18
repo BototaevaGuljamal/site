@@ -93,7 +93,7 @@ div.dark-theme p,
     flex-wrap: wrap;
     text-align: justify;
     padding: 0;
-    margin: 0;
+    margin-bottom: 20px;
 }
 .contact p {
     display: inline;
@@ -269,20 +269,18 @@ h5 img {
 .search img {
     width: auto;
     height: 25px;
-    
-    font-size: 16px;
 }
 .searchinput {
     width: 100%;
     padding: 0px;
-    font-size: 25px;
-    border: 10px solid #ccc;
+    font-size: 15px;
+    border: 5px solid #ccc;
     border-radius: 5px;
 }
 .search-button {
     width: 100px;
-    padding: 10px;
-    font-size: 25px;
+    padding: 5px;
+    font-size: 15px;
     border: none;
     background-color: #3853ff;
     color: white;
