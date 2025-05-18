@@ -189,8 +189,8 @@ h5 img {
     
 }
 .btn-light img {
-   width: 0px;
-   padding: 0px;
+   width: 10px;
+   padding: 0px 5px;
    margin: 0px;
 }
 .btn-light {
@@ -209,13 +209,13 @@ h5 img {
 }
 .photo img {
    width: 25px;
-   padding: 2px;
+   padding: 5px 0px;
    margin: 0px;
 }
 .photo {
      box-shadow: 0 2px 4px black;
     border-radius: 10px;
-   width: 40px;
+   
 }
 .photo:hover{
     background-color: #3e8e41;
@@ -237,7 +237,7 @@ h5 img {
     font-size: 14px;
     font-weight: bold;
     display: inline;
-    margin: 5;
+    margin: 0px;
     padding: 1px 3px;
     
     box-shadow: 0 2px 4px black;
@@ -254,7 +254,7 @@ h5 img {
     font-size: 14px;
     font-weight: bold;
     display: inline;
-    margin: 5;
+    margin: 0px;
     padding: 1px 3px;
     
     box-shadow: 0 2px 4px black;
@@ -268,7 +268,7 @@ h5 img {
 }
 .search img {
     width: auto;
-    height: 25px;
+    height: 20px;
 }
 .searchinput {
     width: 100%;
@@ -424,7 +424,7 @@ video {
     width: 100%;
     max-width: 100%; /* Убедитесь, что ширина не ограничена */
     padding: 0px;
-   margin-bottom: 50px;
+   margin-bottom: 5px;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -444,6 +444,7 @@ video {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+   margin-bottom: 50px;
 }
 .btn-info img {
     width: 0px;
