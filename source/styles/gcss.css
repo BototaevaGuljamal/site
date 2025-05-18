@@ -474,6 +474,15 @@ video {
 .offcanvas-title img {
    
 }
+
+.offcanvas-bottom.custom-offset {
+    height: 80%; /* или 300px, как тебе нужно */
+    bottom: 20px; /* отступ снизу */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
 }
 
 /* Планшеты (от 600px до 1023px) */
