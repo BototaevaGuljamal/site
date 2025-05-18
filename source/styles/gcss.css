@@ -189,8 +189,8 @@ h5 img {
     
 }
 .btn-light img {
-   width: 20px;
-   padding: 0px 5px;
+   width: 40px;
+   padding: 0px 0px;
    margin: 0px;
 }
 .btn-light {
@@ -298,7 +298,7 @@ h5 img {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
     margin: 0;
-    padding: 2px 4px;
+    padding: 1px 2px;
 }
 
 .navbar-toggler:hover{
@@ -325,11 +325,11 @@ h5 img {
   transform: translateY(4px);
 }
 .temper img {
-    width: 30px;
+    width: 40px;
     height: auto;
     
     margin: 0;
-    padding: 2px;
+    padding: 4px;
 }
 .night {
     box-shadow: 0 2px 4px black;
@@ -447,8 +447,8 @@ video {
    
 }
 .btn-info img {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     
 }
 
@@ -469,7 +469,7 @@ video {
     
 }
 .offcanvas-body small {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .offcanvas-title img {
    
