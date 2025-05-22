@@ -41,7 +41,8 @@
   <div id="text" class="typewriter"></div>
 
   <audio id="typeSound" src="source/files/8685.mp3"></audio>
-  <audio id="bgMusic" src="source/files/8685.mp3" autoplay loop></audio>
+  <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted loop></audio>
+
 
   <script>
     // Звёзды
@@ -102,6 +103,14 @@
     window.onload = () => {
       typeMessage(introText, 0, goToMain);
     };
+    window.addEventListener('load', () => {
+  const bgMusic = document.getElementById('bgMusic');
+  bgMusic.muted = false;
+  bgMusic.play().catch(e => {
+    console.warn("Автовоспроизведение не разрешено:", e);
+  });
+});
+
   </script>
 </body>
 </html>
