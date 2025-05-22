@@ -3,7 +3,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Машинка с эффектами</title>
+  <title>Галактика кода</title>
   <style>
     body {
       margin: 0;
@@ -33,11 +33,17 @@
       overflow: hidden;
       border-right: 2px solid #00ffe1;
       text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1;
+      padding: 10px;
+    }
+
+    .buttons {
+      z-index: 1;
+      margin-top: 20px;
+      display: flex;
+      gap: 15px;
     }
 
     button {
-      z-index: 1;
-      margin-top: 20px;
       padding: 10px 20px;
       font-size: 18px;
       background: #00ffe1;
@@ -45,21 +51,29 @@
       color: #0a0a0a;
       cursor: pointer;
       border-radius: 8px;
+      box-shadow: 0 0 15px #00ffe1;
+      transition: transform 0.3s, box-shadow 0.3s;
     }
 
     button:hover {
-      background: #00ccba;
+      transform: scale(1.1);
+      box-shadow: 0 0 30px #00ffe1;
     }
   </style>
 </head>
 <body>
   <canvas id="stars"></canvas>
   <div id="text" class="typewriter"></div>
-  <button onclick="nextMessage()">Следующее сообщение</button>
+  <div class="buttons">
+    <button onclick="nextMessage()">Следующее сообщение</button>
+    <button onclick="toggleMusic()">Музыка: Вкл/Выкл</button>
+  </div>
 
   <audio id="typeSound" src="https://cdn.pixabay.com/audio/2023/03/06/audio_0e53e17964.mp3"></audio>
+  <audio id="bgMusic" src="https://cdn.pixabay.com/audio/2022/03/30/audio_2071b0a5f7.mp3" loop></audio>
 
   <script>
+    // Звёздный фон
     const canvas = document.getElementById('stars');
     const ctx = canvas.getContext('2d');
     let stars = [];
@@ -92,6 +106,7 @@
     drawStars();
     window.addEventListener('resize', resizeCanvas);
 
+    // Сообщения
     const messages = [
       "Добро пожаловать в галактику кода!",
       "HTML, CSS и JavaScript — космическая магия.",
@@ -115,6 +130,19 @@
     function nextMessage() {
       typeMessage(messages[index]);
       index = (index + 1) % messages.length;
+    }
+
+    // Музыка
+    const bgMusic = document.getElementById("bgMusic");
+    let musicPlaying = false;
+
+    function toggleMusic() {
+      if (musicPlaying) {
+        bgMusic.pause();
+      } else {
+        bgMusic.play();
+      }
+      musicPlaying = !musicPlaying;
     }
 
     window.onload = nextMessage;
