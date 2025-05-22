@@ -3,39 +3,40 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Интерактивная машинка</title>
+  <title>Машинка с эффектами</title>
   <style>
     body {
-      background: #0a0a0a;
-      color: #00ffe1;
+      margin: 0;
+      height: 100vh;
+      overflow: hidden;
       font-family: 'Courier New', monospace;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
       flex-direction: column;
+      background: black;
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
     }
 
     .typewriter {
+      position: relative;
+      z-index: 1;
       font-size: 24px;
-      border-right: 2px solid #00ffe1;
+      color: #00ffe1;
       white-space: nowrap;
       overflow: hidden;
-      width: 0;
-      animation: typing 3s steps(40, end) forwards, blink 0.75s step-end infinite;
+      border-right: 2px solid #00ffe1;
       text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1;
     }
 
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 100%; }
-    }
-
-    @keyframes blink {
-      50% { border-color: transparent; }
-    }
-
     button {
+      z-index: 1;
       margin-top: 20px;
       padding: 10px 20px;
       font-size: 18px;
@@ -44,7 +45,6 @@
       color: #0a0a0a;
       cursor: pointer;
       border-radius: 8px;
-      transition: background 0.3s;
     }
 
     button:hover {
@@ -53,28 +53,71 @@
   </style>
 </head>
 <body>
+  <canvas id="stars"></canvas>
   <div id="text" class="typewriter"></div>
   <button onclick="nextMessage()">Следующее сообщение</button>
 
+  <audio id="typeSound" src="https://cdn.pixabay.com/audio/2023/03/06/audio_0e53e17964.mp3"></audio>
+
   <script>
+    const canvas = document.getElementById('stars');
+    const ctx = canvas.getContext('2d');
+    let stars = [];
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      stars = Array.from({length: 100}, () => ({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        r: Math.random() * 2,
+        speed: Math.random() * 0.5 + 0.2
+      }));
+    }
+
+    function drawStars() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#00ffe1';
+      stars.forEach(star => {
+        ctx.beginPath();
+        ctx.arc(star.x, star.y, star.r, 0, 2 * Math.PI);
+        ctx.fill();
+        star.y += star.speed;
+        if (star.y > canvas.height) star.y = 0;
+      });
+      requestAnimationFrame(drawStars);
+    }
+
+    resizeCanvas();
+    drawStars();
+    window.addEventListener('resize', resizeCanvas);
+
     const messages = [
-      "Добро пожаловать на мой сайт!",
-      "Надеюсь, тебе понравится здесь.",
-      "HTML + CSS + JS — магия в браузере!",
-      "Жми кнопку — и будет чудо!"
+      "Добро пожаловать в галактику кода!",
+      "HTML, CSS и JavaScript — космическая магия.",
+      "Печатай. Креативь. Исследуй.",
+      "Звёзды сияют для тебя, разработчик!"
     ];
     let index = 0;
-    const textElement = document.getElementById("text");
+    const textEl = document.getElementById("text");
+    const typeSound = document.getElementById("typeSound");
+
+    function typeMessage(message, i = 0) {
+      if (i === 0) textEl.textContent = "";
+      if (i < message.length) {
+        textEl.textContent += message[i];
+        typeSound.currentTime = 0;
+        typeSound.play();
+        setTimeout(() => typeMessage(message, i + 1), 70);
+      }
+    }
 
     function nextMessage() {
-      textElement.classList.remove("typewriter"); // сброс анимации
-      void textElement.offsetWidth; // форс обновление стилей
-      textElement.textContent = messages[index];
-      textElement.classList.add("typewriter");
+      typeMessage(messages[index]);
       index = (index + 1) % messages.length;
     }
 
-    window.onload = nextMessage; // показать первое сообщение при загрузке
+    window.onload = nextMessage;
   </script>
 </body>
 </html>
