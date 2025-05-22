@@ -3,18 +3,18 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Галактика кода</title>
+  <title>Заставка</title>
   <style>
     body {
       margin: 0;
       height: 100vh;
       overflow: hidden;
       font-family: 'Courier New', monospace;
+      background: black;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      background: black;
     }
 
     canvas {
@@ -25,9 +25,8 @@
     }
 
     .typewriter {
-      position: relative;
       z-index: 1;
-      font-size: 24px;
+      font-size: 26px;
       color: #00ffe1;
       white-space: nowrap;
       overflow: hidden;
@@ -35,45 +34,17 @@
       text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1;
       padding: 10px;
     }
-
-    .buttons {
-      z-index: 1;
-      margin-top: 20px;
-      display: flex;
-      gap: 15px;
-    }
-
-    button {
-      padding: 10px 20px;
-      font-size: 18px;
-      background: #00ffe1;
-      border: none;
-      color: #0a0a0a;
-      cursor: pointer;
-      border-radius: 8px;
-      box-shadow: 0 0 15px #00ffe1;
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-
-    button:hover {
-      transform: scale(1.1);
-      box-shadow: 0 0 30px #00ffe1;
-    }
   </style>
 </head>
 <body>
   <canvas id="stars"></canvas>
   <div id="text" class="typewriter"></div>
-  <div class="buttons">
-    <button onclick="nextMessage()">Следующее сообщение</button>
-    <button onclick="toggleMusic()">Музыка: Вкл/Выкл</button>
-  </div>
 
   <audio id="typeSound" src="https://cdn.pixabay.com/audio/2023/03/06/audio_0e53e17964.mp3"></audio>
-  <audio id="bgMusic" src="https://cdn.pixabay.com/audio/2022/03/30/audio_2071b0a5f7.mp3" loop></audio>
+  <audio id="bgMusic" src="https://cdn.pixabay.com/audio/2022/03/30/audio_2071b0a5f7.mp3" autoplay loop></audio>
 
   <script>
-    // Звёздный фон
+    // Звёзды
     const canvas = document.getElementById('stars');
     const ctx = canvas.getContext('2d');
     let stars = [];
@@ -106,46 +77,31 @@
     drawStars();
     window.addEventListener('resize', resizeCanvas);
 
-    // Сообщения
-    const messages = [
-      "Добро пожаловать в галактику кода!",
-      "HTML, CSS и JavaScript — космическая магия.",
-      "Печатай. Креативь. Исследуй.",
-      "Звёзды сияют для тебя, разработчик!"
-    ];
-    let index = 0;
+    // Сообщения заставки
+    const introText = "Добро пожаловать в звёздный портал...";
     const textEl = document.getElementById("text");
     const typeSound = document.getElementById("typeSound");
 
-    function typeMessage(message, i = 0) {
+    function typeMessage(msg, i = 0, callback = null) {
       if (i === 0) textEl.textContent = "";
-      if (i < message.length) {
-        textEl.textContent += message[i];
+      if (i < msg.length) {
+        textEl.textContent += msg[i];
         typeSound.currentTime = 0;
         typeSound.play();
-        setTimeout(() => typeMessage(message, i + 1), 70);
+        setTimeout(() => typeMessage(msg, i + 1, callback), 70);
+      } else if (callback) {
+        setTimeout(callback, 1500); // Пауза после текста
       }
     }
 
-    function nextMessage() {
-      typeMessage(messages[index]);
-      index = (index + 1) % messages.length;
+    function goToMain() {
+      // Пример перехода на сайт (можно заменить URL)
+      window.location.href = "index.html"; // ← замени на свою ссылку
     }
 
-    // Музыка
-    const bgMusic = document.getElementById("bgMusic");
-    let musicPlaying = false;
-
-    function toggleMusic() {
-      if (musicPlaying) {
-        bgMusic.pause();
-      } else {
-        bgMusic.play();
-      }
-      musicPlaying = !musicPlaying;
-    }
-
-    window.onload = nextMessage;
+    window.onload = () => {
+      typeMessage(introText, 0, goToMain);
+    };
   </script>
 </body>
 </html>
