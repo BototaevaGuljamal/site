@@ -1,37 +1,80 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Typewriter Effect</title>
+  <title>Интерактивная машинка</title>
   <style>
     body {
-      background: #1e1e1e;
-      color: #00ff99;
+      background: #0a0a0a;
+      color: #00ffe1;
       font-family: 'Courier New', monospace;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      flex-direction: column;
     }
+
     .typewriter {
       font-size: 24px;
-      border-right: 2px solid #00ff99;
+      border-right: 2px solid #00ffe1;
       white-space: nowrap;
       overflow: hidden;
       width: 0;
-      animation: typing 4s steps(40, end) forwards, blink 0.75s step-end infinite;
+      animation: typing 3s steps(40, end) forwards, blink 0.75s step-end infinite;
+      text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1;
     }
+
     @keyframes typing {
       from { width: 0; }
       to { width: 100%; }
     }
+
     @keyframes blink {
       50% { border-color: transparent; }
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      background: #00ffe1;
+      border: none;
+      color: #0a0a0a;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #00ccba;
     }
   </style>
 </head>
 <body>
-  <div class="typewriter">Welcome to my awesome website!</div>
+  <div id="text" class="typewriter"></div>
+  <button onclick="nextMessage()">Следующее сообщение</button>
+
+  <script>
+    const messages = [
+      "Добро пожаловать на мой сайт!",
+      "Надеюсь, тебе понравится здесь.",
+      "HTML + CSS + JS — магия в браузере!",
+      "Жми кнопку — и будет чудо!"
+    ];
+    let index = 0;
+    const textElement = document.getElementById("text");
+
+    function nextMessage() {
+      textElement.classList.remove("typewriter"); // сброс анимации
+      void textElement.offsetWidth; // форс обновление стилей
+      textElement.textContent = messages[index];
+      textElement.classList.add("typewriter");
+      index = (index + 1) % messages.length;
+    }
+
+    window.onload = nextMessage; // показать первое сообщение при загрузке
+  </script>
 </body>
 </html>
-
