@@ -30,6 +30,8 @@
     }
 
     .logo {
+      perspective: 400px;
+      transform-style: preserve-3d;
       width: 300px;
       height: 300px;
       z-index: 1;
@@ -133,8 +135,11 @@
 </head>
 <body>
   <canvas id="stars"></canvas>
+  
+  <div class="card">
   <img src="source/files/favicon_io/android-chrome-512x512.png" alt="Логотип BG" class="logo">
-
+</div>
+  
   <div id="text" class="typewriter">КОШ КЕЛИҢИЗ!!!</div>
   <div id="text" class="typewriter2">Гүлжамал Бототаеванын сайтына</div>
   <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted></audio>
