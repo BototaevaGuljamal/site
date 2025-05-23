@@ -50,6 +50,18 @@
         opacity: 1;
         transform: scale(1.5) rotate(360deg);
       }
+      0% {
+        opacity: 0;
+        transform: scale(0.5) rotate(0deg);
+      }
+      50% {
+        opacity: 0.5;
+        transform: scale(2) rotate(180deg);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1.5) rotate(360deg);
+      }
     }
 
     @keyframes typing {
@@ -113,9 +125,9 @@
       width: 100%;
       max-width: 900px;
       text-align: center;
-      padding-top: 50px; /* сдвинет текст вниз */
+      padding-bottom: 50px; /* сдвинет текст вниз */
   /* или */
-      margin-top: 50px;
+      margin-bottom: 50px;
     }
   </style>
 </head>
