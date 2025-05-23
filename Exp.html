@@ -17,11 +17,11 @@
       }
       50% {
         opacity: 0.5;
-        transform: scale(1.15) rotate(180deg);
+        transform: scale(2) rotate(180deg);
       }
       100% {
         opacity: 1;
-        transform: scale(1) rotate(360deg);
+        transform: scale(1.5) rotate(360deg);
       }
     }
 
@@ -46,7 +46,7 @@
 
     .typewriter {
       z-index: 1;
-      font-size: 40px;
+      font-size: 100px;
       color: #00ffe1;
       white-space: nowrap;
       overflow: hidden;
@@ -56,10 +56,10 @@
     }
 
     .logo {
-      width: 340px;
-      height: 340px;
+      width: 540px;
+      height: 540px;
       z-index: 1;
-      margin-bottom: 30px;
+      margin-bottom: 100px;
       animation: appearPulseRotate 4s ease-in-out forwards;
     }
   </style>
@@ -105,7 +105,7 @@
     window.addEventListener('resize', resizeCanvas);
 
     // Сообщения заставки
-    const introText = "КОШ КЕЛИҢИЗ! САНАРИП МУГАЛИМ САЙТЫНА";
+    const introText = "КОШ КЕЛИҢИЗ!";
     const textEl = document.getElementById("text");
 
     function typeMessage(msg, i = 0, callback = null) {
