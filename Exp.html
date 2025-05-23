@@ -26,7 +26,7 @@
 
     .typewriter {
       z-index: 1;
-      font-size: 36px;
+      font-size: 40px;
       color: #00ffe1;
       white-space: nowrap;
       overflow: hidden;
@@ -40,7 +40,6 @@
   <canvas id="stars"></canvas>
   <div id="text" class="typewriter"></div>
 
- <!-- <audio id="typeSound" src="source/files/8685.mp3"></audio> -->
   <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted></audio>
 
   <script>
@@ -78,51 +77,34 @@
     window.addEventListener('resize', resizeCanvas);
 
     // Сообщения заставки
-    const introText = "КОШ КЕЛИҢИЗ"
-      "САНАРИП МУГАЛИМ САЙТЫНА";
+    const introText = "КОШ КЕЛИҢИЗ! САНАРИП МУГАЛИМ САЙТЫНА";
     const textEl = document.getElementById("text");
-    const typeSound = document.getElementById("typeSound");
 
     function typeMessage(msg, i = 0, callback = null) {
       if (i === 0) textEl.textContent = "";
       if (i < msg.length) {
         textEl.textContent += msg[i];
-        typeSound.currentTime = 0;
-        typeSound.play();
         setTimeout(() => typeMessage(msg, i + 1, callback), 70);
       } else if (callback) {
-        setTimeout(callback, 10000); // Пауза после текста
+        setTimeout(callback, 5000);
       }
     }
 
     function goToMain() {
-      window.location.href = "index.html"; // Замени на нужный путь
+      window.location.href = "index.html";
     }
 
     window.onload = () => {
       typeMessage(introText, 0, goToMain);
     };
 
-    // Автоматическое воспроизведение фоновой музыки один раз
+    // Воспроизведение музыки один раз
     window.addEventListener('load', () => {
       const bgMusic = document.getElementById('bgMusic');
       bgMusic.muted = false;
-
-      let played = false;
-
-      function tryPlayOnce() {
-        if (!played) {
-          played = true;
-          bgMusic.play().catch(e => {
-            console.warn("Автовоспроизведение не разрешено:", e);
-            document.body.addEventListener('click', () => {
-              bgMusic.play();
-            }, { once: true });
-          });
-        }
-      }
-
-      tryPlayOnce();
+      bgMusic.play().catch(e => {
+        console.warn("Автовоспроизведение не разрешено:", e);
+      });
     });
   </script>
 </body>
