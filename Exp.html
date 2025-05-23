@@ -41,7 +41,7 @@
   <div id="text" class="typewriter"></div>
 
   <audio id="typeSound" src="source/files/8685.mp3"></audio>
-  <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted loop></audio>
+  <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted></audio>
 
 
   <script>
@@ -91,7 +91,7 @@
         typeSound.play();
         setTimeout(() => typeMessage(msg, i + 1, callback), 70);
       } else if (callback) {
-        setTimeout(callback, 5500); // Пауза после текста
+        setTimeout(callback, 10000); // Пауза после текста
       }
     }
 
