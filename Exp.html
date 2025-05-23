@@ -10,21 +10,6 @@
       src: url('DigitalDisco.ttf') format('truetype');
     }
 
-    @keyframes appearPulseRotate {
-      0% {
-        opacity: 0;
-        transform: scale(0.5) rotate(0deg);
-      }
-      50% {
-        opacity: 0.5;
-        transform: scale(2) rotate(180deg);
-      }
-      100% {
-        opacity: 1;
-        transform: scale(1.5) rotate(360deg);
-      }
-    }
-
     body {
       margin: 0;
       height: 100vh;
@@ -44,34 +29,79 @@
       z-index: 0;
     }
 
+    .logo {
+      width: 340px;
+      height: 340px;
+      z-index: 1;
+      margin-bottom: 30px;
+      animation: appearPulseRotate 4s ease-in-out forwards;
+    }
+
+    @keyframes appearPulseRotate {
+      0% {
+        opacity: 0;
+        transform: scale(0.5) rotate(0deg);
+      }
+      50% {
+        opacity: 0.5;
+        transform: scale(2) rotate(180deg);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1.5) rotate(360deg);
+      }
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blinkCaret {
+      50% { border-color: transparent; }
+    }
+
+    @keyframes glowPulse {
+      0% { text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1; }
+      50% { text-shadow: 0 0 20px #00ffe1, 0 0 30px #00ffe1; }
+      100% { text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1; }
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(10px); opacity: 0.6; }
+      50% { transform: translateY(-10px); opacity: 1; }
+      100% { transform: translateY(10px); opacity: 0.6; }
+    }
+
     .typewriter {
       z-index: 1;
-      font-size: 100px;
+      font-size: 50px;
       color: #00ffe1;
       white-space: nowrap;
       overflow: hidden;
       border-right: 2px solid #00ffe1;
-      text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1;
+      animation:
+        typing 4s steps(40, end),
+        blinkCaret 0.75s step-end infinite,
+        glowPulse 2s ease-in-out infinite,
+        floatUp 3s ease-in-out infinite;
+      width: 100%;
+      max-width: 900px;
+      text-align: center;
       padding: 10px;
-    }
-
-    .logo {
-      width: 540px;
-      height: 540px;
-      z-index: 1;
-      margin-bottom: 100px;
-      animation: appearPulseRotate 4s ease-in-out forwards;
     }
   </style>
 </head>
 <body>
   <canvas id="stars"></canvas>
   <img src="source/files/favicon_io/android-chrome-512x512.png" alt="Логотип BG" class="logo">
-  <div id="text" class="typewriter"></div>
+
+  <div id="text" class="typewriter">КОШ КЕЛИҢИЗ! САНАРИП МУГАЛИМ САЙТЫНА</div>
+
   <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted></audio>
 
   <script>
-    // Звёзды
+    // Анимация звёзд
     const canvas = document.getElementById('stars');
     const ctx = canvas.getContext('2d');
     let stars = [];
@@ -79,7 +109,7 @@
     function resizeCanvas() {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-      stars = Array.from({length: 100}, () => ({
+      stars = Array.from({length: 150}, () => ({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
         r: Math.random() * 2,
@@ -104,28 +134,6 @@
     drawStars();
     window.addEventListener('resize', resizeCanvas);
 
-    // Сообщения заставки
-    const introText = "КОШ КЕЛИҢИЗ!";
-    const textEl = document.getElementById("text");
-
-    function typeMessage(msg, i = 0, callback = null) {
-      if (i === 0) textEl.textContent = "";
-      if (i < msg.length) {
-        textEl.textContent += msg[i];
-        setTimeout(() => typeMessage(msg, i + 1, callback), 70);
-      } else if (callback) {
-        setTimeout(callback, 1000);
-      }
-    }
-
-    function goToMain() {
-      window.location.href = "index.html";
-    }
-
-    window.onload = () => {
-      typeMessage(introText, 0, goToMain);
-    };
-
     // Воспроизведение музыки один раз
     window.addEventListener('load', () => {
       const bgMusic = document.getElementById('bgMusic');
@@ -134,6 +142,11 @@
         console.warn("Автовоспроизведение не разрешено:", e);
       });
     });
+
+    // Автоматический переход на главный сайт
+    setTimeout(() => {
+      window.location.href = "index.html"; // Замени на нужную ссылку
+    }, 12000);
   </script>
 </body>
 </html>
