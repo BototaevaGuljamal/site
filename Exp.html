@@ -6,32 +6,24 @@
   <title>Заставка</title>
   <style>
     @font-face {
-  font-family: 'Digital Disco';
-  src: url('DigitalDisco.ttf') format('truetype');
-}
-  @keyframes appearPulseRotate {
-    0% {
-      opacity: 0;
-      transform: scale(0.5) rotate(0deg);
+      font-family: 'Digital Disco';
+      src: url('DigitalDisco.ttf') format('truetype');
     }
-    50% {
-      opacity: 1;
-      transform: scale(1.15) rotate(180deg);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1) rotate(360deg);
-    }
-  }
 
-  .logo {
-    width: 240px;
-    height: 240px;
-    z-index: 1;
-    margin-bottom: 30px;
-    animation: appearPulseRotate 4s ease-in-out forwards;
-  
-
+    @keyframes appearPulseRotate {
+      0% {
+        opacity: 0;
+        transform: scale(0.5) rotate(0deg);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.15) rotate(180deg);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1) rotate(360deg);
+      }
+    }
 
     body {
       margin: 0;
@@ -62,14 +54,20 @@
       text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1;
       padding: 10px;
     }
+
+    .logo {
+      width: 240px;
+      height: 240px;
+      z-index: 1;
+      margin-bottom: 30px;
+      animation: appearPulseRotate 4s ease-in-out forwards;
+    }
   </style>
 </head>
 <body>
   <canvas id="stars"></canvas>
-  <img <img src="source/files/favicon_io/android-chrome-512x512.png" alt="Логотип BG" class="logo">
-
+  <img src="source/files/android-chrome-512x512.png" alt="Логотип BG" class="logo">
   <div id="text" class="typewriter"></div>
-
   <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted></audio>
 
   <script>
