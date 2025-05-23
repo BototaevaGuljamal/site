@@ -110,6 +110,16 @@
     console.warn("Автовоспроизведение не разрешено:", e);
   });
 });
+let played = false;
+
+function tryPlayOnce(audio) {
+  if (!played) {
+    audio.muted = false;
+    audio.play();
+    played = true;
+  }
+}
+tryPlayOnce(bgMusic);
 
   </script>
 </body>
