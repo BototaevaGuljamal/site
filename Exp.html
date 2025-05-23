@@ -75,7 +75,7 @@
 
     .typewriter {
       z-index: 1;
-      font-size: 50px;
+      font-size: 60px;
       color: #39ff14;
       white-space: nowrap;
       overflow: hidden;
@@ -90,14 +90,34 @@
       text-align: center;
       padding: 10px;
     }
+
+    .typewriter2 {
+      z-index: 1;
+      font-size: 40px;
+      color: #39ff14;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #00ffe1;
+      animation:
+        typing 4s steps(40, end),
+        blinkCaret 0.75s step-end infinite,
+        glowPulse 2s ease-in-out infinite,
+        floatUp 3s ease-in-out infinite;
+      width: 100%;
+      max-width: 900px;
+      text-align: center;
+      padding-top: 50px; /* сдвинет текст вниз */
+  /* или */
+      margin-top: 50px;
+    }
   </style>
 </head>
 <body>
   <canvas id="stars"></canvas>
   <img src="source/files/favicon_io/android-chrome-512x512.png" alt="Логотип BG" class="logo">
 
-  <div id="text" class="typewriter">КОШ КЕЛИҢИЗ! САНАРИП МУГАЛИМ САЙТЫНА</div>
-
+  <div id="text" class="typewriter">КОШ КЕЛИҢИЗ!!!</div>
+  <div id="text" class="typewriter2">Гүлжамал Бототаеванын сайтына</div>
   <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted></audio>
 
   <script>
