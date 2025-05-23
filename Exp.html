@@ -36,16 +36,21 @@
       height: 300px;
       z-index: 1;
       margin-bottom: 100px;
-      animation: appearPulseRotate 6s ease-in-out forwards, rotateZ 4s infinite ease-in-out;
+      animation: appearPulseRotate 6s ease-in-out forwards;
     }
+
+    .rotateZ {
+      animation: rotateZ 4s infinite ease-in-out;
+    }
+
     @keyframes rotateZ {
-  0%, 100% {
-    transform: translateZ(0px) rotateY(0deg);
-  }
-  50% {
-    transform: translateZ(60px) rotateY(15deg);
-  }
-}
+      0%, 100% {
+        transform: translateZ(0px) rotateY(0deg);
+      }
+      50% {
+        transform: translateZ(60px) rotateY(15deg);
+      }
+    }
 
     @keyframes appearPulseRotate {
       0% {
@@ -84,9 +89,9 @@
     }
 
     @keyframes hideCaret {
-  to { border-right: none; }
-}
-    
+      to { border-right: none; }
+    }
+
     @keyframes glowPulse {
       0% { text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1; }
       50% { text-shadow: 0 0 20px #00ffe1, 0 0 30px #00ffe1; }
@@ -99,10 +104,8 @@
       100% { transform: translateY(10px); opacity: 0.6; }
     }
 
-    .typewriter {
+    .typewriter, .typewriter2 {
       z-index: 1;
-      font-size: 60px;
-      color: #00ffe1;
       white-space: nowrap;
       overflow: hidden;
       border-right: 2px solid #00ffe1;
@@ -115,90 +118,83 @@
       width: 100%;
       max-width: 900px;
       text-align: center;
+    }
+
+    .typewriter {
+      font-size: 60px;
+      color: #00ffe1;
       padding-top: 40px;
       margin-top: 40px;
     }
 
     .typewriter2 {
-      z-index: 1;
       font-size: 50px;
       color: #39ff14;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 2px solid #00ffe1;
-      animation:
-        typing 4s steps(40, end),
-        blinkCaret 0.75s step-end 4s 0,
-        hideCaret 0s forwards 6.25s,
-        glowPulse 2s ease-in-out infinite,
-        floatUp 3s ease-in-out infinite;
-      width: 100%;
-      max-width: 900px;
-      text-align: center;
-      padding-bottom: 50px; /* сдвинет текст вниз */
-  /* или */
+      padding-bottom: 50px;
       margin-bottom: 50px;
     }
   </style>
 </head>
 <body>
   <canvas id="stars"></canvas>
-  
-  <div class="card">
-  <img src="3d bg.png" alt="Логотип BG" class="logo">
-</div>
 
-  <div id="text" class="typewriter">КОШ КЕЛИҢИЗ!!!</div>
-  <div id="text" class="typewriter2">Гүлжамал Бототаеванын сайтына</div>
+  <div class="card">
+    <img src="3d bg.png" alt="Логотип BG" class="logo" id="logo">
+  </div>
+
+  <div class="typewriter">КОШ КЕЛИҢИЗ!!!</div>
+  <div class="typewriter2">Гүлжамал Бототаеванын сайтына</div>
   <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted></audio>
 
-  
-<script>
-  const audio = document.getElementById('bgMusic');
-  let fadeInterval;
+  <script>
+    const audio = document.getElementById('bgMusic');
+    let fadeInterval;
 
-  function fadeIn(audio, duration = 3000) {
-    audio.volume = 0;
-    audio.muted = false;
-    audio.play();
-    let step = 0.05;
-    clearInterval(fadeInterval);
-    fadeInterval = setInterval(() => {
-      if (audio.volume < 1) {
-        audio.volume = Math.min(1, audio.volume + step);
-      } else {
-        clearInterval(fadeInterval);
-      }
-    }, duration * step);
-  }
+    function fadeIn(audio, duration = 3000) {
+      audio.volume = 0;
+      audio.muted = false;
+      audio.play();
+      let step = 0.05;
+      clearInterval(fadeInterval);
+      fadeInterval = setInterval(() => {
+        if (audio.volume < 1) {
+          audio.volume = Math.min(1, audio.volume + step);
+        } else {
+          clearInterval(fadeInterval);
+        }
+      }, duration * step);
+    }
 
-  function fadeOut(audio, duration = 3000, callback) {
-    let step = 0.05;
-    clearInterval(fadeInterval);
-    fadeInterval = setInterval(() => {
-      if (audio.volume > 0) {
-        audio.volume = Math.max(0, audio.volume - step);
-      } else {
-        audio.pause();
-        clearInterval(fadeInterval);
-        if (callback) callback();
-      }
-    }, duration * step);
-  }
+    function fadeOut(audio, duration = 3000, callback) {
+      let step = 0.05;
+      clearInterval(fadeInterval);
+      fadeInterval = setInterval(() => {
+        if (audio.volume > 0) {
+          audio.volume = Math.max(0, audio.volume - step);
+        } else {
+          audio.pause();
+          clearInterval(fadeInterval);
+          if (callback) callback();
+        }
+      }, duration * step);
+    }
 
-  window.addEventListener('load', () => {
-    fadeIn(audio);
-  });
+    window.addEventListener('load', () => {
+      fadeIn(audio);
 
-  window.addEventListener('beforeunload', (e) => {
-    // Чтобы затухание успело выполниться, предотвращаем мгновенное закрытие.
-    e.preventDefault();
-    fadeOut(audio, 3000, () => {
-      // После затухания можно позволить закрытие (в некоторых браузерах это может не работать).
-      window.close();
+      // Добавление rotateZ после appearPulseRotate
+      setTimeout(() => {
+        document.getElementById('logo').classList.add('rotateZ');
+      }, 6000);
     });
-    return ''; // Для некоторых браузеров, чтобы показать предупреждение
-  });
+
+    window.addEventListener('beforeunload', (e) => {
+      e.preventDefault();
+      fadeOut(audio, 3000, () => {
+        window.close();
+      });
+      return '';
+    });
 
     // Анимация звёзд
     const canvas = document.getElementById('stars');
@@ -208,7 +204,7 @@
     function resizeCanvas() {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-      stars = Array.from({length: 150}, () => ({
+      stars = Array.from({ length: 150 }, () => ({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
         r: Math.random() * 2,
@@ -233,7 +229,7 @@
     drawStars();
     window.addEventListener('resize', resizeCanvas);
 
-    // Воспроизведение музыки один раз
+    // Повторное воспроизведение музыки
     window.addEventListener('load', () => {
       const bgMusic = document.getElementById('bgMusic');
       bgMusic.muted = false;
@@ -242,9 +238,9 @@
       });
     });
 
-    // Автоматический переход на главный сайт
+    // Переход на основной сайт
     setTimeout(() => {
-      window.location.href = "index.html"; // Замени на нужную ссылку
+      window.location.href = "index.html";
     }, 18400);
   </script>
 </body>
