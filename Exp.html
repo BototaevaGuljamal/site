@@ -43,7 +43,6 @@
   <audio id="typeSound" src="source/files/8685.mp3"></audio>
   <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted></audio>
 
-
   <script>
     // Звёзды
     const canvas = document.getElementById('stars');
@@ -96,31 +95,34 @@
     }
 
     function goToMain() {
-      // Пример перехода на сайт (можно заменить URL)
-      window.location.href = "index.html"; // ← замени на свою ссылку
+      window.location.href = "index.html"; // Замени на нужный путь
     }
 
     window.onload = () => {
       typeMessage(introText, 0, goToMain);
     };
+
+    // Автоматическое воспроизведение фоновой музыки один раз
     window.addEventListener('load', () => {
-  const bgMusic = document.getElementById('bgMusic');
-  bgMusic.muted = false;
-  bgMusic.play().catch(e => {
-    console.warn("Автовоспроизведение не разрешено:", e);
-  });
-});
-let played = false;
+      const bgMusic = document.getElementById('bgMusic');
+      bgMusic.muted = false;
 
-function tryPlayOnce(audio) {
-  if (!played) {
-    audio.muted = false;
-    audio.play();
-    played = true;
-  }
-}
-tryPlayOnce(bgMusic);
+      let played = false;
 
+      function tryPlayOnce() {
+        if (!played) {
+          played = true;
+          bgMusic.play().catch(e => {
+            console.warn("Автовоспроизведение не разрешено:", e);
+            document.body.addEventListener('click', () => {
+              bgMusic.play();
+            }, { once: true });
+          });
+        }
+      }
+
+      tryPlayOnce();
+    });
   </script>
 </body>
 </html>
