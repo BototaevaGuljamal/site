@@ -139,7 +139,54 @@
   <div id="text" class="typewriter2">Гүлжамал Бототаеванын сайтына</div>
   <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted></audio>
 
-  <script>
+  
+<script>
+  const audio = document.getElementById('bgMusic');
+  let fadeInterval;
+
+  function fadeIn(audio, duration = 3000) {
+    audio.volume = 0;
+    audio.muted = false;
+    audio.play();
+    let step = 0.05;
+    clearInterval(fadeInterval);
+    fadeInterval = setInterval(() => {
+      if (audio.volume < 1) {
+        audio.volume = Math.min(1, audio.volume + step);
+      } else {
+        clearInterval(fadeInterval);
+      }
+    }, duration * step);
+  }
+
+  function fadeOut(audio, duration = 3000, callback) {
+    let step = 0.05;
+    clearInterval(fadeInterval);
+    fadeInterval = setInterval(() => {
+      if (audio.volume > 0) {
+        audio.volume = Math.max(0, audio.volume - step);
+      } else {
+        audio.pause();
+        clearInterval(fadeInterval);
+        if (callback) callback();
+      }
+    }, duration * step);
+  }
+
+  window.addEventListener('load', () => {
+    fadeIn(audio);
+  });
+
+  window.addEventListener('beforeunload', (e) => {
+    // Чтобы затухание успело выполниться, предотвращаем мгновенное закрытие.
+    e.preventDefault();
+    fadeOut(audio, 3000, () => {
+      // После затухания можно позволить закрытие (в некоторых браузерах это может не работать).
+      window.close();
+    });
+    return ''; // Для некоторых браузеров, чтобы показать предупреждение
+  });
+
     // Анимация звёзд
     const canvas = document.getElementById('stars');
     const ctx = canvas.getContext('2d');
