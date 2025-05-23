@@ -43,7 +43,7 @@
 </head>
 <body>
   <canvas id="stars"></canvas>
-  <img src="source/files/favicon_io/android-chrome-512x512.png" alt="Логотип" width="100" height="100" style="z-index:1; margin-bottom: 20px;">
+  <img src="source/files/favicon_io/android-chrome-512x512.png" alt="Логотип" width="500" height="500" style="z-index:1; margin-bottom: 20px;">
 
   <div id="text" class="typewriter"></div>
 
@@ -93,7 +93,7 @@
         textEl.textContent += msg[i];
         setTimeout(() => typeMessage(msg, i + 1, callback), 70);
       } else if (callback) {
-        setTimeout(callback, 5000);
+        setTimeout(callback, 1000);
       }
     }
 
