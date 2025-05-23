@@ -30,15 +30,22 @@
     }
 
     .logo {
-      perspective: 1000px;
+      perspective: 600px;
       transform-style: preserve-3d;
       width: 300px;
       height: 300px;
       z-index: 1;
       margin-bottom: 100px;
-      animation: appearPulseRotate 6s ease-in-out forwards;
+      animation: appearPulseRotate 6s ease-in-out forwards, rotateZ 4s infinite ease-in-out;
     }
-    
+    @keyframes rotateZ {
+  0%, 100% {
+    transform: translateZ(0px) rotateY(0deg);
+  }
+  50% {
+    transform: translateZ(60px) rotateY(15deg);
+  }
+}
 
     @keyframes appearPulseRotate {
       0% {
@@ -140,7 +147,7 @@
   <div class="card">
   <img src="3d bg.png" alt="Логотип BG" class="logo">
 </div>
-<!--  https://chatgpt.com/s/m_6830b6bf459c8191bc4e9b8552ff1759-->
+
   <div id="text" class="typewriter">КОШ КЕЛИҢИЗ!!!</div>
   <div id="text" class="typewriter2">Гүлжамал Бототаеванын сайтына</div>
   <audio id="bgMusic" src="source/files/8685.mp3" autoplay muted></audio>
