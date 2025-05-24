@@ -135,36 +135,67 @@
       margin-bottom: 50px;
     }
     
-    .neon-button {
-  font-family: 'Digital Disco', monospace;
-  font-size: 30px;
-  color: #00ffe1;
-  background: transparent;
-  border: 2px solid #00ffe1;
-  padding: 12px 30px;
-  cursor: pointer;
-  border-radius: 10px;
-  text-shadow: 0 0 10px #00ffe1;
-  box-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1 inset;
-  transition: all 0.3s ease-in-out;
-    padding-bottom: 50px;
-      margin-bottom: 50px;
-}
 
-.neon-button:hover {
-  background: #00ffe1;
-  color: black;
-  text-shadow: none;
-  box-shadow: 0 0 20px #00ffe1, 0 0 40px #00ffe1 inset;
-  transform: scale(1.05);
-}
+  @keyframes neonPulse {
+    0%, 100% {
+      box-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1 inset;
+    }
+    50% {
+      box-shadow: 0 0 20px #00ffe1, 0 0 40px #00ffe1 inset;
+    }
+  }
+
+  @keyframes fadeInMoveUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px) scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .button-wrapper {
+    position: relative;
+    z-index: 2;
+    animation: fadeInMoveUp 2s ease-out 8s forwards;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .neon-button {
+    font-family: 'Digital Disco', monospace;
+    font-size: 30px;
+    color: #00ffe1;
+    background: transparent;
+    border: 2px solid #00ffe1;
+    padding: 12px 40px;
+    cursor: pointer;
+    border-radius: 12px;
+    text-shadow: 0 0 10px #00ffe1;
+    box-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1 inset;
+    animation: neonPulse 2s infinite ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .neon-button:hover {
+    background: #00ffe1;
+    color: black;
+    text-shadow: none;
+    box-shadow: 0 0 30px #00ffe1, 0 0 50px #00ffe1 inset;
+    transform: scale(1.08);
+  }
+
 
   </style>
 </head>
 <body>
   <canvas id="stars"></canvas>
   
-<div style="z-index: 2; position: relative;">
+<div class="button-wrapper">
   <button class="neon-button" onclick="startSite()">•КИРҮҮ•</button>
 </div>
 
