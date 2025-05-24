@@ -32,25 +32,26 @@
     .logo {
       perspective: 600px;
       transform-style: preserve-3d;
-      width: 400px;
-      height: 400px;
+      width: 500px;
+      height: 500px;
       z-index: 1;
       margin-bottom: 100px;
       animation: appearPulseRotate 6s ease-in-out forwards;
     }
 
     .rotateZ {
-      animation: rotateZ 4s infinite ease-in-out;
-    }
+  animation: rotateZ 4s linear infinite;
+}
 
-    @keyframes rotateZ {
-      0%, 100% {
-        transform: translateZ(0px) rotateY(0deg);
-      }
-      50% {
-        transform: translateZ(100px) rotateY(45deg);
-      }
-    }
+@keyframes rotateZ {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
 
     @keyframes appearPulseRotate {
       0% {
