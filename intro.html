@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Заставка</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
     
 
@@ -100,36 +102,39 @@
       50% { transform: translateY(-20px); opacity: 1; }
       100% { transform: translateY(10px); opacity: 0.6; }
     }
+     
 
     .typewriter, .typewriter2 {
-      z-index: 1;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 2px solid #00ffe1;
-      animation:
-        typing 4s steps(40, end),
-        blinkCaret 0.75s step-end 4s 0,
-        hideCaret 0s forwards 6.25s,
-        glowPulse 2s ease-in-out infinite,
-        floatUp 3s ease-in-out infinite;
-      width: 100%;
-      max-width: 900px;
-      text-align: center;
-    }
+  font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #00ffe1;
+  animation:
+    typing 4s steps(40, end),
+    blinkCaret 0.75s step-end 4s 0,
+    hideCaret 0s forwards 6.25s,
+    glowPulse 2s ease-in-out infinite,
+    floatUp 3s ease-in-out infinite;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
 
-    .typewriter {
-      font-size: 60px;
-      color: #00ffe1;
-      padding-top: 40px;
-      margin-top: 40px;
-    }
+.typewriter {
+  font-size: 60px;
+  color: #00ffe1;
+  padding-top: 40px;
+  margin-top: 40px;
+}
 
-    .typewriter2 {
-      font-size: 50px;
-      color: #39ff14;
-      padding-bottom: 50px;
-      margin-bottom: 50px;
-    }
+.typewriter2 {
+  font-size: 50px;
+  color: #39ff14;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
   </style>
 </head>
 <body>
