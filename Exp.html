@@ -134,10 +134,38 @@
       padding-bottom: 50px;
       margin-bottom: 50px;
     }
+    
+    .neon-button {
+  font-family: 'Digital Disco', monospace;
+  font-size: 24px;
+  color: #00ffe1;
+  background: transparent;
+  border: 2px solid #00ffe1;
+  padding: 12px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-shadow: 0 0 10px #00ffe1;
+  box-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1 inset;
+  transition: all 0.3s ease-in-out;
+}
+
+.neon-button:hover {
+  background: #00ffe1;
+  color: black;
+  text-shadow: none;
+  box-shadow: 0 0 20px #00ffe1, 0 0 40px #00ffe1 inset;
+  transform: scale(1.05);
+}
+
   </style>
 </head>
 <body>
   <canvas id="stars"></canvas>
+  
+<div style="z-index: 2; position: relative;">
+  <button class="neon-button" onclick="startSite()">НАЧАТЬ</button>
+</div>
+
 
   <div class="card">
     <img src="3d bg.png" alt="Логотип BG" class="logo" id="logo">
@@ -243,6 +271,12 @@
     setTimeout(() => {
       window.location.href = "index.html";
     }, 18400);
+
+    function startSite() {
+  window.location.href = "index.html";
+}
+
+    
   </script>
 </body>
 </html>
