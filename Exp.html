@@ -290,7 +290,10 @@
     resizeCanvas();
     drawStars();
     window.addEventListener('resize', resizeCanvas);
-
+function startSite() {
+    window.onbeforeunload = null; // отключает предупреждение
+    window.location.href = "index.html"; // переход на следующий файл
+  }
     // Повторное воспроизведение музыки
     window.addEventListener('load', () => {
       const bgMusic = document.getElementById('bgMusic');
@@ -305,12 +308,6 @@
       window.location.href = "index.html";
     }, 18400);
 
-    function startSite() {
-    window.onbeforeunload = null; // отключает предупреждение
-    window.location.href = "index.html"; // переход на следующий файл
-  }
-
-    
   </script>
 </body>
 </html>
