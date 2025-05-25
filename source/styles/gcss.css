@@ -30,7 +30,6 @@ body.dark-theme {
 body.dark-theme * {
   background-color: #121212 !important;
   color: #809fff !important;
-  border-color: #333 !important;
 }
 
 
