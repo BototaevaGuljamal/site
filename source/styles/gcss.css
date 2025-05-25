@@ -188,51 +188,39 @@ h5 img {
     height: auto;
     
 }
-.btn-light img {
-   width: 40px;
-   padding: 0px 0px;
-   margin: 0px;
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 2px 4px black;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none; /* убирает подчёркивание у ссылок */
+  transition: 0.2s ease;
 }
-.btn-light {
-     box-shadow: 0 2px 4px black;
-    border-radius: 10px;
-    
-}
-.btn-light:hover{
-    background-color: #3e8e41;
+
+.icon-button:hover {
+  background-color: #3e8e41;
   box-shadow: 0 5px #666;
 }
-.btn-light:active {
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.photo img {
-   width: 25px;
-   padding: 5px 0px;
-   margin: 0px;
-}
-.photo {
-     box-shadow: 0 2px 4px black;
-    border-radius: 10px;
-   
-}
-.photo:hover{
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-}
-.photo:active {
-    background-color: #3e8e41;
+
+.icon-button:active {
+  background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-.toast-header img {
-    width: 40px;
-    height: auto;
-    margin: 0px;
-   padding: 0px;
+.icon-button img {
+  width: 30px;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
+
+
 .font-effect-fire-animation {
     font-size: 14px;
     font-weight: bold;
@@ -310,48 +298,6 @@ h5 img {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-.temper {
-     box-shadow: 0 2px 4px black;
-    border-radius: 10px;
-}
-.temper:hover{
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-}
-.temper:active {
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.temper img {
-    width: 40px;
-    height: auto;
-    
-    margin: 0;
-    padding: 4px;
-}
-.night {
-    box-shadow: 0 2px 4px black;
-    border-radius: 10px;
-    margin: 0px;
-}
-.night:hover{
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-}
-.night:active {
-    background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.night img{
-    width: 22px;
-    height: 22px;
-    
-    margin: 0px;
-    padding: 0px;
-    border-radius: 5px;
 }
 
 h2 img {
