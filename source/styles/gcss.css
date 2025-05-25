@@ -22,33 +22,15 @@ body {
 }
 
 /* Стили Тёмной темы */
-
-.dark-theme,
-body.dark-theme,
-div.dark-theme,
-.accordion-collapse.collapse.dark-theme,
-.btn-close.dark-theme,
-.navbar-collapse.dark-theme,
-.collapse.dark-theme,
-.nav-item.dark-theme,
-.nav-link.dark-theme,
-.container-fluid.dark-theme,
-.row.dark-theme,
-.col-lg-2.dark-theme,
-img.dark-theme {
+body.dark-theme {
+  background-color: #121212;
   color: #eee;
-  background: #121212;
-  
 }
 
-}
-.dark-theme a,
-.dark-theme p,
-body.dark-theme a,
-div.dark-theme a,
-div.dark-theme p,
-.strong.dark-theme {
-  color: #809fff;
+body.dark-theme * {
+  background-color: #121212 !important;
+  color: #809fff !important;
+  border-color: #333 !important;
 }
 
 
