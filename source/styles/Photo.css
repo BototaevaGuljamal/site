@@ -1,0 +1,12 @@
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-theme .modal-img {
+  border: 2px solid #ffffff;
+}
+
+.dark-theme .modal {
+  background-color: rgba(0, 0, 0, 0.95);
+}
