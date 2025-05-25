@@ -21,15 +21,21 @@ body {
     background: linear-gradient(90deg, #76e85f 0%, #ffffff 100%);
 }
 
-/* Стили Тёмной темы */
 body.dark-theme {
   background-color: #121212;
-  color: #eee;
+  color: #ffffff;
 }
 
-body.dark-theme * {
-  background-color: #121212 !important;
-  color: #809fff !important;
+.dark-theme .modal-img {
+  border: 2px solid #ffffff;
+}
+
+.dark-theme .modal {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+.dark-theme a,
+.dark-theme p {
+  color: #ffffff;
 }
 
 
@@ -46,8 +52,8 @@ body.dark-theme * {
     box-sizing: border-box;
 }
 .image a img {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
     
   padding: 0px;
   margin-left: 5px;  
@@ -63,10 +69,7 @@ body.dark-theme * {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.flag img {
-   width: 20px;
-   margin-left: 10px;
-}
+
 
 .icon-button {
   display: inline-flex;
