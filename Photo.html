@@ -175,38 +175,30 @@
         span.onclick = function () {
             modal.style.display = 'none';
         }
-    </script>
-    <script>
-  // Выбираем кнопку по правильному классу
-  const btn = document.querySelector(".night-toggle");
-  
-  btn.addEventListener("click", function () {
-    // Переключаем тему для body
-    document.body.classList.toggle("dark-theme");
+    
+// Выбираем кнопку по классу
+const btn = document.querySelector(".night-toggle");
 
-    // Также переключаем тему для всех элементов, если нужно
-    const allElements = document.querySelectorAll("*");
-    allElements.forEach(el => {
-      el.classList.toggle("dark-theme");
-    });
+btn.addEventListener("click", function () {
+  // Переключаем тему для body
+  document.body.classList.toggle("dark-theme");
+
+  // Также переключаем тему для всех элементов, если нужно
+  const allElements = document.querySelectorAll("*");
+  allElements.forEach(el => {
+    el.classList.toggle("dark-theme");
   });
 
-	    <script>
-  const btn = document.querySelector(".night-toggle");
-
-  btn.addEventListener("click", function () {
-    document.body.classList.toggle("dark-theme");
-
-    // Переключаем иконку лампочки
-    const img = btn.querySelector("img");
-    if (document.body.classList.contains("dark-theme")) {
-      img.src = "source/files/Bulboff.png";
-      img.alt = "Ночь";
-    } else {
-      img.src = "source/files/Bulbon.png";
-      img.alt = "День";
-    }
-  });
+  // Переключаем иконку
+  const img = btn.querySelector("img");
+  if (document.body.classList.contains("dark-theme")) {
+    img.src = "source/files/Bulboff.png";
+    img.alt = "Ночь";
+  } else {
+    img.src = "source/files/Bulbon.png";
+    img.alt = "День";
+  }
+});
 
 </script>
 
