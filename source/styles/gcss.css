@@ -254,32 +254,7 @@ h5 img {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.search img {
-    width: auto;
-    height: 20px;
-}
-.searchinput {
-    width: 100%;
-    padding: 0px;
-    font-size: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-.search-button {
-    width: 100px;
-    padding: 5px;
-    font-size: 15px;
-    border: none;
-    background-color: #3853ff;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.search {
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-}
+
 
 .navbar-toggler {
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
@@ -412,22 +387,6 @@ video {
 }
 .ahref {
     text-shadow: 3px 3px 3px #ababab;
-}
-.btn-close {
-   
-}
-.offcanvas-bottom {
-    
-}
-.offcanvas-body small {
-}
-.offcanvas-title img {
-   
-}
-
-.offcanvas-bottom.custom-offset {
-    bottom: 50px; /* отступ снизу */
-    
 }
 
 
