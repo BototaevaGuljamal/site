@@ -68,6 +68,40 @@ body.dark-theme * {
    margin-left: 10px;
 }
 
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 2px 4px black;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none; /* убирает подчёркивание у ссылок */
+  transition: 0.2s ease;
+}
+
+.icon-button:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}
+
+.icon-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.icon-button img {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+
+   
 .contact {
     display: flex;
     justify-content: space-around;
@@ -169,39 +203,6 @@ h5 img {
     height: auto;
     
 }
-.icon-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  box-shadow: 0 2px 4px black;
-  border: none;
-  border-radius: 10px;
-  padding: 5px;
-  cursor: pointer;
-  text-decoration: none; /* убирает подчёркивание у ссылок */
-  transition: 0.2s ease;
-}
-
-.icon-button:hover {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-}
-
-.icon-button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.icon-button img {
-  width: 30px;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-
 .font-effect-fire-animation {
     font-size: 14px;
     font-weight: bold;
