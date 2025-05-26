@@ -18,15 +18,6 @@ a {
     text-decoration: none;
 }
 
-/* Стили Тёмной темы */
-.dark-theme {
-  color: #eee;
-  background: #121212;
-}
-/*.dark-theme {
-  color: #809fff;
-}
-*/
 
 button {
     box-shadow: 0 2px 4px black;
