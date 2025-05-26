@@ -18,8 +18,61 @@
     <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
     <title>Photo</title>
-    <style>
-        
+    
+        <style>
+    :root {
+        --bg-color: #ffffff;
+        --text-color: #000000;
+        --modal-bg: rgba(0, 0, 0, 0.9);
+        --card-border: #cccccc;
+    }
+
+    body.dark-theme {
+        --bg-color: #121212;
+        --text-color: #e0e0e0;
+        --modal-bg: rgba(255, 255, 255, 0.9);
+        --card-border: #444444;
+    }
+
+    body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        transition: background-color 0.4s ease, color 0.4s ease;
+    }
+
+    .image-gallery img {
+        border: 3px solid var(--card-border);
+        border-radius: 8px;
+        transition: transform 0.3s, border-color 0.3s;
+    }
+
+    .image-gallery img:hover {
+        transform: scale(1.05);
+        border-color: #00bcd4;
+    }
+
+    .modal {
+        background-color: var(--modal-bg);
+    }
+
+    .font-effect-3d {
+        font-size: 2em;
+        text-shadow: 1px 1px 2px #000000;
+        margin: 10px;
+    }
+
+    .icon-button img {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    .icon-button img:hover {
+        transform: scale(1.2);
+    }
+</style>
+<style>
         .modal {
             display: none;
             position: fixed;
@@ -97,8 +150,9 @@
         <div class="font-effect-3d">Бототаева Гулжамал Закировна</div>
         <div class="d-flex justify-content-around align-items-center flex-wrap p-2" style="gap: 10px;">
   <button class="icon-button night-toggle">
-    <img src="source/files/Bulbon.png" alt="День">
-  </button>
+    <img src="source/files/Bulbon.png" alt="День" id="theme-icon">
+</button>
+
 </div>
 
     </div>
@@ -168,6 +222,27 @@
         span.onclick = function () {
             modal.style.display = 'none';
         }
+</script>
+
+	<script>
+    const toggleButton = document.querySelector('.night-toggle');
+    const icon = document.getElementById('theme-icon');
+
+    function setTheme(isDark) {
+        document.body.classList.toggle('dark-theme', isDark);
+        icon.src = isDark ? 'source/files/Bulboff.png' : 'source/files/Bulbon.png';
+        icon.alt = isDark ? 'Ночь' : 'День';
+        localStorage.setItem('dark-theme', isDark);
+    }
+
+    toggleButton.addEventListener('click', () => {
+        const isDark = !document.body.classList.contains('dark-theme');
+        setTheme(isDark);
+    });
+
+    // Загрузка темы при старте
+    const savedTheme = localStorage.getItem('dark-theme') === 'true';
+    setTheme(savedTheme);
 </script>
 
 </body>
