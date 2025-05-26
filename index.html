@@ -66,7 +66,7 @@
   <a href="Photo.html" class="icon-button">
     <img src="source/files/Photo1.png" alt="Photo">
   </a>
-<button class="btn-toggle night"><img src="source/files/bulbon.png" alt="day"/></button>
+<button class="btn-toggle night"><img src="source/files/Bulbon.png" alt="day"/></button>
 </div>
 
 		    
@@ -328,14 +328,13 @@
        const divs = document.querySelectorAll("div");
       divs.forEach(div => {
         div.classList.toggle("dark-theme");
-	      if (document.body.classList.contains('dark-theme')) {
+	if (document.body.classList.contains('dark-theme')) {
         img.src = 'source/files/Bulboff.png';
         img.alt = 'Ночь';
       } else {
         img.src = 'source/files/Bulbon.png';
         img.alt = 'День';
       }
-      });
         });
     </script>
   <script>
