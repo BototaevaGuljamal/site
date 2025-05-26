@@ -21,10 +21,22 @@ body {
     background: linear-gradient(90deg, #76e85f 0%, #ffffff 100%);
 }
 
-body.dark-theme {
-  background-color: #121212;
-  color: #ffffff;
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
 }
+
+body.dark-theme {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
 
 .dark-theme .modal-img {
   border: 2px solid #ffffff;
