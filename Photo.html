@@ -167,26 +167,7 @@
         }
 </script>
 
-	<script>
-    const toggleButton = document.querySelector('.night-toggle');
-    const icon = document.getElementById('theme-icon');
-
-    function setTheme(isDark) {
-        document.body.classList.toggle('dark-theme', isDark);
-        icon.src = isDark ? 'source/files/Bulboff.png' : 'source/files/Bulbon.png';
-        icon.alt = isDark ? 'Ночь' : 'День';
-        localStorage.setItem('dark-theme', isDark);
-    }
-
-    toggleButton.addEventListener('click', () => {
-        const isDark = !document.body.classList.contains('dark-theme');
-        setTheme(isDark);
-    });
-
-    // Загрузка темы при старте
-    const savedTheme = localStorage.getItem('dark-theme') === 'true';
-    setTheme(savedTheme);
-</script>
+	
 
 </body>
 
