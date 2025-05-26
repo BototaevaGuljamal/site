@@ -177,7 +177,23 @@ body.dark-theme * {
         }
 </script>
 
-	
+	<script>
+  const btn = document.querySelector(".btn-toggle");
+  const img = btn.querySelector("img");
+
+  btn.addEventListener("click", function () {
+    document.body.classList.toggle("dark-theme");
+
+    // Переключаем иконку
+    if (document.body.classList.contains("dark-theme")) {
+      img.src = "source/files/Bulboff.png";
+      img.alt = "Ночь";
+    } else {
+      img.src = "source/files/Bulbon.png";
+      img.alt = "День";
+    }
+  });
+</script>
 
 </body>
 
