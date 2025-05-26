@@ -25,34 +25,6 @@ body {
 .font-effect-3d {
     font-size: 0.9em;
 }
-.image {
-    display: flex;
-    justify-content: space-between;
-    text-align: justify;
-    margin: 0;
-    padding: 0;
-    
-    box-sizing: border-box;
-}
-.image a img {
-  width: 30px;
-  height: 30px;
-    
-  padding: 0px;
-  margin-left: 5px;  
-  box-shadow: 0 2px 4px black;
-  border-radius: 10px;
-}
-
-.image a img:hover {
-  background-color: #3e8e41}
-
-.image a img:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
 
 .icon-button {
   display: inline-flex;
