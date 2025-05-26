@@ -25,7 +25,54 @@ body {
 .font-effect-3d {
     font-size: 0.9em;
 }
+.image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: justify;
+    position: absolute;
+    z-index: 2;
+    top: 0%;;
+    left: 0%;
+    transform: translate(0%, 0%);
+    margin: 0;
+    padding: 2px 0 5px 0;
+    background: linear-gradient(180deg, #76e85f 0%, #ffffff 100%);
+}
+.image a img {
+    width: 28px;
+    height: 28px;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0 0 0 3px;  
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
+}
 
+.image a img:hover {
+  background-color: #3e8e41;
+}
+
+.image a img:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.neon img {
+    width: 27px;
+    height: 27px;
+    border: none;
+    outline: none;
+    padding: 1px 1px;
+    margin: 0;
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
+}
+.neon {
+    margin: 0 3px 0 0;
+}
 .icon-button {
   display: inline-flex;
   align-items: center;
