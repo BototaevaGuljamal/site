@@ -57,11 +57,6 @@
   <a href="Wea.html" class="icon-button">
     <img src="source/files/Weather.png" alt="погода">
   </a>
-
-  <button type="button" class="icon-button" id="liveToastBtn">
-    <img src="source/files/Reklama.png" alt="reklama">
-  </button>
-
   <a href="Photo.html" class="icon-button">
     <img src="source/files/Photo1.png" alt="Photo">
   </a>
@@ -322,29 +317,6 @@
 </div>
 	
   <script>
-
-<script>
-  const toggleButton = document.querySelector('.night-toggle');
-  const icon = document.getElementById('theme-icon');
-
-  function setTheme(isDark) {
-    document.body.classList.toggle('dark-theme', isDark);
-    icon.src = isDark ? 'source/files/Bulboff.png' : 'source/files/Bulbon.png';
-    icon.alt = isDark ? 'Ночь' : 'День';
-    localStorage.setItem('dark-theme', isDark);
-  }
-
-  toggleButton.addEventListener('click', () => {
-    const isDark = !document.body.classList.contains('dark-theme');
-    setTheme(isDark);
-  });
-
-  // При загрузке страницы
-  const savedTheme = localStorage.getItem('dark-theme') === 'true';
-  setTheme(savedTheme);
-</script>
-
-
  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous">
