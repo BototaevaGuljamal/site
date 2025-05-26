@@ -141,6 +141,8 @@
         <div id="caption"></div>
     </div>
 
+
+	
     <script>
         // Get the modal
         var modal = document.getElementById('myModal');
@@ -166,22 +168,6 @@
         span.onclick = function () {
             modal.style.display = 'none';
         }
-    
-const btn = document.querySelector(".night-toggle");
-
-btn.addEventListener("click", function () {
-  document.body.classList.toggle("dark-theme");
-
-  const img = btn.querySelector("img");
-  if (document.body.classList.contains("dark-theme")) {
-    img.src = "source/files/Bulboff.png";
-    img.alt = "Ночь";
-  } else {
-    img.src = "source/files/Bulbon.png";
-    img.alt = "День";
-  }
-});
-
 </script>
 
 </body>
