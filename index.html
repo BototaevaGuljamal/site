@@ -37,7 +37,7 @@ body.dark-theme * {
 }
 </style>
 <style>
-a img {
+a .intro img {
     width: 40px;
     height: 40px;
     transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.2s ease;
@@ -46,7 +46,7 @@ a img {
 }
 
 /* Наведение */
-a img:hover {
+a .intro img:hover {
     transform: scale(1.1) rotate(1deg);
     box-shadow:
         0 0 6px #4dd0e1,
@@ -56,7 +56,7 @@ a img:hover {
 }
 
 /* Нажатие */
-a img:active {
+a .intro img:active {
     transform: scale(0.95);
     filter: brightness(0.9);
     box-shadow:
@@ -68,7 +68,7 @@ a img:active {
 <body>  
     
     
-   <div class="d-flex align-items-center justify-content-between p-2" style="background: linear-gradient(to right, #d3ffe8, #a6e3e9);">
+   <div class="d-flex align-items-center justify-content-between p-2 intro" style="background: linear-gradient(to right, #d3ffe8, #a6e3e9);">
   <a href="intro.html">
   <img src="source/files/favicon_io/android-chrome-512x512.png" alt="ЛОГОТИП">
 </a>
