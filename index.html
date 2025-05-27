@@ -36,6 +36,33 @@ body.dark-theme * {
   color: #eee !important;
 }
 </style>
+<style>
+a img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.2s ease;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #4dd0e1;
+}
+
+/* Наведение */
+a img:hover {
+    transform: scale(1.1) rotate(1deg);
+    box-shadow:
+        0 0 6px #4dd0e1,
+        0 0 12px #4dd0e1,
+        0 0 24px #4dd0e1;
+    cursor: pointer;
+}
+
+/* Нажатие */
+a img:active {
+    transform: scale(0.95);
+    filter: brightness(0.9);
+    box-shadow:
+        0 0 4px #26c6da,
+        0 0 10px #26c6da;
+}
+
+</style>
 <body>  
     
     
