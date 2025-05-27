@@ -40,6 +40,7 @@ body {
     padding: 2px 0 5px 0;
     background: linear-gradient(180deg, #76e85f 0%, #ffffff 100%);
 }
+   /*
 .image a img {
     width: 28px;
     height: 28px;
@@ -60,12 +61,13 @@ body {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+   */
 .neon img {
     width: 30px;
     height: 30px;
     border: none;
     outline: none;
-    padding: 1px 1px;
+    padding: 0px;
     margin: 0;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
