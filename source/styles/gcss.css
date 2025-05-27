@@ -30,7 +30,7 @@ body {
     height: auto;
     display: flex;
     justify-content: space-between;
-    align-items: justify;
+    align-items: center;
     position: absolute;
     z-index: 2;
     top: 0%;;
