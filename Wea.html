@@ -29,6 +29,33 @@ body.dark-theme * {
   color: #eee !important;
 }
 </style>
+<style>
+.neon a img {
+    width: 60px; /* или любой нужный размер */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+.neon a img:hover {
+    transform: scale(1.1) rotate(2deg);
+    box-shadow:
+        0 0 5px #0ff,
+        0 0 15px #0ff,
+        0 0 30px #0ff,
+        0 0 60px #0ff;
+    cursor: pointer;
+}
+.neon a img:active {
+    transform: scale(0.95);
+    box-shadow:
+        0 0 3px #0ff,
+        0 0 8px #0ff,
+        0 0 15px #0ff;
+    filter: brightness(0.9);
+}
+</style>
+	
 <body>
     <div class="image">
         <div class="neon">
