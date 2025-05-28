@@ -25,6 +25,39 @@ body {
 .font-effect-3d {
     font-size: 2em;
 }
+.font-effect-fire-animation {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+    margin: 0px;
+    padding: 1px 3px;
+    
+    box-shadow: 0 2px 4px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.font-effect-fire-animation:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.font-effect-anaglyph {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+    margin: 0px;
+    padding: 1px 3px;
+    
+    box-shadow: 0 2px 4px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.font-effect-anaglyph:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .image {
     width: 100%;
     height: auto;
@@ -185,39 +218,7 @@ h5 img {
     height: auto;
     
 }
-.font-effect-fire-animation {
-    font-size: 14px;
-    font-weight: bold;
-    display: inline;
-    margin: 0px;
-    padding: 1px 3px;
-    
-    box-shadow: 0 2px 4px black;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.font-effect-fire-animation:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
 
-.font-effect-anaglyph {
-    font-size: 14px;
-    font-weight: bold;
-    display: inline;
-    margin: 0px;
-    padding: 1px 3px;
-    
-    box-shadow: 0 2px 4px black;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.font-effect-anaglyph:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
 .nav-link {
    padding-left: 10px;
 }
@@ -344,7 +345,7 @@ video {
     height: 20px;
     
 }
-*/
+
 .ahref img {
     width: 20px;
     height: 20px;
