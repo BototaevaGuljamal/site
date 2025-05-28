@@ -23,7 +23,7 @@ body {
 
 
 .font-effect-3d {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .image {
     width: 100%;
@@ -104,7 +104,7 @@ body {
     border-radius: 25px;
     transition: 0.8s;
     background: transparent;
-   margin: 5px;
+   margin: 0px 5px;
 }
 .contact p a img:active {
     background-color: #3e8e41;
@@ -174,7 +174,7 @@ h6:active {
     text-align: justify;
     width: 100%;
     margin: 5px 0px;
-    padding: 0px;
+    padding: 5px;
     
     border-radius: 10px;
     background: linear-gradient(270deg, #76e85f 0%, #ffffff 100%);
@@ -306,6 +306,7 @@ video {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
+/*
 .btn-info {
     display: flex;
     align-items: center;
@@ -313,7 +314,7 @@ video {
     gap: 8px;
     width: 100%;
     max-width: 100%; /* Убедитесь, что ширина не ограничена */
-    padding: 0px;
+   /* padding: 0px;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -327,11 +328,11 @@ video {
      /* расстояние между иконкой и текстом */
 }
 
-
+/*
 .btn-info:hover {
     background-color: #45a049; /* Изменение цвета фона при наведении */
 }
-
+/*
 .btn-info:active {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
@@ -343,7 +344,7 @@ video {
     height: 20px;
     
 }
-
+*/
 .ahref img {
     width: 20px;
     height: 20px;
