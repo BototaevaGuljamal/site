@@ -193,16 +193,11 @@ h6:active {
   background: #265301;
   color: #cdfeaa;
 }
-.ahref img {
-   width: 20px;
-   height: 20px;
-   margin: 5px 0px;
-}
 
 .hrefbutton {
     display: flex;
     justify-content: space-between;
-    text-align: justify;
+    text-align: center;
     width: 100%;
     margin: 5px 0px;
     padding: 5px;
