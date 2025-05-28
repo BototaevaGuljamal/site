@@ -20,17 +20,12 @@ body {
     box-sizing: border-box;
     background: linear-gradient(90deg, #76e85f 0%, #ffffff 100%);
 }
-
-
-.font-effect-3d {
-    font-size: 2rem;
-}
 .font-effect-fire-animation {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold;
     display: inline;
-    margin: 0px;
-    padding: 1px 3px;
+    margin: 5px;
+    padding: 5px;
     
     box-shadow: 0 2px 4px black;
     border-radius: 5px;
@@ -46,8 +41,8 @@ body {
     font-size: 14px;
     font-weight: bold;
     display: inline;
-    margin: 0px;
-    padding: 1px 3px;
+    margin: 5px;
+    padding: 5px;
     
     box-shadow: 0 2px 4px black;
     border-radius: 5px;
@@ -138,6 +133,7 @@ body {
     transition: 0.8s;
     background: transparent;
    margin: 0px 5px;
+   margin-bottom: 10px;
 }
 .contact p a img:active {
     background-color: #3e8e41;
@@ -238,7 +234,9 @@ h5 img {
   box-shadow: 0 5px #666;
 }
 .navbar-toggler-icon {
+   padding: 5px;
    width: 40px;
+   height: auto;
 }
 .navbar-toggler:active {
     background-color: #3e8e41;
