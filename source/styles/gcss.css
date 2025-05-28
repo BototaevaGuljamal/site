@@ -306,7 +306,7 @@ video {
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
-/*
+
 .btn-info {
     display: flex;
     align-items: center;
@@ -314,7 +314,7 @@ video {
     gap: 8px;
     width: 100%;
     max-width: 100%; /* Убедитесь, что ширина не ограничена */
-   /* padding: 0px;
+    padding: 0px;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -328,11 +328,11 @@ video {
      /* расстояние между иконкой и текстом */
 }
 
-/*
+
 .btn-info:hover {
     background-color: #45a049; /* Изменение цвета фона при наведении */
 }
-/*
+
 .btn-info:active {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
