@@ -35,24 +35,12 @@ body.dark-theme * {
   background-color: #121212 !important;
   color: #eee !important;
 }
-.dark-theme .dropdown-item {
-  background-color: #121212 !important;
-  color: #eee !important;
-}
-.dark-theme .hrefbutton {
-  background-color: #121212 !important;
-  color: #eee !important;
-}	
-.dark-theme .dropdown-menu {
-  background-color: #121212 !important;
-  color: #eee !important;
-}
-		
-.ahref {
+
+.ahref img {
     width: 30px;
     height: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 2px #4dd0e1;
+    border: none;
+    outline: none;
 }
 </style>
 <style>
@@ -88,7 +76,7 @@ body.dark-theme * {
 </style>
 <body>  
     
-    
+    <body data-theme="light">
    <div class="d-flex align-items-center justify-content-between p-2 intro" style="background: linear-gradient(to right, #d3ffe8, #a6e3e9);">
   <a href="intro.html">
   <img src="source/files/favicon_io/android-chrome-512x512.png" alt="ЛОГОТИП">
@@ -379,7 +367,7 @@ body.dark-theme * {
 			</div>
 	  </div>
 </div>
-	<script>
+	    <!--<script>
   const btn = document.querySelector(".btn-toggle");
   const img = btn.querySelector("img");
 
@@ -395,6 +383,21 @@ body.dark-theme * {
       img.alt = "День";
     }
   });
+</script>-->
+<script>
+btn.addEventListener("click", function () {
+  const currentTheme = document.body.getAttribute("data-theme");
+
+  if (currentTheme === "dark") {
+    document.body.setAttribute("data-theme", "light");
+    img.src = "source/files/Bulbon.png";
+    img.alt = "День";
+  } else {
+    document.body.setAttribute("data-theme", "dark");
+    img.src = "source/files/Bulboff.png";
+    img.alt = "Ночь";
+  }
+});
 </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
