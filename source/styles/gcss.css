@@ -198,6 +198,8 @@ h6:active {
   color: #cdfeaa;
 }
 .ahref img {
+   width: 20px;
+   height: 20px;
    margin: 5px 0px;
 }
 
@@ -235,7 +237,9 @@ h5 img {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
 }
-
+.navbar-toggler-icon {
+   width: 40px;
+}
 .navbar-toggler:active {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
@@ -343,14 +347,6 @@ video {
 .btn-info img {
     width: 20px;
     height: 20px;
-    
-}
-
-.ahref img {
-    width: 20px;
-    height: 20px;
-    margin: 5;
-    padding: 5;
     
 }
 .ahref {
