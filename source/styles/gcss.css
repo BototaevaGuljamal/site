@@ -23,7 +23,7 @@ body {
 
 
 .font-effect-3d {
-    font-size: 0.9em;
+    font-size: 1.1em;
 }
 .image {
     width: 100%;
@@ -104,13 +104,12 @@ body {
     border-radius: 25px;
     transition: 0.8s;
     background: transparent;
-   padding: 5px;
+   margin: 5px;
 }
 .contact p a img:active {
     background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-   padding: 5px;
 }
 
 a, h6, .ahref {
