@@ -235,8 +235,7 @@ h5 img {
 }
 .navbar-toggler-icon {
    padding: 5px;
-   width: 40px;
-   height: auto;
+   margin: 5px;
 }
 .navbar-toggler:active {
     background-color: #3e8e41;
@@ -281,7 +280,7 @@ h2 img {
   transform: translateY(4px);
 }
 .navbar-collapse {
-    margin: 1px;
+    margin: 0px;
 }
 video {
     width: 100%;
