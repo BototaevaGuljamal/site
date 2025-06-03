@@ -20,6 +20,10 @@ body {
     box-sizing: border-box;
     background: linear-gradient(90deg, #76e85f 0%, #ffffff 100%);
 }
+
+.carousel slide {
+   margin-top: 50px;
+}
 .font-effect-fire-animation {
     font-size: 16px;
     font-weight: bold;
