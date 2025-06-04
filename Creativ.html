@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Портфолио</title>
+  <style>
+    :root {
+      --bg-color: black;
+      --text-color: #0ff;
+      --panel-bg: rgba(0, 255, 255, 0.05);
+    }
+
+    body.light {
+      --bg-color: white;
+      --text-color: #0077ff;
+      --panel-bg: rgba(0, 119, 255, 0.1);
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg-color);
+      color: var(--text-color);
+      font-family: 'Courier New', monospace;
+      overflow-x: hidden;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    canvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: -1;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-shadow: 0 0 20px var(--text-color);
+      animation: flicker 2s infinite alternate;
+    }
+
+    @keyframes flicker {
+      0% { opacity: 0.8; text-shadow: 0 0 10px var(--text-color); }
+      100% { opacity: 1; text-shadow: 0 0 30px var(--text-color); }
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      color: var(--text-color);
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .lang-theme {
+      text-align: center;
+      margin: 10px;
+    }
+
+    .lang-theme button {
+      margin: 0 10px;
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      background: var(--text-color);
+      color: var(--bg-color);
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: var(--panel-bg);
+      border: 1px solid var(--text-color);
+      border-radius: 12px;
+      box-shadow: 0 0 20px var(--text-color);
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeIn 1s ease forwards;
+    }
+
+    section:nth-child(3) { animation-delay: 0.3s; }
+    section:nth-child(4) { animation-delay: 0.6s; }
+    section:nth-child(5) { animation-delay: 0.9s; }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+      text-shadow: 0 0 10px var(--text-color);
+    }
+
+    .projects img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 10px 0;
+      box-shadow: 0 0 10px var(--text-color);
+    }
+
+    .avatar {
+      margin: 0 auto 30px;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px solid var(--text-color);
+      box-shadow: 0 0 20px var(--text-color);
+      animation: spin 10s linear infinite;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .socials {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      font-size: 1.4em;
+      color: var(--text-color);
+      text-decoration: none;
+      transition: transform 0.3s;
+    }
+
+    .socials a:hover {
+      transform: scale(1.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: var(--text-color);
+    }
+
+    a.email {
+      color: var(--text-color);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="stars"></canvas>
+
+<header>
+  <div class="avatar">
+    <img src="https://i.pravatar.cc/300?img=12" alt="Avatar" />
+  </div>
+  <h1 id="title">Я — Веб-разработчик</h1>
+
+  <nav>
+    <a href="#about" id="nav-about">Обо мне</a>
+    <a href="#projects" id="nav-projects">Проекты</a>
+    <a href="#contact" id="nav-contact">Контакты</a>
+  </nav>
+
+  <div class="lang-theme">
+    <button onclick="toggleTheme()">🌓 Тема</button>
+    <button onclick="setLang('ru')">🇷🇺 Рус</button>
+    <button onclick="setLang('en')">🇬🇧 Eng</button>
+  </div>
+</header>
+
+<section id="about">
+  <h2 id="about-title">Обо мне</h2>
+  <p id="about-text">Привет! Я занимаюсь созданием креативных сайтов и интерактивных интерфейсов. Мне нравится оживлять страницы с помощью анимации и JavaScript.</p>
+</section>
+
+<section id="projects" class="projects">
+  <h2 id="projects-title">Проекты</h2>
+  <p id="projects-text">Вот несколько моих работ:</p>
+  <img src="https://picsum.photos/800/400?random=1" alt="Project 1" />
+  <img src="https://picsum.photos/800/400?random=2" alt="Project 2" />
+</section>
+
+<section id="contact">
+  <h2 id="contact-title">Контакты</h2>
+  <p id="contact-text">Напишите мне: <a class="email" href="mailto:your@email.com">your@email.com</a></p>
+
+  <div class="socials">
+    <a href="https://github.com/" target="_blank">🐙 GitHub</a>
+    <a href="https://t.me/" target="_blank">📱 Telegram</a>
+    <a href="https://linkedin.com/" target="_blank">💼 LinkedIn</a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Моё Портфолио. Сделано с ❤️
+</footer>
+
+<script>
+  // звёздный фон
+  const canvas = document.getElementById("stars");
+  const ctx = canvas.getContext("2d");
+  let stars = [];
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+
+  window.addEventListener("resize", resize);
+  resize();
+
+  for (let i = 0; i < 200; i++) {
+    stars.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      r: Math.random() * 1.5,
+      d: Math.random() * 1
+    });
+  }
+
+  function drawStars() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = getComputedStyle(document.body).getPropertyValue('--text-color');
+    ctx.shadowBlur = 8;
+    ctx.shadowColor = ctx.fillStyle;
+
+    stars.forEach(star => {
+      ctx.beginPath();
+      ctx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
+      ctx.fill();
+      star.y += star.d;
+      if (star.y > canvas.height) {
+        star.y = 0;
+        star.x = Math.random() * canvas.width;
+      }
+    });
+
+    requestAnimationFrame(drawStars);
+  }
+
+  drawStars();
+
+  // тема
+  function toggleTheme() {
+    document.body.classList.toggle("light");
+  }
+
+  // язык
+  const content = {
+    ru: {
+      title: "Я — Веб-разработчик",
+      about: "Обо мне",
+      aboutText: "Привет! Я занимаюсь созданием креативных сайтов и интерактивных интерфейсов. Мне нравится оживлять страницы с помощью анимации и JavaScript.",
+      projects: "Проекты",
+      projectsText: "Вот несколько моих работ:",
+      contact: "Контакты",
+      contactText: "Напишите мне:"
+    },
+    en: {
+      title: "I'm a Web Developer",
+      about: "About Me",
+      aboutText: "Hi! I create creative websites and interactive interfaces. I enjoy bringing pages to life with animation and JavaScript.",
+      projects: "Projects",
+      projectsText: "Here are some of my works:",
+      contact: "Contact",
+      contactText: "Write to me:"
+    }
+  };
+
+  function setLang(lang) {
+    document.getElementById("title").innerText = content[lang].title;
+    document.getElementById("nav-about").innerText = content[lang].about;
+    document.getElementById("nav-projects").innerText = content[lang].projects;
+    document.getElementById("nav-contact").innerText = content[lang].contact;
+    document.getElementById("about-title").innerText = content[lang].about;
+    document.getElementById("about-text").innerText = content[lang].aboutText;
+    document.getElementById("projects-title").innerText = content[lang].projects;
+    document.getElementById("projects-text").innerText = content[lang].projectsText;
+    document.getElementById("contact-title").innerText = content[lang].contact;
+    document.getElementById("contact-text").innerHTML = `${content[lang].contactText} <a class="email" href="mailto:your@email.com">your@email.com</a>`;
+  }
+</script>
+</body>
+</html>
