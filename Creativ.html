@@ -39,7 +39,7 @@
       padding: 60px 20px 20px;
     }
 
-    h1 {
+    h3 {
       font-size: 3em;
       text-shadow: 0 0 20px var(--text-color);
       animation: flicker 2s infinite alternate;
@@ -179,37 +179,38 @@
 
 <header>
   <div class="avatar">
-    <img src="https://i.pravatar.cc/300?img=12" alt="Avatar" />
+    <img src="source/files/3d bg.png" alt="Avatar" />
   </div>
-  <h1 id="title">Я — Веб-разработчик</h1>
+  <h3 id="title">САНАРИП МУГАЛИМ САЙТЫ</h3>
 
   <nav>
-    <a href="#about" id="nav-about">Обо мне</a>
-    <a href="#projects" id="nav-projects">Проекты</a>
-    <a href="#contact" id="nav-contact">Контакты</a>
+    <a href="#about" id="nav-about">Мен жөнүндө</a>
+    <a href="#projects" id="nav-projects">Долбоорлор</a>
+    <a href="#contact" id="nav-contact">Байланыш</a>
   </nav>
 
   <div class="lang-theme">
     <button onclick="toggleTheme()">🌓 Тема</button>
+    <button onclick="setLang('ky')">🇰🇬 Кыр</button>
     <button onclick="setLang('ru')">🇷🇺 Рус</button>
     <button onclick="setLang('en')">🇬🇧 Eng</button>
   </div>
 </header>
 
 <section id="about">
-  <h2 id="about-title">Обо мне</h2>
-  <p id="about-text">Привет! Я занимаюсь созданием креативных сайтов и интерактивных интерфейсов. Мне нравится оживлять страницы с помощью анимации и JavaScript.</p>
+  <h2 id="about-title">Мен жөнүндө</h2>
+  <p id="about-text">Мен Бототаева Гүлжамал Закировна</p>
 </section>
 
 <section id="projects" class="projects">
-  <h2 id="projects-title">Проекты</h2>
-  <p id="projects-text">Вот несколько моих работ:</p>
+  <h2 id="projects-title">Долбоорлор</h2>
+  <p id="projects-text">Менин долбоорлорум:</p>
   <img src="https://picsum.photos/800/400?random=1" alt="Project 1" />
   <img src="https://picsum.photos/800/400?random=2" alt="Project 2" />
 </section>
 
 <section id="contact">
-  <h2 id="contact-title">Контакты</h2>
+  <h2 id="contact-title">Байланыш</h2>
   <p id="contact-text">Напишите мне: <a class="email" href="mailto:your@email.com">your@email.com</a></p>
 
   <div class="socials">
@@ -220,7 +221,7 @@
 </section>
 
 <footer>
-  © 2025 Моё Портфолио. Сделано с ❤️
+  © 2025 Менин портфолиом.
 </footer>
 
 <script>
