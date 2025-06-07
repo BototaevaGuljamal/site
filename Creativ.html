@@ -211,7 +211,7 @@
 
 <section id="contact">
   <h2 id="contact-title">Байланыш</h2>
-  <p id="contact-text">Напишите мне: <a class="email" href="mailto:your@email.com">your@email.com</a></p>
+  <p id="contact-text">Жазыңыз: <a class="email" href="mailto:msanarip@gmail.com">msanarip@gmail.com</a></p>
 
   <div class="socials">
     <a href="https://github.com/" target="_blank">🐙 GitHub</a>
@@ -219,11 +219,11 @@
     <a href="https://linkedin.com/" target="_blank">💼 LinkedIn</a>
   </div>
 </section>
-
+<section id="footer">
 <footer>
-  © 2025 Менин портфолиом.
+  <h5 id="footer-title">© 2025 Менин портфолиом.</h5>
 </footer>
-
+</section>
 <script>
   // звёздный фон
   const canvas = document.getElementById("stars");
@@ -276,6 +276,16 @@
 
   // язык
   const content = {
+    ky: {
+      title: "Мен — вебсайт жасагыч",
+      about: "Мен жөнүндө",
+      aboutText: "Салам! Мен креативдик сайттарды жана интерактивдүү интерфейстерди жасоо менен алектенем. Мага анимациянын жана Джаваскриптин жардамында баракчаларды жандандыруу жагат.",
+      projects: "Долбоорлор",
+      projectsText: "Мына бир нече менин жумуштарым:",
+      contact: "Контакттар",
+      contactText: "Мага жаз:",
+      footer: "© 2025 Менин портфолиом."
+    },
     ru: {
       title: "Я — Веб-разработчик",
       about: "Обо мне",
@@ -283,7 +293,8 @@
       projects: "Проекты",
       projectsText: "Вот несколько моих работ:",
       contact: "Контакты",
-      contactText: "Напишите мне:"
+      contactText: "Напишите мне:",
+      footer: "© 2025 Мое портфолио."
     },
     en: {
       title: "I'm a Web Developer",
@@ -292,7 +303,8 @@
       projects: "Projects",
       projectsText: "Here are some of my works:",
       contact: "Contact",
-      contactText: "Write to me:"
+      contactText: "Write to me:",
+      footer: "© 2025 My portfolio."
     }
   };
 
@@ -306,7 +318,8 @@
     document.getElementById("projects-title").innerText = content[lang].projects;
     document.getElementById("projects-text").innerText = content[lang].projectsText;
     document.getElementById("contact-title").innerText = content[lang].contact;
-    document.getElementById("contact-text").innerHTML = `${content[lang].contactText} <a class="email" href="mailto:your@email.com">your@email.com</a>`;
+    document.getElementById("contact-text").innerHTML = `${content[lang].contactText} <a class="email" href="mailto:msanarip@gmail.com">msanarip@gmail.com</a>`;
+    document.getElementById("footer-title").innerText = content[lang].footer;
   }
 </script>
 </body>
