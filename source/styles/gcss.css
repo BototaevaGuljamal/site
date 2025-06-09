@@ -21,7 +21,7 @@ body {
     background: linear-gradient(90deg, #76e85f 0%, #ffffff 100%);
 }
 
-.carousel slide {
+.carousel .slide {
    margin-top: 50px;
 }
 .font-effect-fire-animation {
@@ -280,7 +280,7 @@ h2 img {
 }
 video {
     width: 100%;
-    margin: 5 0 5 0;
+    margin: 5px 0 5px 0;
     border-radius: 10px;
 }
 .qrcode {
@@ -299,8 +299,8 @@ video {
 .qr img {
     height: 150px;
     width: auto;
-    margin: 1;
-    padding: 1;
+    margin: 1px;
+    padding: 1px;
     box-shadow: 0 2px 4px black;
     border-radius: 10px;
 }
@@ -311,7 +311,7 @@ video {
     justify-content: center;
     gap: 8px;
     width: 100%;
-    max-width: 100%; /* Убедитесь, что ширина не ограничена */
+    max-width: 100%;
     padding: 0px;
     background-color: #4CAF50;
     color: white;
@@ -320,10 +320,7 @@ video {
     font-size: 16px;
     text-align: center;
     cursor: pointer;
-    box-sizing: border-box; /* Включаем отступы и границы в расчёт ширины */
-}
-.btn-info {
-     /* расстояние между иконкой и текстом */
+    box-sizing: border-box;
 }
 
 
@@ -355,7 +352,7 @@ video {
         display: none;
     }
 }
-
+*/
 
 /* Компьютеры и ноутбуки (от 1024px до 1919px) */
 /*@media (min-width: 1024px) and (max-width: 1919px) {
@@ -363,7 +360,7 @@ video {
         display: none;
     }
 }
-
+*/
 /* Смарт-ТВ и большие экраны (от 1920px и выше) */
 /*@media (min-width: 1920px) {
     body {
