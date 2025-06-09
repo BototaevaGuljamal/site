@@ -21,6 +21,28 @@ body {
     background: linear-gradient(90deg, #76e85f 0%, #ffffff 100%);
 }
 
+  body {
+    transition: background 0.3s, color 0.3s;
+  }
+
+  body.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+
+  .dark-mode .dropdown-menu {
+    background-color: #222;
+  }
+
+  .dark-mode .dropdown-item {
+    color: #ddd;
+  }
+
+  .dark-mode .dropdown-item:hover {
+    background-color: #444;
+  }
+
+
 .carousel .slide {
    margin-top: 50px;
 }
