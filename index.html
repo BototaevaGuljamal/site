@@ -26,37 +26,50 @@
   </head>
 	
 	<style>
-/* Темная тема для body */
-.dark-theme {
+/* Основной фон и текст */
+body.dark-theme {
+  background-color: #121212;
   color: #eee;
-  background: #121212;
 }
 
-/* Темная тема для всех элементов внутри body */
+/* Применяется ко всем элементам внутри */
 body.dark-theme * {
-  background-color: #121212 !important;
+  background-color: #121212;
+  color: #eee;
+}
+
+/* Меню навигации */
+body.dark-theme .navbar-nav .nav-link {
   color: #eee !important;
 }
 
-/* Темная тема для .dropdown-menu */
+/* Картинки в навигации */
+body.dark-theme .nav-link img {
+  filter: brightness(0.9);
+}
+
+/* Выпадающее меню */
 body.dark-theme .dropdown-menu {
-  background-color: #121212 !important;
-  color: #eee !important;
+  background-color: #1e1e1e;
+  color: #eee;
+  border-color: #444;
 }
 
-/* Темная тема для .dropdown-item */
+/* Элементы меню */
 body.dark-theme .dropdown-item {
-  color: #f1f1f1;
+  background-color: #1e1e1e;
+  color: #eee;
 }
 
+/* При наведении */
 body.dark-theme .dropdown-item:hover {
-  background-color: #444;
+  background-color: #333;
   color: #fff;
 }
 
-/* Темная тема для .dropdown-divider */
+/* Разделитель */
 body.dark-theme .dropdown-divider {
-  border-color: #666;
+  border-top: 1px solid #666;
 }
 
 
