@@ -26,33 +26,39 @@
   </head>
 	
 	<style>
+/* Темная тема для body */
 .dark-theme {
   color: #eee;
   background: #121212;
 }
+
+/* Темная тема для всех элементов внутри body */
 body.dark-theme * {
   background-color: #121212 !important;
   color: #eee !important;
 }
-body.dark-theme,
-body.dropdown-menu {
+
+/* Темная тема для .dropdown-menu */
+body.dark-theme .dropdown-menu {
   background-color: #121212 !important;
   color: #eee !important;
 }
-body.dark-theme,
-body.dropdown-item {
-    color: #f1f1f1;
-}
-body.dark-theme,
-body.dropdown-item:hover {
-    background-color: #444;
-    color: #fff;
+
+/* Темная тема для .dropdown-item */
+body.dark-theme .dropdown-item {
+  color: #f1f1f1;
 }
 
-body.dark-theme,
-body.dropdown-divider {
-    border-color: #666;
+body.dark-theme .dropdown-item:hover {
+  background-color: #444;
+  color: #fff;
 }
+
+/* Темная тема для .dropdown-divider */
+body.dark-theme .dropdown-divider {
+  border-color: #666;
+}
+
 
 .font-effect-3d {
     font-size: 1.5rem;
