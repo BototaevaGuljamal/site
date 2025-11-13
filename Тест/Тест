@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Калькулятор</title>
+<style>
+  body { font-family: Arial; display: flex; justify-content: center; margin-top: 50px; }
+  .calc { border: 2px solid #333; padding: 10px; border-radius: 10px; }
+  input { width: 160px; height: 30px; margin-bottom: 10px; text-align: right; font-size: 18px; }
+  button { width: 35px; height: 35px; margin: 3px; font-size: 16px; }
+</style>
+</head>
+<body>
+<div class="calc">
+  <input type="text" id="display" disabled><br>
+  <button onclick="press('7')">7</button>
+  <button onclick="press('8')">8</button>
+  <button onclick="press('9')">9</button>
+  <button onclick="press('/')">/</button><br>
+  <button onclick="press('4')">4</button>
+  <button onclick="press('5')">5</button>
+  <button onclick="press('6')">6</button>
+  <button onclick="press('*')">*</button><br>
+  <button onclick="press('1')">1</button>
+  <button onclick="press('2')">2</button>
+  <button onclick="press('3')">3</button>
+  <button onclick="press('-')">-</button><br>
+  <button onclick="press('0')">0</button>
+  <button onclick="press('.')">.</button>
+  <button onclick="calculate()">=</button>
+  <button onclick="press('+')">+</button><br>
+  <button onclick="clearDisplay()">C</button>
+</div>
+
+<script>
+  function press(num) {
+    document.getElementById("display").value += num;
+  }
+  function calculate() {
+    try {
+      document.getElementById("display").value = eval(document.getElementById("display").value);
+    } catch {
+      document.getElementById("display").value = "Ошибка";
+    }
+  }
+  function clearDisplay() {
+    document.getElementById("display").value = "";
+  }
+</script>
+</body>
+</html>
 
